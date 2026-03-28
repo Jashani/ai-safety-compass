@@ -13,16 +13,57 @@ export interface Field {
   name: string;
   slug: string;
   description: string;
+  skills: string[];
   people: Person[];
   trajectory: string[];
   projects: Project[];
 }
+
+export interface Background {
+  label: string;
+  category: string;
+  skills: string[];
+  showFreetext?: boolean;
+}
+
+export const skillLabels: Record<string, string> = {
+  critical_thinking: "Critical thinking",
+  research: "Research",
+  writing: "Writing",
+  communication: "Communication",
+  organising: "Organising",
+  process_management: "Process management",
+  spreadsheets: "Spreadsheets",
+  facilitation: "Facilitation",
+  visual_communication: "Visual communication",
+  social_media: "Social media",
+  reading: "Reading",
+  admin: "Admin",
+  quantitative_analysis: "Quantitative analysis",
+  programming: "Programming",
+  data_analysis: "Data analysis",
+  experimentation: "Experimentation",
+  lab_work: "Lab work",
+  logical_reasoning: "Logical reasoning",
+};
+
+export const backgrounds: Background[] = [
+  { label: "Operations or management", category: "operations_management", skills: ["organising", "process_management", "communication", "admin"] },
+  { label: "Communications, writing, or marketing", category: "communications_writing", skills: ["writing", "communication", "social_media", "visual_communication"] },
+  { label: "Policy, government, or law", category: "policy_government", skills: ["critical_thinking", "research", "writing", "communication"] },
+  { label: "Education or teaching", category: "education_teaching", skills: ["facilitation", "communication", "organising", "research"] },
+  { label: "Finance, consulting, or business", category: "finance_consulting", skills: ["spreadsheets", "research", "organising", "communication"] },
+  { label: "Design or creative work", category: "design_creative", skills: ["visual_communication", "writing", "communication"] },
+  { label: "Philosophy, ethics, or humanities", category: "philosophy_ethics", skills: ["critical_thinking", "reading", "writing", "research"] },
+  { label: "Something else entirely", category: "other", skills: ["communication"], showFreetext: true },
+];
 
 export const fields: Field[] = [
   {
     name: "Economics",
     slug: "economics",
     description: "Economic thinking helps model incentive structures, market dynamics, and coordination failures relevant to AI governance and deployment.",
+    skills: ["critical_thinking", "research", "spreadsheets", "quantitative_analysis", "writing"],
     people: [
       { name: "Anton Korinek", role: "Professor, University of Virginia & Brookings", description: "Researches the macroeconomic implications of AI and how economic policy can shape safe AI development." },
       { name: "Markus Anderljung", role: "Head of Policy, Centre for AI Safety", description: "Works on AI governance policy, applying economic frameworks to regulatory design for advanced AI systems." },
@@ -44,6 +85,7 @@ export const fields: Field[] = [
     name: "Sociology",
     slug: "sociology",
     description: "Sociological perspectives illuminate how AI systems interact with social structures, power dynamics, and collective behavior.",
+    skills: ["research", "critical_thinking", "writing", "communication", "reading"],
     people: [
       { name: "Kate Crawford", role: "Research Professor, USC Annenberg", description: "Studies the social and political implications of AI, examining how large-scale AI systems encode and amplify social inequalities." },
       { name: "Rumman Chowdhury", role: "CEO, Humane Intelligence", description: "Bridges sociology and AI accountability, leading efforts to create responsible AI auditing practices." },
@@ -65,6 +107,7 @@ export const fields: Field[] = [
     name: "Cognitive Science",
     slug: "cognitive-science",
     description: "Cognitive science provides frameworks for understanding intelligence, decision-making, and how minds work — directly relevant to building safe AI.",
+    skills: ["research", "critical_thinking", "experimentation", "data_analysis", "reading"],
     people: [
       { name: "Yoshua Bengio", role: "Professor, Université de Montréal & Mila", description: "Deep learning pioneer now focused on AI safety, drawing on cognitive science insights about consciousness and System 2 reasoning." },
       { name: "Melanie Mitchell", role: "Professor, Santa Fe Institute", description: "Studies concepts, analogy-making, and abstraction in AI systems, applying cognitive science frameworks to understand AI limitations." },
@@ -86,6 +129,7 @@ export const fields: Field[] = [
     name: "Neuroscience",
     slug: "neuroscience",
     description: "Neuroscience offers insights into how biological intelligence works, informing both AI architectures and interpretability research.",
+    skills: ["research", "data_analysis", "experimentation", "lab_work", "programming"],
     people: [
       { name: "Chris Olah", role: "Co-founder, Anthropic", description: "Pioneered neural network interpretability by drawing analogies from neuroscience methods for understanding biological neural circuits." },
       { name: "Catherine Olsson", role: "Research Scientist, Anthropic", description: "Transitioned from computational neuroscience to AI safety, working on understanding the internal representations of large language models." },
@@ -107,6 +151,7 @@ export const fields: Field[] = [
     name: "Chemistry",
     slug: "chemistry",
     description: "Chemistry expertise is critical for understanding AI biosecurity risks and ensuring safe AI applications in scientific domains.",
+    skills: ["research", "lab_work", "data_analysis", "critical_thinking", "experimentation"],
     people: [
       { name: "Fabio Urbina", role: "Senior Scientist, Collaborations Pharmaceuticals", description: "Demonstrated how AI drug discovery tools could be repurposed to generate toxic molecules, highlighting dual-use risks." },
       { name: "Kevin Esvelt", role: "Professor, MIT Media Lab", description: "Works at the intersection of biosecurity and AI, studying how AI capabilities in chemistry and biology create catastrophic risk." },
@@ -127,6 +172,7 @@ export const fields: Field[] = [
     name: "History",
     slug: "history",
     description: "Historical analysis provides crucial perspective on technological transitions, institutional failures, and how societies manage transformative risks.",
+    skills: ["research", "reading", "writing", "critical_thinking", "communication"],
     people: [
       { name: "Audrey Kurth Cronin", role: "Director, Carnegie Mellon Institute for Strategy and Technology", description: "Applies historical analysis of transformative technologies (gunpowder, nuclear weapons) to understand AI's strategic implications." },
       { name: "Jason Matheny", role: "CEO, RAND Corporation", description: "Draws on history of existential risk governance to shape contemporary AI policy and safety strategy." },
@@ -147,6 +193,7 @@ export const fields: Field[] = [
     name: "Art",
     slug: "art",
     description: "Artists bring unique skills in communication, imagination, and cultural influence that are vital for making AI safety tangible and urgent.",
+    skills: ["visual_communication", "communication", "writing", "facilitation"],
     people: [
       { name: "Holly Herndon", role: "Artist & Musician", description: "Creates art exploring human-AI collaboration and has been a leading voice on ethical AI use in creative industries." },
       { name: "Stephanie Dinkins", role: "Professor, Stony Brook University", description: "Creates art installations and dialogues exploring AI bias, race, and community impact, making abstract AI concerns visceral." },
@@ -167,6 +214,7 @@ export const fields: Field[] = [
     name: "Philosophy",
     slug: "philosophy",
     description: "Philosophy underpins AI alignment — from defining what we want AI to do, to understanding values, consciousness, and moral reasoning.",
+    skills: ["critical_thinking", "reading", "writing", "logical_reasoning", "research"],
     people: [
       { name: "Nick Bostrom", role: "Professor, University of Oxford", description: "Philosopher whose work on superintelligence and existential risk fundamentally shaped the field of AI safety." },
       { name: "Toby Ord", role: "Senior Research Fellow, Oxford", description: "Moral philosopher studying existential risk, author of 'The Precipice', advocating for AI safety as a top global priority." },
@@ -188,6 +236,7 @@ export const fields: Field[] = [
     name: "Mathematics",
     slug: "mathematics",
     description: "Mathematics provides the formal tools needed for rigorous AI safety research — from proving properties of systems to modeling risks.",
+    skills: ["logical_reasoning", "quantitative_analysis", "critical_thinking", "research", "programming"],
     people: [
       { name: "Scott Aaronson", role: "Professor, UT Austin", description: "Theoretical computer scientist working on AI safety at OpenAI, bringing rigorous mathematical thinking to alignment problems." },
       { name: "Vanessa Kosoy", role: "Research Associate, MIRI", description: "Develops mathematical frameworks for AI alignment, working on formal theories of embedded agency and learning theory." },
@@ -209,6 +258,7 @@ export const fields: Field[] = [
     name: "Law",
     slug: "law",
     description: "Legal expertise is essential for building governance frameworks, liability structures, and regulatory approaches for AI systems.",
+    skills: ["critical_thinking", "writing", "research", "communication", "reading"],
     people: [
       { name: "Anka Reuel", role: "PhD Researcher, Stanford HAI", description: "Works on AI policy and governance, developing legal frameworks for responsible AI development and deployment." },
       { name: "Jonas Schuett", role: "Researcher, GovAI, Oxford", description: "Studies legal and regulatory approaches to AI governance, including corporate governance of AI labs and international AI law." },
@@ -229,6 +279,7 @@ export const fields: Field[] = [
     name: "Psychology",
     slug: "psychology",
     description: "Psychology informs AI safety through understanding human reasoning, persuasion, bias, and how people interact with AI systems.",
+    skills: ["research", "experimentation", "data_analysis", "critical_thinking", "communication"],
     people: [
       { name: "Michal Kosinski", role: "Professor, Stanford GSB", description: "Studies psychological implications of AI, including how AI systems can infer and influence human psychological traits." },
       { name: "Lisa Sohl", role: "Research Fellow, Centre for Long-Term Resilience", description: "Applies behavioral science and psychology to AI governance, studying how cognitive biases affect AI policy decisions." },
@@ -249,6 +300,7 @@ export const fields: Field[] = [
     name: "Linguistics",
     slug: "linguistics",
     description: "Linguistics provides deep understanding of language, meaning, and communication — central to making language models safe and truthful.",
+    skills: ["research", "critical_thinking", "reading", "writing", "communication"],
     people: [
       { name: "Emily M. Bender", role: "Professor, University of Washington", description: "Computational linguist who critically examines what language models actually understand, advocating for careful claims about AI capabilities." },
       { name: "Adele Goldberg", role: "Professor, Princeton University", description: "Construction grammar researcher whose work on how humans learn and represent language informs debates about AI language understanding." },
