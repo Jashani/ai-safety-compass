@@ -236,6 +236,7 @@ export const fields: Field[] = [
     name: "Mathematics",
     slug: "mathematics",
     description: "Mathematics provides the formal tools needed for rigorous AI safety research — from proving properties of systems to modeling risks.",
+    skills: ["logical_reasoning", "quantitative_analysis", "critical_thinking", "research", "programming"],
     people: [
       { name: "Scott Aaronson", role: "Professor, UT Austin", description: "Theoretical computer scientist working on AI safety at OpenAI, bringing rigorous mathematical thinking to alignment problems." },
       { name: "Vanessa Kosoy", role: "Research Associate, MIRI", description: "Develops mathematical frameworks for AI alignment, working on formal theories of embedded agency and learning theory." },
