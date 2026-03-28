@@ -193,6 +193,7 @@ export const fields: Field[] = [
     name: "Art",
     slug: "art",
     description: "Artists bring unique skills in communication, imagination, and cultural influence that are vital for making AI safety tangible and urgent.",
+    skills: ["visual_communication", "communication", "writing", "facilitation"],
     people: [
       { name: "Holly Herndon", role: "Artist & Musician", description: "Creates art exploring human-AI collaboration and has been a leading voice on ethical AI use in creative industries." },
       { name: "Stephanie Dinkins", role: "Professor, Stony Brook University", description: "Creates art installations and dialogues exploring AI bias, race, and community impact, making abstract AI concerns visceral." },
