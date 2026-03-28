@@ -56,6 +56,15 @@ export const skillLabels: Record<string, string> = {
   public_speaking: "Public speaking",
   project_management: "Project management",
   clinical_practice: "Clinical practice",
+  red_teaming: "Red-teaming",
+  threat_modeling: "Threat modeling",
+  stakeholder_management: "Stakeholder management",
+  fundraising: "Fundraising",
+  safety_culture: "Safety culture",
+  translation: "Translation",
+  debugging: "Debugging",
+  crisis_management: "Crisis management",
+  de_escalation: "De-escalation",
 };
 
 export const backgrounds: Background[] = [
