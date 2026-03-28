@@ -1,0 +1,22 @@
+{
+  "name": "Neuroscience",
+  "slug": "neuroscience",
+  "description": "Neuroscience offers insights into how biological intelligence works, informing both AI architectures and interpretability research.",
+  "skills": ["research", "data_analysis", "experimentation", "lab_work", "programming"],
+  "people": [
+    { "name": "Chris Olah", "role": "Co-founder, Anthropic", "description": "Pioneered neural network interpretability by drawing analogies from neuroscience methods for understanding biological neural circuits." },
+    { "name": "Catherine Olsson", "role": "Research Scientist, Anthropic", "description": "Transitioned from computational neuroscience to AI safety, working on understanding the internal representations of large language models." },
+    { "name": "Paul Christiano", "role": "Founder, Alignment Research Center", "description": "Background in theoretical neuroscience informs his work on alignment techniques like iterated distillation and amplification." }
+  ],
+  "trajectory": [
+    "Neural circuit analysis skills transfer directly to mechanistic interpretability — understanding what's happening inside AI models.",
+    "Experience with brain imaging and neural data analysis prepares you for probing and analyzing AI system internals.",
+    "Understanding biological reward systems informs work on reward modeling and avoiding reward hacking in AI.",
+    "Computational neuroscience modeling skills are directly applicable to theoretical AI safety research."
+  ],
+  "projects": [
+    { "title": "Apply neuroscience interpretability methods to LLMs", "description": "Adapt techniques from neural circuit tracing to map information flow and feature representation in transformer models." },
+    { "title": "Biological vs. artificial reward systems comparison", "description": "Analyze how biological reward circuitry avoids wireheading-like failures and what AI reward systems can learn from this." },
+    { "title": "Neural correlates of deception", "description": "Use neuroscience research on deception detection to develop methods for identifying when AI systems might be producing deceptive outputs." }
+  ]
+}

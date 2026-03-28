@@ -1,0 +1,18 @@
+{
+  "name": "Engineering (Non-Software)",
+  "slug": "engineering-general",
+  "description": "You build things that have to work safely in the real world — where failure isn't a bug report, it's a disaster. AI is being deployed with almost none of the safety engineering discipline your field developed over centuries.",
+  "skills": ["engineering", "safety_culture", "quantitative_analysis", "project_management", "critical_thinking"],
+  "people": [],
+  "trajectory": [
+    "Safety margins, redundancy, and fail-safes map directly to AI safety engineering and robustness.",
+    "Testing to destruction and stress analysis translates to AI stress testing and adversarial evaluation.",
+    "Standards compliance and certification connects to AI safety standards and certification — which barely exist yet.",
+    "Your instinct for identifying gaps in safety practices is obvious to any engineer but invisible to people who've never built something that could hurt someone."
+  ],
+  "projects": [
+    { "title": "Compare engineering and AI safety standards", "description": "Read AI safety testing practices and identify which engineering standards from your discipline the system would fail." },
+    { "title": "Import safety culture to AI", "description": "Write about what AI development can learn from safety engineering in your discipline — near-miss reporting, certification, fail-safes." },
+    { "title": "Physical AI safety governance", "description": "Contribute to safety standards for AI in robotics, vehicles, and industrial systems, drawing on mature engineering practices." }
+  ]
+}

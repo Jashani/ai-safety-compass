@@ -1,0 +1,21 @@
+{
+  "name": "Geology & Environmental Science",
+  "slug": "geology-environmental-science",
+  "description": "Geology and environmental science bring expertise in modeling complex natural systems, hazard assessment, and infrastructure resilience to AI safety.",
+  "skills": ["research", "data_analysis", "fieldwork", "critical_thinking", "quantitative_analysis"],
+  "people": [
+    { "name": "Paul Cleverley", "role": "Geoscience & AI Researcher", "description": "Advocates for the pragmatic adoption of AI to reduce uncertainty in geological hazard models and earthquake monitoring." },
+    { "name": "Ramin Ghiasi", "role": "Structural Health Monitoring Researcher", "description": "Specializes in AI-powered structural health monitoring for infrastructure resilience against natural hazards." }
+  ],
+  "trajectory": [
+    "Experience modeling complex, uncertain natural systems transfers to understanding unpredictable AI system behavior.",
+    "Risk assessment frameworks from geological hazard management apply to evaluating and mitigating AI risks.",
+    "Environmental monitoring expertise informs the design of AI systems for climate and sustainability that operate safely.",
+    "Understanding infrastructure resilience helps ensure AI-dependent critical systems can withstand failures."
+  ],
+  "projects": [
+    { "title": "AI for geological hazard prediction", "description": "Evaluate and improve AI models for earthquake, landslide, and volcanic activity prediction with focus on uncertainty quantification." },
+    { "title": "Infrastructure resilience under AI dependency", "description": "Assess vulnerabilities in critical infrastructure that increasingly depends on AI systems, and develop fallback strategies." },
+    { "title": "Environmental AI safety standards", "description": "Create guidelines for deploying AI in environmental monitoring that ensure reliability, transparency, and fail-safe operation." }
+  ]
+}

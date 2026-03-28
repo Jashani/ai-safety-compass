@@ -1,0 +1,18 @@
+{
+  "name": "Customer Service & Support",
+  "slug": "customer-service",
+  "description": "You've watched a chatbot completely butcher a conversation you'd have handled in 30 seconds. That instinct for when things go wrong is exactly what AI safety evaluation needs.",
+  "skills": ["communication", "de_escalation", "red_teaming", "critical_thinking", "process_management"],
+  "people": [],
+  "trajectory": [
+    "Spotting when a conversation is going wrong translates directly to AI evaluation and red-teaming — testing AI systems for failures.",
+    "De-escalation and reading emotional tone maps to human oversight design — ensuring humans can intervene when AI fails.",
+    "Knowing when a script makes things worse is failure mode identification — a core AI safety skill.",
+    "Frontline experience with real users provides perspectives that formal AI evaluations systematically miss."
+  ],
+  "projects": [
+    { "title": "Red-team AI customer service bots", "description": "Test AI chatbots with your hardest real-world customer scenarios. Document where they fail and how a human would have handled it differently." },
+    { "title": "Write a failure taxonomy for AI support", "description": "Catalog the types of failures AI customer service systems make that experienced support workers catch instantly." },
+    { "title": "Design human oversight protocols for AI support", "description": "Create guidelines for when and how human agents should intervene in AI-handled customer interactions." }
+  ]
+}

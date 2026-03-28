@@ -1,0 +1,22 @@
+{
+  "name": "Psychology",
+  "slug": "psychology",
+  "description": "Psychology informs AI safety through understanding human reasoning, persuasion, bias, and how people interact with AI systems.",
+  "skills": ["research", "experimentation", "data_analysis", "critical_thinking", "communication"],
+  "people": [
+    { "name": "Jon Roozenbeek", "role": "Researcher, University of Cambridge", "description": "Develops 'prebunking' games and interventions that act as psychological 'vaccines' against AI-generated misinformation." },
+    { "name": "Sander van der Linden", "role": "Professor, University of Cambridge", "description": "Researches 'psychological inoculation' to build societal resilience against emotionally manipulative content online." },
+    { "name": "Jon Bogard", "role": "AI Benchmarking Researcher", "description": "Benchmarks the research competence of frontier LLMs to evaluate their ability to conduct behavioral science without human oversight." }
+  ],
+  "trajectory": [
+    "Understanding persuasion and manipulation is vital for assessing risks from AI systems that can influence human behavior at scale.",
+    "Developing 'psychological inoculation' techniques that can protect populations from AI-generated manipulation at scale.",
+    "Experimental methodology and study design skills are needed for rigorous AI safety evaluation and benchmarking.",
+    "Knowledge of cognitive biases helps identify how AI developers and policymakers might systematically underestimate AI risks."
+  ],
+  "projects": [
+    { "title": "Design prebunking interventions for AI misinformation", "description": "Create and test psychological 'inoculation' games that build resilience against AI-generated misinformation campaigns." },
+    { "title": "Benchmark LLM research competence", "description": "Evaluate whether frontier AI models can independently conduct rigorous behavioral science research, and what safety implications follow." },
+    { "title": "AI persuasion risk assessment", "description": "Evaluate the persuasive capabilities of current language models and develop psychological frameworks for assessing manipulation risks." }
+  ]
+}

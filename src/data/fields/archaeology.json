@@ -1,0 +1,22 @@
+{
+  "name": "Archaeology",
+  "slug": "archaeology",
+  "description": "Archaeology brings methods for recovering lost knowledge and ensuring that AI training data doesn't erase or misrepresent historical cultures.",
+  "skills": ["research", "fieldwork", "data_analysis", "critical_thinking", "writing"],
+  "people": [
+    { "name": "Gabriele Gattiglia", "role": "Chair, MAIA Network", "description": "Uses archaeology to define the 'data archaeology' needed to recover misrepresented cultures in AI training sets." },
+    { "name": "Thea Sommerschield", "role": "AI & Epigraphy Researcher", "description": "Co-developed the Aeneas AI model to interpret ancient inscriptions and restore historical gaps of unknown length." },
+    { "name": "Iris Kramer", "role": "Remote Sensing & AI Researcher", "description": "Utilizes AI to analyze satellite and LiDAR data for interconnected archaeological landscapes, promoting safe heritage communication." }
+  ],
+  "trajectory": [
+    "Applying FAIR principles (Findable, Accessible, Interoperable, Reusable) to ensure cultural heritage is not erased by the 'statistical conformity' of LLMs.",
+    "Data provenance and curation skills from archaeology transfer directly to AI training data quality and representation.",
+    "Experience reconstructing incomplete information from fragmentary evidence parallels challenges in AI interpretability.",
+    "Heritage preservation ethics inform debates about what knowledge AI systems should and shouldn't have access to."
+  ],
+  "projects": [
+    { "title": "Cultural heritage audit of AI training data", "description": "Assess how archaeological and historical cultures are represented (or misrepresented) in major AI training datasets." },
+    { "title": "AI-assisted inscription analysis", "description": "Apply AI tools to decipher or reconstruct damaged historical texts while maintaining scholarly rigor and uncertainty quantification." },
+    { "title": "Data provenance framework for AI", "description": "Adapt archaeological data documentation practices to create better provenance tracking for AI training data." }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Chemistry & Biochemistry",
+  "slug": "chemistry",
+  "description": "Chemistry expertise is critical for understanding AI biosecurity risks and ensuring safe AI applications in molecular and drug design.",
+  "skills": ["research", "lab_work", "data_analysis", "critical_thinking", "experimentation"],
+  "people": [
+    { "name": "Karol Kowalski", "role": "Lead, TEC4 Project", "description": "Leads the TEC4 project to ensure that AI-driven molecular discovery and chemical processing are auditable and reproducible." },
+    { "name": "John Jumper", "role": "Senior Researcher, DeepMind", "description": "Co-developed AlphaFold for protein structure prediction, establishing a foundation for safe, AI-guided drug design." },
+    { "name": "David Baker", "role": "Professor, University of Washington", "description": "Uses generative AI to learn the 'biological grammar' of protein design to create entirely new, beneficial molecules." }
+  ],
+  "trajectory": [
+    "Understanding chemical synthesis and molecular design helps evaluate AI systems that could enable creation of dangerous substances.",
+    "Lab safety culture and risk assessment methodologies transfer well to AI safety frameworks and red-teaming.",
+    "Protein structure prediction and generative molecular design are frontier applications where safety and capability intersect.",
+    "Cheminformatics experience (molecular modeling, QSAR) translates directly to AI safety evaluation in scientific domains."
+  ],
+  "projects": [
+    { "title": "Evaluate chemical AI safety filters", "description": "Test and improve filters on AI chemistry tools to prevent generation of dangerous molecule designs while preserving beneficial research utility." },
+    { "title": "Audit AI drug discovery pipelines", "description": "Assess the reproducibility and safety of AI-driven molecular discovery workflows, ensuring they are auditable and transparent." },
+    { "title": "Chemical safety benchmarks for AI", "description": "Create evaluation benchmarks that test whether AI chemistry assistants appropriately refuse dangerous synthesis requests." }
+  ]
+}

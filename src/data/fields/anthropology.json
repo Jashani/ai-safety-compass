@@ -1,0 +1,21 @@
+{
+  "name": "Anthropology",
+  "slug": "anthropology",
+  "description": "Anthropology uncovers how cultural assumptions become embedded in AI systems and ensures diverse communities are represented in safety efforts.",
+  "skills": ["research", "fieldwork", "writing", "critical_thinking", "communication"],
+  "people": [
+    { "name": "Diana E. Forsythe", "role": "Pioneer in AI Lab Ethnography", "description": "Conducted pioneering ethnographic studies of AI labs to uncover how lack of researcher diversity leads to biased technical design." },
+    { "name": "Lucy Suchman", "role": "Professor Emerita, Lancaster University", "description": "Advocates for a 'sociotechnical' approach to AI safety that accounts for the social and political impacts of autonomous systems." }
+  ],
+  "trajectory": [
+    "Ethnographic methods provide unique insight into how AI labs actually make decisions — essential for improving safety culture.",
+    "Cross-cultural research skills help ensure AI safety frameworks don't encode a single culture's values as universal.",
+    "Understanding of social organization and power dynamics helps design more equitable AI governance structures.",
+    "Exploring 'Synthetic Anthropology' — using AI as a new lens on human behavior while maintaining ethical guardrails."
+  ],
+  "projects": [
+    { "title": "Ethnography of AI safety organizations", "description": "Conduct ethnographic fieldwork at AI labs or safety organizations to understand their cultures, blind spots, and decision-making processes." },
+    { "title": "Cross-cultural AI value mapping", "description": "Document how different cultures conceptualize intelligence, agency, and moral responsibility, and implications for global AI alignment." },
+    { "title": "Audit AI training data for cultural representation", "description": "Analyze what cultures and perspectives are over- or under-represented in major training datasets and how this affects outputs." }
+  ]
+}

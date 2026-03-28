@@ -1,0 +1,22 @@
+{
+  "name": "Art",
+  "slug": "art",
+  "description": "Artists bring unique skills in communication, imagination, and cultural influence vital for making AI safety tangible and urgent.",
+  "skills": ["visual_communication", "communication", "writing", "facilitation", "design"],
+  "people": [
+    { "name": "Holly Herndon", "role": "Artist & Musician", "description": "Creates art exploring human-AI collaboration and has been a leading voice on ethical AI use in creative industries." },
+    { "name": "André Piza", "role": "Creative Research Manager", "description": "Manages research communities that explore digital twins and human-AI collaborative workflows as a creative medium." },
+    { "name": "Sunil Manghani", "role": "Professor of Visual Culture", "description": "Treats human-AI collaboration as a medium to ensure creators remain the final arbiters of ethical and creative integrity." }
+  ],
+  "trajectory": [
+    "Visual communication and storytelling skills are desperately needed to convey AI safety concepts to broader audiences.",
+    "Speculative design and science fiction thinking help explore possible AI futures and make abstract risks concrete.",
+    "Human-AI collaboration as a creative medium provides firsthand insight into AI capabilities and limitations.",
+    "Cultural influence through art can shift public understanding and political will around AI safety."
+  ],
+  "projects": [
+    { "title": "Visualize AI safety concepts", "description": "Create visual explanations, infographics, or interactive art that makes AI alignment concepts accessible to non-technical audiences." },
+    { "title": "Human-AI collaboration ethics study", "description": "Document and analyze collaborative creative workflows between humans and AI to develop principles for maintaining human creative agency." },
+    { "title": "Design public engagement campaigns", "description": "Create art-based campaigns that help communities understand and engage with AI safety issues in their own contexts." }
+  ]
+}

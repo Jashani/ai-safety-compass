@@ -1,0 +1,22 @@
+{
+  "name": "Religious Studies",
+  "slug": "religious-studies",
+  "description": "Religious studies brings millennia of ethical reasoning, existential reflection, and cultural understanding to the challenge of governing transformative AI.",
+  "skills": ["reading", "writing", "critical_thinking", "ethics", "research", "communication"],
+  "people": [
+    { "name": "Vincent Bacote", "role": "Theologian, Wheaton College", "description": "Integrates Christian ethical frameworks into AI safety reflections, focusing on theological anthropology and faith." },
+    { "name": "Mahan Mirza", "role": "Scholar, Religious Voices & Responsible AI", "description": "Bridges Islamic theological reflection with AI security expertise through the Religious Voices and Responsible AI effort." },
+    { "name": "Beth Singler", "role": "Researcher, University of Zurich", "description": "Researches 'Apocalyptic AI' narratives and how existing religious stories influence the perception and regulation of new technologies." }
+  ],
+  "trajectory": [
+    "Millennia of ethical and moral reasoning traditions provide deep frameworks for value alignment that secular philosophy may miss.",
+    "Understanding how apocalyptic and messianic narratives shape public perception of AI helps design better communication strategies.",
+    "Interfaith dialogue expertise is valuable for building globally inclusive AI governance frameworks.",
+    "Theological anthropology raises fundamental questions about human dignity, purpose, and what should not be delegated to machines."
+  ],
+  "projects": [
+    { "title": "Map religious perspectives on AI governance", "description": "Survey how major religious traditions approach questions of artificial intelligence, consciousness, and moral status." },
+    { "title": "Analyze 'Apocalyptic AI' narratives in public discourse", "description": "Study how religious end-times narratives shape media coverage, policy debates, and public attitudes toward AI risk." },
+    { "title": "Interfaith AI ethics framework", "description": "Develop a shared ethical framework for AI governance drawing on diverse religious and spiritual traditions." }
+  ]
+}

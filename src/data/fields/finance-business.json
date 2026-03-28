@@ -1,0 +1,22 @@
+{
+  "name": "Finance & Business Administration",
+  "slug": "finance-business",
+  "description": "Finance and business expertise shapes how AI is deployed at scale, with critical implications for safety, labor markets, and corporate governance.",
+  "skills": ["spreadsheets", "communication", "research", "quantitative_analysis", "organising"],
+  "people": [
+    { "name": "Demis Hassabis", "role": "CEO, Google DeepMind", "description": "Leads DeepMind and Isomorphic Labs, advocating for AI safety research while developing foundational models for financial and scientific domains." },
+    { "name": "Reid Hoffman", "role": "Co-founder, LinkedIn & Inflection AI", "description": "Explores the concept of 'Superagency' to empower people through AI in the workplace rather than displacing them." },
+    { "name": "Mark Cummins", "role": "Finance & AI Researcher", "description": "Overviews the opportunities that Explainable AI (XAI) offers to enhance financial risk management and simplify compliance." }
+  ],
+  "trajectory": [
+    "Corporate governance expertise is needed to ensure AI labs prioritize safety alongside commercial objectives.",
+    "Risk management frameworks from finance provide models for assessing and mitigating AI deployment risks.",
+    "Understanding of labor markets helps design transition strategies for workers displaced by AI automation.",
+    "Explainable AI requirements in finance create precedents for transparency in other high-stakes AI applications."
+  ],
+  "projects": [
+    { "title": "Corporate governance reforms for AI labs", "description": "Propose governance structures that better align AI lab incentives with safety, drawing on best practices from financial regulation." },
+    { "title": "Explainable AI for financial risk management", "description": "Evaluate and improve interpretability methods for AI systems used in lending, insurance, and investment decisions." },
+    { "title": "'Superagency' workforce transition models", "description": "Design frameworks for using AI to augment rather than replace workers, with concrete implementation strategies." }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Trades & Manufacturing",
+  "slug": "trades-manufacturing",
+  "description": "You know what safety culture looks like because your industry learned it the hard way. The most powerful technology in history is being built with less safety culture than a building site.",
+  "skills": ["safety_culture", "engineering", "process_management", "critical_thinking"],
+  "people": [],
+  "trajectory": [
+    "Safety protocols and near-miss reporting map directly to AI safety culture and incident reporting — which AI labs barely have.",
+    "Knowing when a shortcut will cause a failure is safety standards development — formalising the instincts that prevent disasters.",
+    "Making safety non-negotiable in daily work is operational safety frameworks — something the AI field has almost none of.",
+    "Your industry built safety infrastructure over decades. AI development needs to learn those lessons in years, not decades."
+  ],
+  "projects": [
+    { "title": "Audit AI safety culture", "description": "Read one AI company's safety practices and compare them to safety protocols in your trade. Write up what's missing." },
+    { "title": "Cross-domain safety transfer", "description": "Write about what AI safety can learn from construction site or manufacturing safety culture, including near-miss reporting." },
+    { "title": "Physical AI safety standards", "description": "Contribute to safety work on AI in robotics, manufacturing, and autonomous vehicles, drawing on your hands-on experience." }
+  ]
+}

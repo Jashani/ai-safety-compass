@@ -1,0 +1,18 @@
+{
+  "name": "Military, Police & Emergency Services",
+  "slug": "military-emergency",
+  "description": "You've been trained to think about how systems fail under pressure, how adversaries exploit gaps, and how to plan for the worst case. AI safety needs exactly that operational mindset.",
+  "skills": ["threat_modeling", "red_teaming", "crisis_management", "critical_thinking", "organising"],
+  "people": [],
+  "trajectory": [
+    "Threat assessment and adversarial thinking map directly to AI red-teaming and threat modelling.",
+    "Decision-making under extreme uncertainty connects to AI control and containment — ensuring systems behave safely in unpredictable conditions.",
+    "Operational planning for worst-case scenarios is catastrophic risk assessment — a core practice in AI safety.",
+    "The field is full of people who've never stress-tested anything outside a laptop. Your operational experience fills a critical gap."
+  ],
+  "projects": [
+    { "title": "Threat model an AI system", "description": "Pick an AI system and write three ways it could be exploited or fail catastrophically, drawing on your operational experience." },
+    { "title": "Cross-domain safety analysis", "description": "Write about what AI safety can learn from how the military thinks about risk, adversaries, and worst-case planning." },
+    { "title": "Build AI deployment threat models", "description": "Help develop threat models for AI deployment scenarios in critical infrastructure, drawing on emergency services experience." }
+  ]
+}

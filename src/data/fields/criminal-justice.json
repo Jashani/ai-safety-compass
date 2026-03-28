@@ -1,0 +1,22 @@
+{
+  "name": "Criminal Justice",
+  "slug": "criminal-justice",
+  "description": "Criminal justice expertise is vital for ensuring AI systems used in policing, sentencing, and surveillance are fair, transparent, and accountable.",
+  "skills": ["critical_thinking", "research", "writing", "data_analysis", "ethics", "policy_analysis"],
+  "people": [
+    { "name": "Brandon Garrett", "role": "Professor, Duke University", "description": "Advocates for 'glass box AI' in sentencing and evidence, requiring that only interpretable systems be used in the justice system." },
+    { "name": "Melissa Hamilton", "role": "Professor of Law & Criminal Justice", "description": "Provides independent reviews of algorithmic risk assessment tools to detect bias against heavily policed communities." },
+    { "name": "Richard Berk", "role": "Professor, University of Pennsylvania", "description": "Applies statistical models to ensure that predictive policing and sentencing algorithms are accurate and accountable." }
+  ],
+  "trajectory": [
+    "Expertise in due process and civil liberties directly applies to ensuring AI systems respect fundamental rights.",
+    "Understanding of systemic bias in policing helps identify and mitigate similar biases in AI risk assessment tools.",
+    "Forensic analysis skills transfer to auditing and red-teaming AI systems for fairness and accuracy.",
+    "Advocacy for interpretable 'glass box' AI in criminal justice creates precedents applicable to all high-stakes domains."
+  ],
+  "projects": [
+    { "title": "Audit algorithmic risk assessment tools", "description": "Independently review AI tools used in sentencing or parole decisions for bias, accuracy, and compliance with due process." },
+    { "title": "Develop 'glass box AI' standards", "description": "Create interpretability requirements for AI systems used in criminal justice, adaptable to other high-stakes domains." },
+    { "title": "Map racial bias in predictive policing algorithms", "description": "Analyze how training data from over-policed communities perpetuates discrimination in AI-driven law enforcement tools." }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Aerospace Engineering",
+  "slug": "aerospace-engineering",
+  "description": "Aerospace engineering's rigorous approach to safety-critical systems provides essential frameworks for ensuring AI reliability in high-stakes environments.",
+  "skills": ["engineering", "quantitative_analysis", "programming", "research", "project_management"],
+  "people": [
+    { "name": "Grace X. Gao", "role": "Professor, Stanford", "description": "Develops formal safety methods and navigation systems for autonomous vehicles and lunar surface rovers." },
+    { "name": "Mykel Kochenderfer", "role": "Professor, Stanford", "description": "Focuses on robust planning and risk assessment to ensure reliability in safety-critical aerospace systems." },
+    { "name": "Muhammad Khan", "role": "Aircraft AI Certification Researcher", "description": "Researches AI for aircraft certification and life-cycle monitoring to enhance health management of onboard systems." }
+  ],
+  "trajectory": [
+    "Safety-critical systems engineering provides the most mature frameworks for ensuring AI system reliability.",
+    "Formal verification methods from avionics directly apply to proving safety properties of AI systems.",
+    "Redundancy and fail-safe design principles from aerospace inform robust AI architecture.",
+    "Aviation safety culture — incident reporting, no-blame investigation, continuous improvement — is a model for AI safety culture."
+  ],
+  "projects": [
+    { "title": "Adapt DO-178C for AI systems", "description": "Translate aerospace software certification standards (DO-178C) into frameworks applicable to AI system safety assurance." },
+    { "title": "Formal verification for autonomous systems", "description": "Develop formal safety proofs for AI-controlled autonomous vehicles and drones, drawing on aerospace methods." },
+    { "title": "AI safety culture from aviation", "description": "Study how aviation's safety culture (incident reporting, investigation, continuous improvement) could be adopted by AI labs." }
+  ]
+}

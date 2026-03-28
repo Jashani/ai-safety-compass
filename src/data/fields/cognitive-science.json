@@ -1,0 +1,22 @@
+{
+  "name": "Cognitive Science",
+  "slug": "cognitive-science",
+  "description": "Cognitive science provides frameworks for understanding intelligence, decision-making, and how minds work — directly relevant to building safe AI.",
+  "skills": ["research", "critical_thinking", "experimentation", "data_analysis", "reading"],
+  "people": [
+    { "name": "Yoshua Bengio", "role": "Professor, Université de Montréal & Mila", "description": "Deep learning pioneer now focused on AI safety, drawing on cognitive science insights about consciousness and System 2 reasoning." },
+    { "name": "Melanie Mitchell", "role": "Professor, Santa Fe Institute", "description": "Studies concepts, analogy-making, and abstraction in AI systems, applying cognitive science frameworks to understand AI limitations." },
+    { "name": "Gary Marcus", "role": "Professor Emeritus, NYU", "description": "Cognitive scientist advocating for hybrid AI architectures that incorporate structured knowledge, arguing current approaches are insufficient for safe AI." }
+  ],
+  "trajectory": [
+    "Models of human cognition directly inform AI architectures and help identify what current systems lack for safe behavior.",
+    "Understanding cognitive biases helps design AI systems that avoid or compensate for systematic errors in reasoning.",
+    "Theories of consciousness and intentionality are increasingly relevant to questions about AI moral status and sentience.",
+    "Human factors expertise helps design AI interfaces where humans can effectively oversee AI systems."
+  ],
+  "projects": [
+    { "title": "Compare AI and human failure modes", "description": "Systematically catalog how AI reasoning failures differ from human cognitive biases, and what this means for safety." },
+    { "title": "Design human-AI oversight protocols", "description": "Apply cognitive science research on attention and decision fatigue to design better human oversight systems for AI." },
+    { "title": "Evaluate AI understanding vs. pattern matching", "description": "Develop tests grounded in cognitive science to distinguish genuine comprehension from sophisticated pattern matching in language models." }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Computer Science & Software Engineering",
+  "slug": "computer-science",
+  "description": "You know how software breaks — memory leaks, race conditions, systems failing at 3am. AI systems fail in all those ways plus entirely new ones. Your engineering discipline is the foundation everything else builds on.",
+  "skills": ["programming", "debugging", "engineering", "logical_reasoning", "data_analysis"],
+  "people": [],
+  "trajectory": [
+    "Building reliable systems and debugging failures maps directly to AI robustness and reliability engineering.",
+    "Testing, verification, and code review skills translate to AI evaluation and red-teaming.",
+    "Production engineering and incident response connects to AI monitoring and deployment safety.",
+    "The field needs engineers who can build the reliable infrastructure that safety research runs on."
+  ],
+  "projects": [
+    { "title": "Map AI failure modes to software bugs", "description": "Read about AI failure modes (reward hacking, goal misgeneralisation, jailbreaking) and map them to software engineering concepts you already understand." },
+    { "title": "Review AI safety tooling", "description": "Evaluate open-source AI safety tools from an engineering perspective. What would you improve for reliability and usability?" },
+    { "title": "Contribute to safety infrastructure", "description": "Contribute to open-source AI safety tooling — the field's infrastructure desperately needs experienced engineers." }
+  ]
+}

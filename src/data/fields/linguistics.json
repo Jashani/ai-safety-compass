@@ -1,0 +1,21 @@
+{
+  "name": "Linguistics",
+  "slug": "linguistics",
+  "description": "Linguistics provides deep understanding of language, meaning, and communication — central to making language models safe and truthful.",
+  "skills": ["research", "critical_thinking", "reading", "writing", "communication"],
+  "people": [
+    { "name": "Emily M. Bender", "role": "Professor, University of Washington", "description": "Investigates the risks of 'stochastic parrots' and the limitations of large language models in truly understanding meaning." },
+    { "name": "Yannis Assael", "role": "Research Scientist, DeepMind", "description": "Uses machine learning models to decipher ancient scripts like Linear A and contextualize damaged inscriptions." }
+  ],
+  "trajectory": [
+    "Deep understanding of semantics and pragmatics helps evaluate whether language models genuinely understand or merely pattern-match.",
+    "Formal linguistics and grammar theory inform the development of more structured and controllable language generation.",
+    "Sociolinguistics expertise helps identify and address biases in how AI systems handle different dialects, languages, and cultural contexts.",
+    "Discourse analysis skills are valuable for evaluating AI-generated text for coherence, truthfulness, and manipulation."
+  ],
+  "projects": [
+    { "title": "Linguistic analysis of LLM failures", "description": "Use linguistic theory to systematically categorize and explain when and why language models produce incoherent, false, or misleading outputs." },
+    { "title": "Cross-linguistic AI safety evaluation", "description": "Test whether AI safety measures (refusals, guardrails) work equally well across languages, or if non-English users face greater risks." },
+    { "title": "Develop truthfulness benchmarks grounded in linguistics", "description": "Create evaluation datasets that use linguistic theory of presupposition, implicature, and pragmatics to test for subtle forms of AI dishonesty." }
+  ]
+}

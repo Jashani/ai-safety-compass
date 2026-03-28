@@ -1,0 +1,18 @@
+{
+  "name": "Translation & Languages",
+  "slug": "translation-languages",
+  "description": "AI translation is being used in hospitals, courtrooms, and immigration offices right now. Most AI builders speak one language and think accuracy means matching words. You know it doesn't.",
+  "skills": ["translation", "communication", "writing", "critical_thinking", "reading"],
+  "people": [],
+  "trajectory": [
+    "Knowing when 'correct' is still dangerously wrong is safety-critical AI evaluation — and almost nobody doing AI evaluation speaks more than one language.",
+    "Cross-cultural communication and nuance maps to internationalisation governance for AI systems deployed globally.",
+    "Quality assurance across languages is multilingual AI testing — chronically neglected in AI safety.",
+    "Translating AI safety materials into other languages is international fieldbuilding — desperately needed work."
+  ],
+  "projects": [
+    { "title": "Find dangerous translation errors", "description": "Run medical or legal documents through AI translation into your strongest language. Document where errors could get someone hurt." },
+    { "title": "Translate AI safety resources", "description": "Translate key AI safety materials into your native language to help build the international AI safety community." },
+    { "title": "Cross-cultural AI safety perspectives", "description": "Write about AI safety from your cultural perspective — what gets lost in English-only discourse?" }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Philosophy",
+  "slug": "philosophy",
+  "description": "Philosophy underpins AI alignment — from defining what we want AI to do, to understanding values, consciousness, and moral reasoning.",
+  "skills": ["critical_thinking", "reading", "writing", "logical_reasoning", "research", "ethics"],
+  "people": [
+    { "name": "Amanda Askell", "role": "Researcher, Anthropic", "description": "Focuses on 'character training' for AI models to instill traits like curiosity, open-mindedness, and honesty rather than simple rule-following." },
+    { "name": "Joe Carlsmith", "role": "Senior Research Analyst, Open Philanthropy", "description": "Evaluates whether advanced AI systems pose an existential risk by investigating the logic of power-seeking and deceptive behavior." },
+    { "name": "David Chalmers", "role": "Professor, NYU", "description": "Investigates the 'hard problem' of consciousness as applied to digital minds and the moral status of artificial entities." },
+    { "name": "Carissa Véliz", "role": "Associate Professor, University of Oxford", "description": "Researches the ethics of privacy and how AI-driven surveillance can erode human agency and social power." }
+  ],
+  "trajectory": [
+    "Ethics and value theory are foundational to defining what 'aligned' AI even means — this is an open philosophical problem.",
+    "Developing 'deep' alignment that ensures an AI actually shares human values at a structural level, not just behavioral compliance.",
+    "Philosophy of mind directly addresses questions about AI consciousness, moral status, and when we should treat AI systems as moral patients.",
+    "Decision theory and rationality research connect directly to how AI agents should reason and make choices safely."
+  ],
+  "projects": [
+    { "title": "Analyze value alignment definitions", "description": "Survey and critically compare different formal and informal definitions of 'AI alignment' in the literature, identifying gaps and contradictions." },
+    { "title": "Apply moral uncertainty frameworks to AI", "description": "Develop frameworks for how AI systems should behave under moral uncertainty — when we don't know which ethical theory is correct." },
+    { "title": "Philosophy of AI consciousness", "description": "Develop principled criteria for assessing whether AI systems have morally relevant experiences, and what follows if they do." }
+  ]
+}

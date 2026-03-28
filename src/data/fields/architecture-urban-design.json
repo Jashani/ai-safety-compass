@@ -1,0 +1,22 @@
+{
+  "name": "Architecture & Urban Design",
+  "slug": "architecture-urban-design",
+  "description": "Architecture and urban design shape how AI is integrated into built environments, smart cities, and physical spaces people inhabit daily.",
+  "skills": ["design", "engineering", "visual_communication", "research", "project_management"],
+  "people": [
+    { "name": "Anshul Jain", "role": "Smart City AI Researcher", "description": "Utilizes AI in 'Smart City' planning to improve indoor air quality and thermal comfort while ensuring sustainable design." },
+    { "name": "Hridayesh Varma", "role": "Green Building AI Researcher", "description": "Researches the architectural design of green buildings for smart cities using AI-driven predictive modeling." },
+    { "name": "Colleen Morgan", "role": "Digital Heritage Researcher", "description": "Argues for a critical perspective in using AI for reconstructing ancient worlds to avoid historical misrepresentations." }
+  ],
+  "trajectory": [
+    "Smart city design expertise helps ensure AI-driven urban systems are safe, private, and serve all residents equitably.",
+    "Environmental design skills inform sustainable and human-centered approaches to AI infrastructure deployment.",
+    "Experience with building codes and safety standards provides models for AI system certification and compliance.",
+    "Spatial thinking and systems design skills transfer to modeling complex interactions in AI-integrated environments."
+  ],
+  "projects": [
+    { "title": "Ethical smart city AI framework", "description": "Develop guidelines for deploying AI in urban environments that protect privacy, ensure equity, and maintain democratic oversight." },
+    { "title": "AI-integrated building safety standards", "description": "Create safety standards for buildings increasingly reliant on AI systems for climate control, security, and energy management." },
+    { "title": "Critical AI heritage reconstruction", "description": "Develop methodologies for using AI to reconstruct historical sites that explicitly communicate uncertainty and avoid misrepresentation." }
+  ]
+}

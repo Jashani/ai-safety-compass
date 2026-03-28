@@ -1,0 +1,22 @@
+{
+  "name": "Physics",
+  "slug": "physics",
+  "description": "Physics provides first-principles thinking, mathematical rigor, and models of complex systems essential for understanding AI dynamics and safety.",
+  "skills": ["quantitative_analysis", "research", "programming", "logical_reasoning", "data_analysis"],
+  "people": [
+    { "name": "Max Tegmark", "role": "Professor, MIT & Future of Life Institute", "description": "Uses physics-based principles to forecast 'intelligence explosions' and mitigate existential risks through the Future of Life Institute." },
+    { "name": "Surya Ganguli", "role": "Professor, Stanford", "description": "Develops 'Energy Conserving Descent' to make AI training dynamics more predictable and steerable toward safe solutions." },
+    { "name": "Eva Silverstein", "role": "Professor, Stanford", "description": "Works on precision optimization to improve AI predictability and ensure training outcomes follow known probability distributions." }
+  ],
+  "trajectory": [
+    "Managing the thermodynamic transition between 'Dialog' and 'Elaboration' modes to prevent model hallucinations.",
+    "Physics-based modeling of training dynamics helps predict and control AI system behavior during development.",
+    "Statistical mechanics frameworks provide tools for understanding emergent behavior in large neural networks.",
+    "Optimization theory from physics directly applies to understanding and improving gradient descent and AI training stability."
+  ],
+  "projects": [
+    { "title": "Apply statistical mechanics to neural networks", "description": "Use physics models of phase transitions and critical phenomena to understand emergent capabilities and failures in large AI models." },
+    { "title": "Physics-informed AI training stability", "description": "Develop energy conservation principles for training that make AI development more predictable and controllable." },
+    { "title": "Model 'intelligence explosion' dynamics", "description": "Apply dynamical systems theory from physics to model potential recursive self-improvement scenarios and identify safety constraints." }
+  ]
+}
