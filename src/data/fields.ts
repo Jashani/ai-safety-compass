@@ -129,6 +129,7 @@ export const fields: Field[] = [
     name: "Neuroscience",
     slug: "neuroscience",
     description: "Neuroscience offers insights into how biological intelligence works, informing both AI architectures and interpretability research.",
+    skills: ["research", "data_analysis", "experimentation", "lab_work", "programming"],
     people: [
       { name: "Chris Olah", role: "Co-founder, Anthropic", description: "Pioneered neural network interpretability by drawing analogies from neuroscience methods for understanding biological neural circuits." },
       { name: "Catherine Olsson", role: "Research Scientist, Anthropic", description: "Transitioned from computational neuroscience to AI safety, working on understanding the internal representations of large language models." },
