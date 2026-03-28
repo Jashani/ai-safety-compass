@@ -151,6 +151,7 @@ export const fields: Field[] = [
     name: "Chemistry",
     slug: "chemistry",
     description: "Chemistry expertise is critical for understanding AI biosecurity risks and ensuring safe AI applications in scientific domains.",
+    skills: ["research", "lab_work", "data_analysis", "critical_thinking", "experimentation"],
     people: [
       { name: "Fabio Urbina", role: "Senior Scientist, Collaborations Pharmaceuticals", description: "Demonstrated how AI drug discovery tools could be repurposed to generate toxic molecules, highlighting dual-use risks." },
       { name: "Kevin Esvelt", role: "Professor, MIT Media Lab", description: "Works at the intersection of biosecurity and AI, studying how AI capabilities in chemistry and biology create catastrophic risk." },
