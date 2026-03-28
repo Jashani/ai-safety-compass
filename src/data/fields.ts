@@ -107,6 +107,7 @@ export const fields: Field[] = [
     name: "Cognitive Science",
     slug: "cognitive-science",
     description: "Cognitive science provides frameworks for understanding intelligence, decision-making, and how minds work — directly relevant to building safe AI.",
+    skills: ["research", "critical_thinking", "experimentation", "data_analysis", "reading"],
     people: [
       { name: "Yoshua Bengio", role: "Professor, Université de Montréal & Mila", description: "Deep learning pioneer now focused on AI safety, drawing on cognitive science insights about consciousness and System 2 reasoning." },
       { name: "Melanie Mitchell", role: "Professor, Santa Fe Institute", description: "Studies concepts, analogy-making, and abstraction in AI systems, applying cognitive science frameworks to understand AI limitations." },
