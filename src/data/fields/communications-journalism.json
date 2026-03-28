@@ -1,0 +1,22 @@
+{
+  "name": "Communications & Journalism",
+  "slug": "communications-journalism",
+  "description": "Communications expertise is essential for combating AI-driven disinformation, protecting democratic discourse, and ensuring responsible AI narratives.",
+  "skills": ["writing", "communication", "critical_thinking", "research", "social_media"],
+  "people": [
+    { "name": "Maria Ressa", "role": "Nobel Laureate, Rappler", "description": "Advocates for democratic protections against AI-driven disinformation and the responsible use of algorithms in news ecosystems." },
+    { "name": "Elizabeth Stokoe", "role": "Professor of Social Interaction", "description": "Uses conversation analysis to study how bots influence social interaction and democratic discourse." },
+    { "name": "Sacha Altay", "role": "Misinformation Researcher", "description": "Conducts experiments on how labeling content as 'AI-generated' influences perceived accuracy and public trust." }
+  ],
+  "trajectory": [
+    "Media literacy expertise is crucial for helping populations distinguish AI-generated content from human communication.",
+    "Investigative journalism skills help uncover how AI systems are deployed and their real-world impacts on communities.",
+    "Conversation analysis methods reveal how AI bots reshape patterns of social interaction and trust.",
+    "Strategic communications skills are needed to effectively convey AI safety concerns to diverse publics."
+  ],
+  "projects": [
+    { "title": "Study AI-generated content labeling effects", "description": "Design experiments to test how different approaches to labeling AI-generated content affect public trust and behavior." },
+    { "title": "Develop AI literacy curricula for journalists", "description": "Create training materials to help journalists critically evaluate AI-generated content and report on AI safety issues accurately." },
+    { "title": "Analyze bot influence on public discourse", "description": "Use conversation analysis to map how AI-driven accounts shape political and social discussions online." }
+  ]
+}

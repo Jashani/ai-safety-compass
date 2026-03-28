@@ -1,0 +1,22 @@
+{
+  "name": "Mathematics",
+  "slug": "mathematics",
+  "description": "Mathematics provides the formal tools needed for rigorous AI safety research — from proving properties of systems to modeling risks.",
+  "skills": ["logical_reasoning", "quantitative_analysis", "critical_thinking", "research", "programming"],
+  "people": [
+    { "name": "Scott Aaronson", "role": "Professor, UT Austin", "description": "Theoretical computer scientist working on AI safety at OpenAI, bringing rigorous mathematical thinking to alignment problems." },
+    { "name": "Vanessa Kosoy", "role": "Research Associate, MIRI", "description": "Develops mathematical frameworks for AI alignment, working on formal theories of embedded agency and learning theory." },
+    { "name": "John Wentworth", "role": "Independent Researcher", "description": "Works on mathematical foundations of alignment, particularly natural abstraction and agent foundations using category theory and topology." }
+  ],
+  "trajectory": [
+    "Proof-writing and formal verification skills are essential for developing AI systems with guaranteed safety properties.",
+    "Probability theory and statistics underpin uncertainty quantification and Bayesian approaches to AI safety.",
+    "Topology, category theory, and abstract algebra increasingly appear in cutting-edge alignment theory research.",
+    "Optimization theory helps understand and prevent reward hacking and specification gaming in AI systems."
+  ],
+  "projects": [
+    { "title": "Formalize an alignment proposal", "description": "Take an informal AI safety idea from a blog post or paper and develop a rigorous mathematical formalization, identifying hidden assumptions." },
+    { "title": "Mathematical models of deceptive alignment", "description": "Develop formal models of when and why an AI system might learn to appear aligned during training while pursuing different objectives." },
+    { "title": "Contribute to formal verification for ML", "description": "Work on mathematical methods for proving properties of neural networks, such as robustness bounds or behavioral guarantees." }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Political Science",
+  "slug": "political-science",
+  "description": "Political science analyzes power, governance, and democratic institutions — all critical for ensuring AI development serves the public interest.",
+  "skills": ["research", "critical_thinking", "writing", "policy_analysis", "communication"],
+  "people": [
+    { "name": "Brian Judge", "role": "AI Governance Researcher", "description": "Studies the governance of AI and its broader implications for the global political economy and public policy." },
+    { "name": "Alexandra Cirone", "role": "Political Scientist", "description": "Investigates how chatbots and automated accounts can bias human political attitudes and democratic discourse." }
+  ],
+  "trajectory": [
+    "Investigating the 'Intelligence Curse' — where labor-replacing AI removes state incentives to invest in citizens, paralleling the resource curse.",
+    "Understanding democratic theory and institutions helps design AI governance that preserves public accountability.",
+    "Electoral politics expertise helps assess and mitigate AI-driven threats to democratic processes.",
+    "Comparative politics perspectives reveal how different political systems will respond differently to AI disruption."
+  ],
+  "projects": [
+    { "title": "Analyze AI's impact on democratic discourse", "description": "Study how AI-generated content and chatbots affect political attitudes, voter behavior, and democratic deliberation." },
+    { "title": "Model the 'Intelligence Curse'", "description": "Develop political economy models of how AI-driven labor displacement could reshape the relationship between states and citizens." },
+    { "title": "Compare AI governance across political systems", "description": "Analyze how democracies, authoritarian states, and international institutions are approaching AI governance differently." }
+  ]
+}

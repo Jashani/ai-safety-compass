@@ -1,0 +1,21 @@
+{
+  "name": "Biology",
+  "slug": "biology",
+  "description": "Biology expertise is essential for assessing AI biosecurity risks, from pathogen design to food security and ecological system resilience.",
+  "skills": ["research", "lab_work", "data_analysis", "experimentation", "critical_thinking"],
+  "people": [
+    { "name": "Seán Ó hÉigeartaigh", "role": "Director, Centre for the Study of Existential Risk", "description": "Identifies emerging threats at the intersection of AI, nuclear systems, and biological weapon acquisition." },
+    { "name": "Asaf Tzachor", "role": "Researcher, CSER, University of Cambridge", "description": "Researches systemic risks in using AI for global food security, including vulnerabilities to cyber-attacks on commercial farms." }
+  ],
+  "trajectory": [
+    "Developing 'Generative Immunoengineering' — computationally creating synthetic immune circuits to counter AI-designed pathogens.",
+    "Biosecurity expertise is critical for evaluating whether AI systems could lower barriers to biological weapon development.",
+    "Ecological systems thinking helps model cascading risks from AI deployment in agriculture and environmental management.",
+    "Understanding of evolutionary dynamics informs theories about how AI systems might develop and adapt in ways that evade safety controls."
+  ],
+  "projects": [
+    { "title": "Assess AI biosecurity threat models", "description": "Evaluate how AI lowers barriers to biological weapon design and develop mitigation strategies for dual-use biology AI tools." },
+    { "title": "AI and food security vulnerability analysis", "description": "Map systemic risks from AI use in agriculture, including cyber-attack vectors and supply chain dependencies." },
+    { "title": "Generative immunoengineering safety framework", "description": "Develop guidelines for using AI to design synthetic immune responses while preventing misuse for pathogen creation." }
+  ]
+}

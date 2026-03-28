@@ -1,0 +1,22 @@
+{
+  "name": "History",
+  "slug": "history",
+  "description": "Historical analysis provides crucial perspective on technological transitions, institutional failures, and how societies manage transformative risks.",
+  "skills": ["research", "reading", "writing", "critical_thinking", "communication"],
+  "people": [
+    { "name": "Sarah E. Igo", "role": "Historian of Privacy & Security", "description": "Analyzes historical debates over privacy and security from the last 150 years to evaluate the efficacy of modern AI oversight frameworks." },
+    { "name": "Aaron Mendon-Plasek", "role": "Historian of Quantification", "description": "Traces how past schemes of quantification influenced contemporary AI design and identifies historical regulatory 'roads not taken.'" },
+    { "name": "Rebecca Slayton", "role": "Historian of Technology & Security", "description": "Evaluates prior transformative technologies such as nuclear and biotech to generate lessons for managing current AI national security risks." }
+  ],
+  "trajectory": [
+    "Study of past technological revolutions (printing press, nuclear, biotech) reveals patterns in how societies succeed or fail at managing transformative tech.",
+    "The '40-year stagnation of wages' from the Industrial Revolution serves as a model for AGI's potential economic impact on labor markets.",
+    "Institutional history expertise helps design governance structures for AI that learn from historical precedents and avoid repeating failures.",
+    "Comparative historical analysis of arms races and international agreements is directly relevant to AI governance and non-proliferation."
+  ],
+  "projects": [
+    { "title": "Historical case studies of technology governance", "description": "Analyze how nuclear, biotech, or internet governance developed and extract lessons applicable to AI safety regulation." },
+    { "title": "Document the history of AI safety as a field", "description": "Create a comprehensive historical account of how AI safety thinking evolved, who the key figures were, and what shaped the discourse." },
+    { "title": "Historical analogy analysis for AI risk", "description": "Rigorously evaluate which historical analogies for AI (nuclear, electricity, evolution) are most and least apt, and what each implies for safety." }
+  ]
+}

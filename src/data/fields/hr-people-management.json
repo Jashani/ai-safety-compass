@@ -1,0 +1,18 @@
+{
+  "name": "HR & People Management",
+  "slug": "hr-people-management",
+  "description": "AI tools in recruitment are being classified as high-risk under the EU AI Act. There's an entire field working on making AI in the workplace safe, fair, and legal — and they need people who understand how hiring actually works.",
+  "skills": ["communication", "organising", "process_management", "critical_thinking", "admin", "ethics"],
+  "people": [],
+  "trajectory": [
+    "Hiring, onboarding, and organisational design experience maps to AI recruitment governance — ensuring AI hiring tools are fair.",
+    "Employment law and compliance expertise connects to EU AI Act compliance — enforcement starts August 2026.",
+    "Spotting bias in selection processes is algorithmic fairness assessment — a core AI safety concern.",
+    "AI safety orgs are growing fast and most are terrible at people management. They need HR expertise directly."
+  ],
+  "projects": [
+    { "title": "Audit AI in hiring", "description": "Check whether organisations are using AI in hiring and assess compliance with emerging regulation like the EU AI Act." },
+    { "title": "Build a compliance checklist", "description": "Create a practical checklist for organisations using AI in recruitment, covering fairness, transparency, and legal requirements." },
+    { "title": "Translate AI regulation for HR teams", "description": "Write plain-language guides explaining what the EU AI Act's employment provisions mean for HR practitioners." }
+  ]
+}

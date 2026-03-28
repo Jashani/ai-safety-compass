@@ -1,0 +1,22 @@
+{
+  "name": "International Relations & Conflict Studies",
+  "slug": "international-relations",
+  "description": "International relations expertise is essential for preventing AI arms races, designing treaties, and managing global AI governance.",
+  "skills": ["research", "writing", "critical_thinking", "negotiation", "policy_analysis", "communication"],
+  "people": [
+    { "name": "Robert Trager", "role": "Professor, UCLA", "description": "Develops international governance agreements and verification methods to ensure AI safety and prevent global arms races." },
+    { "name": "Joslyn Barnhart", "role": "IR Scholar", "description": "Researches international AI governance to mitigate risks and ensure the equitable sharing of AI's benefits." },
+    { "name": "Jade Leung", "role": "VP of Safety, OpenAI", "description": "Designs evaluations to test frontier models for high-consequence misuse in cyber, biological, or chemical domains." }
+  ],
+  "trajectory": [
+    "Arms control and nonproliferation experience directly applies to preventing dangerous AI capability races between nations.",
+    "Treaty design and verification expertise is needed for international AI safety agreements.",
+    "Crisis management and escalation theory helps model scenarios where AI systems interact in geopolitically unstable environments.",
+    "Global governance frameworks from trade, climate, and nuclear domains offer templates for AI governance."
+  ],
+  "projects": [
+    { "title": "Design AI non-proliferation frameworks", "description": "Develop verification and enforcement mechanisms for international agreements on limiting dangerous AI capabilities." },
+    { "title": "Model AI-driven geopolitical scenarios", "description": "Create scenario analyses of how advanced AI capabilities could shift the balance of power and trigger international crises." },
+    { "title": "Evaluate existing treaties as AI governance templates", "description": "Analyze nuclear, chemical weapons, and climate treaties for lessons applicable to international AI safety cooperation." }
+  ]
+}

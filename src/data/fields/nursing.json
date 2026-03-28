@@ -1,0 +1,22 @@
+{
+  "name": "Nursing",
+  "slug": "nursing",
+  "description": "Nursing brings frontline healthcare perspective to AI safety, ensuring AI decision-support tools enhance rather than undermine clinical judgment.",
+  "skills": ["clinical_practice", "communication", "critical_thinking", "ethics", "research"],
+  "people": [
+    { "name": "Ann Wieben", "role": "Nursing & AI Literacy Researcher", "description": "Fosters AI literacy among nurses and examines how AI decision support tools affect critical thinking and cognitive load." },
+    { "name": "Gonul Bodur", "role": "Qualitative Researcher", "description": "Conducts qualitative research on nurses' perspectives to ensure the ethical and practical implementation of AI in hospitals." },
+    { "name": "Tuba Sengul", "role": "Nursing Ethics Researcher", "description": "Examines how generative AI tools influence the ethical decision-making process in nursing education using moral behavior frameworks." }
+  ],
+  "trajectory": [
+    "Frontline experience with medical decision-making reveals how AI tools actually perform in high-stakes, time-pressured environments.",
+    "Patient safety culture and error reporting systems provide models for AI safety incident reporting.",
+    "Understanding of cognitive load in clinical settings helps design AI tools that genuinely assist rather than overwhelm practitioners.",
+    "Ethical reasoning in life-and-death situations provides grounding for AI systems making consequential decisions."
+  ],
+  "projects": [
+    { "title": "Assess AI impact on clinical decision-making", "description": "Study how AI decision support tools affect nurses' critical thinking, cognitive load, and patient outcomes in practice." },
+    { "title": "AI literacy curriculum for healthcare workers", "description": "Design training programs to help nurses and clinicians critically evaluate and safely use AI tools in patient care." },
+    { "title": "Map ethical risks of healthcare AI chatbots", "description": "Evaluate the risks of patients using AI chatbots as a 'first opinion' and develop guidelines for safe deployment." }
+  ]
+}

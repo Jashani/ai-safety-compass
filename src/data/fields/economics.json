@@ -1,0 +1,22 @@
+{
+  "name": "Economics",
+  "slug": "economics",
+  "description": "Economic thinking helps model incentive structures, market dynamics, and coordination failures relevant to AI governance and deployment.",
+  "skills": ["critical_thinking", "research", "spreadsheets", "quantitative_analysis", "writing"],
+  "people": [
+    { "name": "Dirk Bergemann", "role": "Professor, Yale University", "description": "Applies mechanism design and information economics to align AI behavior with long-term user preferences." },
+    { "name": "Stephen Morris", "role": "Professor, MIT", "description": "Develops economic rules and institutional frameworks to balance AI capability with safety in complex global systems." },
+    { "name": "Erik Brynjolfsson", "role": "Professor, Stanford", "description": "Models the impact of AI on productivity to design systems that augment human capabilities rather than replacing them." }
+  ],
+  "trajectory": [
+    "Economic modeling of AI labor displacement feeds directly into understanding the urgency and stakes of alignment.",
+    "Game theory and mechanism design skills transfer to multi-agent AI safety research and cooperative AI.",
+    "Implementing 'Token Taxes' — usage-based surcharges as a sustainable tax base for a post-labor economy.",
+    "Understanding of market failures and externalities helps frame why AI safety is systematically underfunded."
+  ],
+  "projects": [
+    { "title": "Model economic incentives for AI safety investment", "description": "Analyze why firms underinvest in safety research and propose mechanism designs that could correct this market failure." },
+    { "title": "Design a 'Token Tax' framework", "description": "Develop an economic model for usage-based AI taxation to fund social safety nets and public goods in a post-labor economy." },
+    { "title": "Governance mechanism comparison", "description": "Compare regulatory approaches (liability, licensing, auditing) for AI systems using welfare economics frameworks." }
+  ]
+}

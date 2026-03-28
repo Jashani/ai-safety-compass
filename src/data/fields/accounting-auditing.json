@@ -1,0 +1,22 @@
+{
+  "name": "Accounting & Auditing",
+  "slug": "accounting-auditing",
+  "description": "Accounting and auditing expertise provides frameworks for transparency, accountability, and oversight directly applicable to AI governance.",
+  "skills": ["spreadsheets", "critical_thinking", "data_analysis", "organising", "research"],
+  "people": [
+    { "name": "Ahmed Elragal", "role": "AI Auditing Researcher", "description": "Researches agentic AI for financial auditing to solve long-horizon tasks while maintaining human-on-the-loop control." },
+    { "name": "Danesha Chisholm", "role": "Public Sector AI Accountability", "description": "Builds frameworks designed to prevent fraud, waste, and abuse in increasingly AI-driven public sector environments." },
+    { "name": "Othmar Manfred Lehner", "role": "Professor of Accounting & Ethics", "description": "Explores ethical issues associated with AI-based decision-making in accounting and transfers critical accountability insights to future scenarios." }
+  ],
+  "trajectory": [
+    "Audit methodology — systematic evidence gathering, independence, and skepticism — is directly needed for AI system auditing.",
+    "Financial control frameworks provide templates for AI oversight and governance structures.",
+    "Fraud detection expertise transfers to identifying manipulation, gaming, and deceptive behavior in AI systems.",
+    "Public accountability standards from financial regulation offer models for AI transparency requirements."
+  ],
+  "projects": [
+    { "title": "Design AI audit standards", "description": "Adapt financial audit methodologies to create standardized approaches for auditing AI system behavior, fairness, and safety." },
+    { "title": "Framework for AI fraud prevention", "description": "Apply anti-fraud frameworks to detect and prevent manipulation and gaming by AI-driven agents in financial and public systems." },
+    { "title": "Human-on-the-loop controls for AI agents", "description": "Develop accountability structures for increasingly autonomous AI agents performing long-horizon financial tasks." }
+  ]
+}

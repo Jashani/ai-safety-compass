@@ -1,0 +1,18 @@
+{
+  "name": "Sales & Fundraising",
+  "slug": "sales-fundraising",
+  "description": "AI safety has the research but can't close. The people who should be funding this work aren't — because nobody's making the case in language they respond to. Your persuasion skills are what's missing.",
+  "skills": ["communication", "fundraising", "stakeholder_management", "writing", "negotiation"],
+  "people": [],
+  "trajectory": [
+    "Making a compelling case to sceptical audiences is fundraising and donor engagement — AI safety orgs desperately need this.",
+    "Understanding what motivates people to say yes maps to stakeholder management and advocacy in AI governance.",
+    "Building and managing relationships at scale is coalition building and partnership development — essential for AI safety's growth.",
+    "Most AI safety orgs can't raise what they need because nobody on the team knows how to make the ask."
+  ],
+  "projects": [
+    { "title": "Rewrite an AI safety org's pitch", "description": "Pick an AI safety org's donation page and rewrite it as if you were selling to a sceptical prospect. Send it to them." },
+    { "title": "Diagnose the sales problem", "description": "Write about why AI safety is a hard sell and develop concrete strategies to make it easier for different donor audiences." },
+    { "title": "Open corporate doors", "description": "Build relationships with foundations who should be funding AI safety but aren't yet, and develop the case for support." }
+  ]
+}

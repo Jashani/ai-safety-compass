@@ -1,0 +1,21 @@
+{
+  "name": "Music & Performing Arts",
+  "slug": "music-performing-arts",
+  "description": "Music and performing arts perspectives highlight how AI affects creative rights, cultural authenticity, and the livelihoods of artists worldwide.",
+  "skills": ["communication", "visual_communication", "critical_thinking", "writing", "facilitation"],
+  "people": [
+    { "name": "Deborah Annetts", "role": "CEO, Incorporated Society of Musicians", "description": "Mobilizes the music sector against the threat generative AI poses to creative rights and calls for fair remuneration." },
+    { "name": "Kjartan Ólafsson", "role": "AI & Music Ethics Advocate", "description": "Advocates for ethical AI music frameworks that protect artist rights and maintain cultural authenticity." }
+  ],
+  "trajectory": [
+    "Understanding of intellectual property and creative rights directly informs AI training data governance.",
+    "Live performance expertise raises questions about authenticity, deepfakes, and AI impersonation in entertainment.",
+    "Music industry advocacy provides models for how creative communities can organize around AI safety concerns.",
+    "Cultural preservation perspectives ensure AI systems don't homogenize or erase diverse musical traditions."
+  ],
+  "projects": [
+    { "title": "AI and creative rights framework", "description": "Develop a framework protecting musicians and performers from unauthorized AI replication of their work and style." },
+    { "title": "Cultural authenticity audit for AI music", "description": "Evaluate whether AI music generation tools preserve or homogenize diverse cultural musical traditions." },
+    { "title": "Fair remuneration models for AI-trained systems", "description": "Design compensation models for artists whose work contributes to AI training data." }
+  ]
+}

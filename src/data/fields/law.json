@@ -1,0 +1,22 @@
+{
+  "name": "Law",
+  "slug": "law",
+  "description": "Legal expertise is essential for building governance frameworks, liability structures, and regulatory approaches for AI systems.",
+  "skills": ["critical_thinking", "writing", "research", "communication", "reading", "policy_analysis"],
+  "people": [
+    { "name": "Jonathan Zittrain", "role": "Professor, Harvard Law School", "description": "Designs frameworks for legal alignment to ensure AI systems are publicly accountable and ethical." },
+    { "name": "Anka Reuel", "role": "PhD Researcher, Stanford HAI", "description": "Works on AI policy and governance, developing legal frameworks for responsible AI development and deployment." },
+    { "name": "Jonas Schuett", "role": "Researcher, GovAI, Oxford", "description": "Studies legal and regulatory approaches to AI governance, including corporate governance of AI labs and international AI law." }
+  ],
+  "trajectory": [
+    "Expertise in regulatory design is critical for creating effective AI governance that actually constrains dangerous development.",
+    "International law background helps navigate cross-border AI governance challenges and treaty design.",
+    "Liability and tort law knowledge informs who should be responsible when AI systems cause harm.",
+    "Tech law and IP experience helps address questions around AI model ownership, training data rights, and deployment restrictions."
+  ],
+  "projects": [
+    { "title": "Draft model AI safety legislation", "description": "Write sample legislative language for AI safety requirements, drawing on precedents from other regulated industries." },
+    { "title": "Analyze AI liability frameworks", "description": "Compare different legal theories of liability for AI harms and assess which best incentivize safety investment." },
+    { "title": "International AI governance treaty analysis", "description": "Study existing international technology agreements and propose frameworks for international AI safety cooperation." }
+  ]
+}

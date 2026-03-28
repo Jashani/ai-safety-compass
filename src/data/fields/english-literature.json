@@ -1,0 +1,21 @@
+{
+  "name": "English Literature & Narratology",
+  "slug": "english-literature",
+  "description": "Literary scholarship reveals how narratives shape our understanding of AI — and how AI-generated stories may reshape culture and moral frameworks.",
+  "skills": ["reading", "writing", "critical_thinking", "research", "communication"],
+  "people": [
+    { "name": "Jill Walker Rettberg", "role": "Professor, University of Bergen", "description": "Leads the AI STORIES project to explore how narrative archetypes in training data shape machine learning outputs and cultural specificity." },
+    { "name": "G. Kannaiyan", "role": "Literary Scholar", "description": "Examines posthumanism in contemporary fiction to re-theorize subjectivity and the moral standing of intelligent machines." }
+  ],
+  "trajectory": [
+    "Studying 'AI-Borne Mythogenesis' — how machine-authored folklore shapes human moral frameworks and cultural narratives.",
+    "Literary analysis skills help decode the implicit values and worldviews embedded in AI-generated text.",
+    "Narrative theory informs how AI systems construct persuasive or manipulative stories at scale.",
+    "Understanding of genre conventions and tropes helps evaluate how training data biases shape AI creative outputs."
+  ],
+  "projects": [
+    { "title": "Analyze narrative patterns in AI-generated fiction", "description": "Study what kinds of stories AI systems naturally produce and what values, biases, and cultural assumptions they encode." },
+    { "title": "Map science fiction's influence on AI development", "description": "Trace how specific sci-fi narratives have shaped AI researchers' assumptions about intelligence, risk, and the future." },
+    { "title": "Develop cultural bias audits for generative text", "description": "Create frameworks to detect when AI-generated narratives erase or misrepresent specific cultural traditions and perspectives." }
+  ]
+}

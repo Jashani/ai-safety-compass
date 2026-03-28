@@ -1,0 +1,22 @@
+{
+  "name": "Civil Engineering",
+  "slug": "civil-engineering",
+  "description": "Civil engineering brings systems thinking and infrastructure resilience expertise to ensuring AI-dependent critical systems remain safe and robust.",
+  "skills": ["engineering", "quantitative_analysis", "data_analysis", "project_management", "research"],
+  "people": [
+    { "name": "Sanjib Sharma", "role": "Environmental Engineering & AI Researcher", "description": "Integrates AI and big data to improve predictions of lead contamination in drinking water and enhance flood resilience." },
+    { "name": "Ali Behnood", "role": "Sustainable Infrastructure Researcher", "description": "Focuses on the next generation of sustainable and resilient infrastructure by optimizing recycled material use with AI." },
+    { "name": "Liuyun Xu", "role": "Structural Simulation Researcher", "description": "Introduced a 'multi-fidelity' simulation framework to rapidly predict building responses to rare and severe natural hazards." }
+  ],
+  "trajectory": [
+    "Infrastructure safety standards and failure mode analysis directly apply to assessing critical AI system reliability.",
+    "Structural resilience thinking helps design AI systems and AI-dependent infrastructure that degrade gracefully.",
+    "Environmental engineering expertise informs safe deployment of AI in water, energy, and transportation systems.",
+    "Multi-fidelity simulation approaches from civil engineering can test AI systems under rare but catastrophic scenarios."
+  ],
+  "projects": [
+    { "title": "AI-dependent infrastructure risk assessment", "description": "Identify critical infrastructure systems increasingly reliant on AI and assess cascading failure risks." },
+    { "title": "Resilience standards for AI in public systems", "description": "Develop engineering standards for AI systems deployed in water, energy, and transportation infrastructure." },
+    { "title": "Multi-fidelity testing for AI safety", "description": "Adapt civil engineering simulation approaches to rapidly test AI systems under rare but severe failure conditions." }
+  ]
+}

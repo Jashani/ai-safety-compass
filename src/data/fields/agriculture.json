@@ -1,0 +1,21 @@
+{
+  "name": "Agriculture",
+  "slug": "agriculture",
+  "description": "Agriculture expertise ensures AI applications in food systems are resilient, secure, and serve global food security rather than undermining it.",
+  "skills": ["research", "data_analysis", "fieldwork", "critical_thinking", "engineering"],
+  "people": [
+    { "name": "Patricia Mathabe", "role": "Agroforestry & AI Researcher", "description": "Researches how AI innovation can support global food security while integrating trees into farms to enhance resilience." },
+    { "name": "Naseer Ahmed", "role": "Agricultural AI Researcher", "description": "Applies AI for large-scale yield forecasting and pest detection to ensure safe food production from farm to fork." }
+  ],
+  "trajectory": [
+    "Understanding food supply chains reveals critical vulnerabilities where AI failures could have catastrophic consequences.",
+    "Precision agriculture experience provides insight into how AI is deployed in high-stakes, real-world environments.",
+    "Agroecology principles inform sustainable approaches to AI deployment that account for complex ecosystem interactions.",
+    "Food security expertise helps assess how AI-driven automation affects livelihoods of agricultural communities globally."
+  ],
+  "projects": [
+    { "title": "Agricultural AI vulnerability assessment", "description": "Map how AI-dependent agricultural systems could be disrupted by cyber-attacks, model failures, or supply chain attacks." },
+    { "title": "Safe AI yield forecasting standards", "description": "Develop reliability and uncertainty standards for AI systems used in crop yield prediction and agricultural planning." },
+    { "title": "Food security impact analysis of AI automation", "description": "Assess how AI automation in agriculture affects food security, livelihoods, and resilience in developing regions." }
+  ]
+}

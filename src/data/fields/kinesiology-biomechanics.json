@@ -1,0 +1,22 @@
+{
+  "name": "Kinesiology & Biomechanics",
+  "slug": "kinesiology-biomechanics",
+  "description": "Kinesiology and biomechanics establish the physical safety limits for human-robot interaction, essential as AI-powered robots enter workplaces.",
+  "skills": ["research", "data_analysis", "experimentation", "engineering", "statistical_modeling"],
+  "people": [
+    { "name": "Riccardo Zanella", "role": "Human-Robot Safety Researcher", "description": "Establishes biomechanical limits for human-robot impacts to ensure physical safety in collaborative workspaces." },
+    { "name": "Federico Califano", "role": "Robot Safety Constraints Researcher", "description": "Researches safety constraints in physical human-robot interaction to clarify regulatory compliance for 'cobots.'" },
+    { "name": "Roland Behrens", "role": "Biomechanical Limits Researcher", "description": "Develops statistical models to determine biomechanical limits for safe physical human-robot interaction." }
+  ],
+  "trajectory": [
+    "Establishing physical safety thresholds for human-robot interaction is essential as AI-powered cobots enter more workplaces.",
+    "Biomechanical modeling skills help define when AI-controlled systems pose physical risks to humans.",
+    "Ergonomics expertise ensures AI-assisted workplaces are designed around human physical capabilities and limitations.",
+    "Injury biomechanics knowledge is critical for setting regulatory standards for autonomous and semi-autonomous systems."
+  ],
+  "projects": [
+    { "title": "Physical safety standards for AI cobots", "description": "Develop biomechanics-based safety standards for collaborative robots in manufacturing, healthcare, and service environments." },
+    { "title": "Impact testing framework for autonomous systems", "description": "Create standardized methods for testing the physical safety of AI-controlled systems that interact with humans." },
+    { "title": "Ergonomic guidelines for AI-augmented workplaces", "description": "Design guidelines ensuring AI-enhanced workspaces account for human physical capabilities and injury prevention." }
+  ]
+}

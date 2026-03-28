@@ -1,0 +1,21 @@
+{
+  "name": "Education",
+  "slug": "education",
+  "description": "Education expertise ensures AI tools used in learning are safe, effective, and preserve academic integrity and critical thinking.",
+  "skills": ["teaching", "communication", "facilitation", "research", "critical_thinking"],
+  "people": [
+    { "name": "Jonathan Jackson", "role": "AI in Education Researcher", "description": "Explores how agentic AI and generative tools can act as catalysts for learning while maintaining academic integrity." },
+    { "name": "Kadir Kozan", "role": "Instructional Design Researcher", "description": "Investigates how professional instructional designers integrate generative AI into their practice to ensure quality and safety." }
+  ],
+  "trajectory": [
+    "Pedagogy expertise helps design AI tutoring systems that genuinely develop understanding rather than enabling cheating.",
+    "Assessment design skills help create evaluation methods robust to AI-generated submissions.",
+    "Understanding of learning science informs how AI training itself could be improved through better training paradigms.",
+    "Educational technology experience helps identify when AI tools help vs. hinder genuine learning and skill development."
+  ],
+  "projects": [
+    { "title": "AI-resistant assessment design", "description": "Develop assessment methods that remain meaningful and valid in a world where students have access to powerful generative AI." },
+    { "title": "Safe AI tutoring guidelines", "description": "Create standards for AI tutoring systems that ensure they develop student understanding rather than creating dependency." },
+    { "title": "Evaluate AI impact on critical thinking", "description": "Study whether widespread use of generative AI in education strengthens or weakens students' critical thinking abilities." }
+  ]
+}

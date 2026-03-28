@@ -1,0 +1,22 @@
+{
+  "name": "Marketing",
+  "slug": "marketing",
+  "description": "Marketing expertise reveals how AI can be used for manipulation and helps develop ethical guidelines for AI-powered persuasion technologies.",
+  "skills": ["communication", "social_media", "writing", "data_analysis", "visual_communication"],
+  "people": [
+    { "name": "Usman Ahmad Qadri", "role": "Digital Marketing Ethics Researcher", "description": "Studies the dual role of digital literacy in mitigating AI marketing manipulation and unethical young consumer targeting." },
+    { "name": "Michael Klenk", "role": "Ethics & AI Researcher", "description": "Sets a design-oriented research agenda for identifying and mitigating deception and manipulation in generative AI." },
+    { "name": "Mrinalini Choudhary", "role": "AI Marketing Ethics Researcher", "description": "Highlights ethical concerns about consumer behavioral manipulation and data privacy in AI-powered digital marketing." }
+  ],
+  "trajectory": [
+    "Understanding of persuasion techniques helps identify when AI systems cross the line from personalization to manipulation.",
+    "Consumer behavior expertise informs assessment of how AI-powered targeting can exploit psychological vulnerabilities.",
+    "Digital literacy advocacy provides frameworks for helping populations recognize and resist AI-driven manipulation.",
+    "Advertising ethics principles offer guidelines for responsible use of generative AI in commercial contexts."
+  ],
+  "projects": [
+    { "title": "Map AI manipulation techniques in marketing", "description": "Catalog how generative AI is being used for consumer manipulation and develop detection and mitigation strategies." },
+    { "title": "Youth protection framework for AI marketing", "description": "Design guidelines protecting young consumers from AI-powered targeting and behavioral manipulation." },
+    { "title": "Ethical AI marketing standards", "description": "Develop industry standards for the responsible use of generative AI in advertising and marketing." }
+  ]
+}

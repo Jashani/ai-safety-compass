@@ -1,0 +1,22 @@
+{
+  "name": "Sociology",
+  "slug": "sociology",
+  "description": "Sociological perspectives illuminate how AI systems interact with social structures, power dynamics, and collective behavior.",
+  "skills": ["research", "critical_thinking", "writing", "communication", "reading"],
+  "people": [
+    { "name": "Milena Tsvetkova", "role": "Associate Professor, LSE", "description": "Studies networks of humans and bots as a single adaptive system to identify how automation triggers social contagion and affects cooperation." },
+    { "name": "Mark Coeckelbergh", "role": "Professor, University of Vienna", "description": "Investigates the ethics of robotics and the societal shifts caused by human-machine interaction in complex social environments." },
+    { "name": "Kate Crawford", "role": "Research Professor, USC Annenberg", "description": "Studies the social and political implications of AI, examining how large-scale AI systems encode and amplify social inequalities." }
+  ],
+  "trajectory": [
+    "Understanding social systems and institutions helps design AI governance structures that actually work in practice.",
+    "Qualitative research methods are valuable for studying how AI deployment affects real communities.",
+    "Expertise in power dynamics and inequality is critical for ensuring AI safety efforts are inclusive and globally aware.",
+    "Studying networks of humans and bots as integrated systems reveals how automation triggers social contagion effects."
+  ],
+  "projects": [
+    { "title": "Map the AI safety research community", "description": "Conduct a sociological network analysis of the AI safety field — who collaborates, what perspectives are missing, where are the gaps." },
+    { "title": "Study human-bot network dynamics", "description": "Analyze how automated accounts and AI agents interact with human social networks and affect cooperation and trust." },
+    { "title": "Institutional analysis of AI labs", "description": "Examine organizational cultures and incentive structures at major AI labs from a sociological perspective." }
+  ]
+}
