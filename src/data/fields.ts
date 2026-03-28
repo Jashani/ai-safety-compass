@@ -172,6 +172,7 @@ export const fields: Field[] = [
     name: "History",
     slug: "history",
     description: "Historical analysis provides crucial perspective on technological transitions, institutional failures, and how societies manage transformative risks.",
+    skills: ["research", "reading", "writing", "critical_thinking", "communication"],
     people: [
       { name: "Audrey Kurth Cronin", role: "Director, Carnegie Mellon Institute for Strategy and Technology", description: "Applies historical analysis of transformative technologies (gunpowder, nuclear weapons) to understand AI's strategic implications." },
       { name: "Jason Matheny", role: "CEO, RAND Corporation", description: "Draws on history of existential risk governance to shape contemporary AI policy and safety strategy." },
