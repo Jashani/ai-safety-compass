@@ -300,6 +300,7 @@ export const fields: Field[] = [
     name: "Linguistics",
     slug: "linguistics",
     description: "Linguistics provides deep understanding of language, meaning, and communication — central to making language models safe and truthful.",
+    skills: ["research", "critical_thinking", "reading", "writing", "communication"],
     people: [
       { name: "Emily M. Bender", role: "Professor, University of Washington", description: "Computational linguist who critically examines what language models actually understand, advocating for careful claims about AI capabilities." },
       { name: "Adele Goldberg", role: "Professor, Princeton University", description: "Construction grammar researcher whose work on how humans learn and represent language informs debates about AI language understanding." },

@@ -29,7 +29,7 @@ const Index = () => {
           placeholder="Search fields..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
-          className="mb-10 max-w-md bg-card border-border"
+          className="mb-4 max-w-md bg-card border-border"
         />
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
