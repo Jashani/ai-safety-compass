@@ -63,6 +63,7 @@ export const fields: Field[] = [
     name: "Economics",
     slug: "economics",
     description: "Economic thinking helps model incentive structures, market dynamics, and coordination failures relevant to AI governance and deployment.",
+    skills: ["critical_thinking", "research", "spreadsheets", "quantitative_analysis", "writing"],
     people: [
       { name: "Anton Korinek", role: "Professor, University of Virginia & Brookings", description: "Researches the macroeconomic implications of AI and how economic policy can shape safe AI development." },
       { name: "Markus Anderljung", role: "Head of Policy, Centre for AI Safety", description: "Works on AI governance policy, applying economic frameworks to regulatory design for advanced AI systems." },
