@@ -13,10 +13,50 @@ export interface Field {
   name: string;
   slug: string;
   description: string;
+  skills: string[];
   people: Person[];
   trajectory: string[];
   projects: Project[];
 }
+
+export interface Background {
+  label: string;
+  category: string;
+  skills: string[];
+  showFreetext?: boolean;
+}
+
+export const skillLabels: Record<string, string> = {
+  critical_thinking: "Critical thinking",
+  research: "Research",
+  writing: "Writing",
+  communication: "Communication",
+  organising: "Organising",
+  process_management: "Process management",
+  spreadsheets: "Spreadsheets",
+  facilitation: "Facilitation",
+  visual_communication: "Visual communication",
+  social_media: "Social media",
+  reading: "Reading",
+  admin: "Admin",
+  quantitative_analysis: "Quantitative analysis",
+  programming: "Programming",
+  data_analysis: "Data analysis",
+  experimentation: "Experimentation",
+  lab_work: "Lab work",
+  logical_reasoning: "Logical reasoning",
+};
+
+export const backgrounds: Background[] = [
+  { label: "Operations or management", category: "operations_management", skills: ["organising", "process_management", "communication", "admin"] },
+  { label: "Communications, writing, or marketing", category: "communications_writing", skills: ["writing", "communication", "social_media", "visual_communication"] },
+  { label: "Policy, government, or law", category: "policy_government", skills: ["critical_thinking", "research", "writing", "communication"] },
+  { label: "Education or teaching", category: "education_teaching", skills: ["facilitation", "communication", "organising", "research"] },
+  { label: "Finance, consulting, or business", category: "finance_consulting", skills: ["spreadsheets", "research", "organising", "communication"] },
+  { label: "Design or creative work", category: "design_creative", skills: ["visual_communication", "writing", "communication"] },
+  { label: "Philosophy, ethics, or humanities", category: "philosophy_ethics", skills: ["critical_thinking", "reading", "writing", "research"] },
+  { label: "Something else entirely", category: "other", skills: ["communication"], showFreetext: true },
+];
 
 export const fields: Field[] = [
   {
