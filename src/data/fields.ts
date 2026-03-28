@@ -279,6 +279,7 @@ export const fields: Field[] = [
     name: "Psychology",
     slug: "psychology",
     description: "Psychology informs AI safety through understanding human reasoning, persuasion, bias, and how people interact with AI systems.",
+    skills: ["research", "experimentation", "data_analysis", "critical_thinking", "communication"],
     people: [
       { name: "Michal Kosinski", role: "Professor, Stanford GSB", description: "Studies psychological implications of AI, including how AI systems can infer and influence human psychological traits." },
       { name: "Lisa Sohl", role: "Research Fellow, Centre for Long-Term Resilience", description: "Applies behavioral science and psychology to AI governance, studying how cognitive biases affect AI policy decisions." },
