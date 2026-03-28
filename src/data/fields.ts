@@ -214,6 +214,7 @@ export const fields: Field[] = [
     name: "Philosophy",
     slug: "philosophy",
     description: "Philosophy underpins AI alignment — from defining what we want AI to do, to understanding values, consciousness, and moral reasoning.",
+    skills: ["critical_thinking", "reading", "writing", "logical_reasoning", "research"],
     people: [
       { name: "Nick Bostrom", role: "Professor, University of Oxford", description: "Philosopher whose work on superintelligence and existential risk fundamentally shaped the field of AI safety." },
       { name: "Toby Ord", role: "Senior Research Fellow, Oxford", description: "Moral philosopher studying existential risk, author of 'The Precipice', advocating for AI safety as a top global priority." },
