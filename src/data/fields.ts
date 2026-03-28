@@ -85,6 +85,7 @@ export const fields: Field[] = [
     name: "Sociology",
     slug: "sociology",
     description: "Sociological perspectives illuminate how AI systems interact with social structures, power dynamics, and collective behavior.",
+    skills: ["research", "critical_thinking", "writing", "communication", "reading"],
     people: [
       { name: "Kate Crawford", role: "Research Professor, USC Annenberg", description: "Studies the social and political implications of AI, examining how large-scale AI systems encode and amplify social inequalities." },
       { name: "Rumman Chowdhury", role: "CEO, Humane Intelligence", description: "Bridges sociology and AI accountability, leading efforts to create responsible AI auditing practices." },
