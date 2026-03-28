@@ -258,6 +258,7 @@ export const fields: Field[] = [
     name: "Law",
     slug: "law",
     description: "Legal expertise is essential for building governance frameworks, liability structures, and regulatory approaches for AI systems.",
+    skills: ["critical_thinking", "writing", "research", "communication", "reading"],
     people: [
       { name: "Anka Reuel", role: "PhD Researcher, Stanford HAI", description: "Works on AI policy and governance, developing legal frameworks for responsible AI development and deployment." },
       { name: "Jonas Schuett", role: "Researcher, GovAI, Oxford", description: "Studies legal and regulatory approaches to AI governance, including corporate governance of AI labs and international AI law." },
