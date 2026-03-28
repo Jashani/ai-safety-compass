@@ -1,49 +1,43 @@
 
 
-# AI Safety Pathways — Revised Plan
+# Skills & Interests Finder
 
-## Overview
-Single-purpose platform: land on a clean dark home page, search/click a field, navigate to a dedicated field page showing people → trajectory → projects.
+## Concept
+Add a `/explore` page accessible from the home page via a secondary button ("Not sure where to start? Find by skills"). Users select skills/interests from a curated list, and the page shows matching fields ranked by relevance.
 
-## Design
-- **Dark theme, Notion-inspired visually**: Dark background (~#191919), light text, clean sans-serif typography, subtle borders, no heavy colors
-- **No emoji** — field cards use text only
-- **Minimal, focused** — no decorative elements, attention stays on content
+## Home Page Change
+Below the search bar, add a subtle link/button: "Not sure which field? Explore by skills and interests" → navigates to `/explore`.
 
-## Pages
-
-### Home (`/`)
-- Title: "AI Safety Pathways" + one-line subtitle
-- Search bar: filters fields in real-time
-- Field grid: clean cards (3-col desktop, 2 tablet, 1 mobile), each showing field name + one-line relevance to AI Safety
-- Clicking a card navigates to `/field/:slug`
-
-### Field Detail (`/field/:slug`)
+## `/explore` Page Design
+- Same dark minimal aesthetic, same max-w-4xl container
 - Back link to home
-- Field name as heading, brief description
-- Three sections in order, each collapsible (expanded by default):
-  1. **Notable People** — 2-3 individuals with name, role/affiliation, one-line description
-  2. **Trajectory** — How skills transfer, career path bullets
-  3. **Project Ideas** — 2-3 actionable project suggestions with title + description
+- Heading: "Find your path by skills and interests"
+- Subheading: "Select what you're good at or drawn to"
+- Two-step flow, all on one page:
 
-## Technical Details
+**Step 1: Select your background** (optional, helps weight results)
+Clickable chips for career/field categories from your mapping (Operations, Communications, Policy, Education, Finance, Design, Philosophy, Something else). Selecting one auto-checks its associated skills below.
 
-### Files to create/modify:
-1. **`src/data/fields.ts`** — Hardcoded data for ~12 fields (no emoji). Each field: name, slug, description, people array, trajectory array, projects array
-2. **`src/pages/Index.tsx`** — Home page with search + field grid
-3. **`src/pages/FieldDetail.tsx`** — Field detail page with people/trajectory/projects sections
-4. **`src/App.tsx`** — Add `/field/:slug` route
-5. **`src/index.css`** — Update CSS variables for dark theme (bg ~#191919, foreground light, subtle borders)
+**Step 2: Select skills and interests**
+Grid of toggleable chips for all unique skills: critical thinking, research, writing, communication, organising, process management, spreadsheets, facilitation, visual communication, social media, reading, admin. Users can select multiple.
 
-### Dark theme approach
-Set the `:root` variables directly to dark values (not using `.dark` class toggle — this is a dark-only site).
+**Results: Matching fields**
+Below the selections, instantly show matching fields (same card style as home page) sorted by number of matching skills. Each card shows a small "X skills match" indicator. Clicking navigates to `/field/:slug` as usual.
 
-### Sample fields (12, no emoji):
-Economics, Sociology, Cognitive Science, Neuroscience, Chemistry, History, Art, Philosophy, Mathematics, Law, Psychology, Linguistics
+## Data Changes
+- Add `skills` tag array to each `Field` in `fields.ts` (e.g., Economics gets `["critical_thinking", "research", "spreadsheets"]`)
+- Add a `backgrounds` data array with label, category, and mapped skills
+- Add a `skillLabels` map for display names (`"critical_thinking"` → `"Critical thinking"`)
 
-### Components used:
-- Card (for field grid items)
-- Accordion (for collapsible sections on detail page)
-- Input (for search)
-- Existing routing via react-router-dom
+## Files to create/modify
+1. **`src/data/fields.ts`** — Add `skills: string[]` to Field interface and each field entry; add backgrounds and skill labels
+2. **`src/pages/Explore.tsx`** — New page with background chips, skill chips, and filtered results
+3. **`src/pages/Index.tsx`** — Add "Explore by skills" link below search
+4. **`src/App.tsx`** — Add `/explore` route
+
+## Interaction Details
+- Selecting a background pre-selects its mapped skills (but user can toggle any on/off)
+- Results update live as skills are toggled
+- Empty state: "Select some skills to see matching fields"
+- Fields with zero matches are hidden
 
