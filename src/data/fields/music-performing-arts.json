@@ -17,5 +17,7 @@
     { "title": "AI and creative rights framework", "description": "Develop a framework protecting musicians and performers from unauthorized AI replication of their work and style." },
     { "title": "Cultural authenticity audit for AI music", "description": "Evaluate whether AI music generation tools preserve or homogenize diverse cultural musical traditions." },
     { "title": "Fair remuneration models for AI-trained systems", "description": "Design compensation models for artists whose work contributes to AI training data." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

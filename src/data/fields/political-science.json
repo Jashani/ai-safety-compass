@@ -17,5 +17,7 @@
     { "title": "Analyze AI's impact on democratic discourse", "description": "Study how AI-generated content and chatbots affect political attitudes, voter behavior, and democratic deliberation." },
     { "title": "Model the 'Intelligence Curse'", "description": "Develop political economy models of how AI-driven labor displacement could reshape the relationship between states and citizens." },
     { "title": "Compare AI governance across political systems", "description": "Analyze how democracies, authoritarian states, and international institutions are approaching AI governance differently." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

@@ -18,5 +18,7 @@
     { "title": "Apply statistical mechanics to neural networks", "description": "Use physics models of phase transitions and critical phenomena to understand emergent capabilities and failures in large AI models." },
     { "title": "Physics-informed AI training stability", "description": "Develop energy conservation principles for training that make AI development more predictable and controllable." },
     { "title": "Model 'intelligence explosion' dynamics", "description": "Apply dynamical systems theory from physics to model potential recursive self-improvement scenarios and identify safety constraints." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

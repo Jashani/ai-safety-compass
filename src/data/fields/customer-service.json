@@ -14,5 +14,7 @@
     { "title": "Red-team AI customer service bots", "description": "Test AI chatbots with your hardest real-world customer scenarios. Document where they fail and how a human would have handled it differently." },
     { "title": "Write a failure taxonomy for AI support", "description": "Catalog the types of failures AI customer service systems make that experienced support workers catch instantly." },
     { "title": "Design human oversight protocols for AI support", "description": "Create guidelines for when and how human agents should intervene in AI-handled customer interactions." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

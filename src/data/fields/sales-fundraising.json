@@ -14,5 +14,7 @@
     { "title": "Rewrite an AI safety org's pitch", "description": "Pick an AI safety org's donation page and rewrite it as if you were selling to a sceptical prospect. Send it to them." },
     { "title": "Diagnose the sales problem", "description": "Write about why AI safety is a hard sell and develop concrete strategies to make it easier for different donor audiences." },
     { "title": "Open corporate doors", "description": "Build relationships with foundations who should be funding AI safety but aren't yet, and develop the case for support." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

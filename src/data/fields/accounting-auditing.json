@@ -18,5 +18,7 @@
     { "title": "Design AI audit standards", "description": "Adapt financial audit methodologies to create standardized approaches for auditing AI system behavior, fairness, and safety." },
     { "title": "Framework for AI fraud prevention", "description": "Apply anti-fraud frameworks to detect and prevent manipulation and gaming by AI-driven agents in financial and public systems." },
     { "title": "Human-on-the-loop controls for AI agents", "description": "Develop accountability structures for increasingly autonomous AI agents performing long-horizon financial tasks." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

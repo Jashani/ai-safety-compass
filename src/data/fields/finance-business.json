@@ -18,5 +18,7 @@
     { "title": "Corporate governance reforms for AI labs", "description": "Propose governance structures that better align AI lab incentives with safety, drawing on best practices from financial regulation." },
     { "title": "Explainable AI for financial risk management", "description": "Evaluate and improve interpretability methods for AI systems used in lending, insurance, and investment decisions." },
     { "title": "'Superagency' workforce transition models", "description": "Design frameworks for using AI to augment rather than replace workers, with concrete implementation strategies." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

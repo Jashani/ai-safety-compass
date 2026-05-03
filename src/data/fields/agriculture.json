@@ -17,5 +17,7 @@
     { "title": "Agricultural AI vulnerability assessment", "description": "Map how AI-dependent agricultural systems could be disrupted by cyber-attacks, model failures, or supply chain attacks." },
     { "title": "Safe AI yield forecasting standards", "description": "Develop reliability and uncertainty standards for AI systems used in crop yield prediction and agricultural planning." },
     { "title": "Food security impact analysis of AI automation", "description": "Assess how AI automation in agriculture affects food security, livelihoods, and resilience in developing regions." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

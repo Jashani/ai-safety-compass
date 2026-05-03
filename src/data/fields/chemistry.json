@@ -18,5 +18,7 @@
     { "title": "Evaluate chemical AI safety filters", "description": "Test and improve filters on AI chemistry tools to prevent generation of dangerous molecule designs while preserving beneficial research utility." },
     { "title": "Audit AI drug discovery pipelines", "description": "Assess the reproducibility and safety of AI-driven molecular discovery workflows, ensuring they are auditable and transparent." },
     { "title": "Chemical safety benchmarks for AI", "description": "Create evaluation benchmarks that test whether AI chemistry assistants appropriately refuse dangerous synthesis requests." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

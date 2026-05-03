@@ -18,5 +18,7 @@
     { "title": "Study AI-generated content labeling effects", "description": "Design experiments to test how different approaches to labeling AI-generated content affect public trust and behavior." },
     { "title": "Develop AI literacy curricula for journalists", "description": "Create training materials to help journalists critically evaluate AI-generated content and report on AI safety issues accurately." },
     { "title": "Analyze bot influence on public discourse", "description": "Use conversation analysis to map how AI-driven accounts shape political and social discussions online." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

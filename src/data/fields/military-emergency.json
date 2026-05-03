@@ -14,5 +14,7 @@
     { "title": "Threat model an AI system", "description": "Pick an AI system and write three ways it could be exploited or fail catastrophically, drawing on your operational experience." },
     { "title": "Cross-domain safety analysis", "description": "Write about what AI safety can learn from how the military thinks about risk, adversaries, and worst-case planning." },
     { "title": "Build AI deployment threat models", "description": "Help develop threat models for AI deployment scenarios in critical infrastructure, drawing on emergency services experience." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

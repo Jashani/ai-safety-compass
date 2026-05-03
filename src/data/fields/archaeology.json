@@ -18,5 +18,7 @@
     { "title": "Cultural heritage audit of AI training data", "description": "Assess how archaeological and historical cultures are represented (or misrepresented) in major AI training datasets." },
     { "title": "AI-assisted inscription analysis", "description": "Apply AI tools to decipher or reconstruct damaged historical texts while maintaining scholarly rigor and uncertainty quantification." },
     { "title": "Data provenance framework for AI", "description": "Adapt archaeological data documentation practices to create better provenance tracking for AI training data." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

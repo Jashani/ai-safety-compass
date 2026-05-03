@@ -14,5 +14,7 @@
     { "title": "Compare engineering and AI safety standards", "description": "Read AI safety testing practices and identify which engineering standards from your discipline the system would fail." },
     { "title": "Import safety culture to AI", "description": "Write about what AI development can learn from safety engineering in your discipline — near-miss reporting, certification, fail-safes." },
     { "title": "Physical AI safety governance", "description": "Contribute to safety standards for AI in robotics, vehicles, and industrial systems, drawing on mature engineering practices." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

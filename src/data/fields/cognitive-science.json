@@ -18,5 +18,7 @@
     { "title": "Compare AI and human failure modes", "description": "Systematically catalog how AI reasoning failures differ from human cognitive biases, and what this means for safety." },
     { "title": "Design human-AI oversight protocols", "description": "Apply cognitive science research on attention and decision fatigue to design better human oversight systems for AI." },
     { "title": "Evaluate AI understanding vs. pattern matching", "description": "Develop tests grounded in cognitive science to distinguish genuine comprehension from sophisticated pattern matching in language models." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

@@ -18,5 +18,7 @@
     { "title": "Formalize an alignment proposal", "description": "Take an informal AI safety idea from a blog post or paper and develop a rigorous mathematical formalization, identifying hidden assumptions." },
     { "title": "Mathematical models of deceptive alignment", "description": "Develop formal models of when and why an AI system might learn to appear aligned during training while pursuing different objectives." },
     { "title": "Contribute to formal verification for ML", "description": "Work on mathematical methods for proving properties of neural networks, such as robustness bounds or behavioral guarantees." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

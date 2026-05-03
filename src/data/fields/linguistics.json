@@ -17,5 +17,7 @@
     { "title": "Linguistic analysis of LLM failures", "description": "Use linguistic theory to systematically categorize and explain when and why language models produce incoherent, false, or misleading outputs." },
     { "title": "Cross-linguistic AI safety evaluation", "description": "Test whether AI safety measures (refusals, guardrails) work equally well across languages, or if non-English users face greater risks." },
     { "title": "Develop truthfulness benchmarks grounded in linguistics", "description": "Create evaluation datasets that use linguistic theory of presupposition, implicature, and pragmatics to test for subtle forms of AI dishonesty." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

@@ -17,5 +17,7 @@
     { "title": "AI for geological hazard prediction", "description": "Evaluate and improve AI models for earthquake, landslide, and volcanic activity prediction with focus on uncertainty quantification." },
     { "title": "Infrastructure resilience under AI dependency", "description": "Assess vulnerabilities in critical infrastructure that increasingly depends on AI systems, and develop fallback strategies." },
     { "title": "Environmental AI safety standards", "description": "Create guidelines for deploying AI in environmental monitoring that ensure reliability, transparency, and fail-safe operation." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

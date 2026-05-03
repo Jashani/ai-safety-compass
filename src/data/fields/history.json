@@ -18,5 +18,7 @@
     { "title": "Historical case studies of technology governance", "description": "Analyze how nuclear, biotech, or internet governance developed and extract lessons applicable to AI safety regulation." },
     { "title": "Document the history of AI safety as a field", "description": "Create a comprehensive historical account of how AI safety thinking evolved, who the key figures were, and what shaped the discourse." },
     { "title": "Historical analogy analysis for AI risk", "description": "Rigorously evaluate which historical analogies for AI (nuclear, electricity, evolution) are most and least apt, and what each implies for safety." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

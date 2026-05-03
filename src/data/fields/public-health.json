@@ -17,5 +17,7 @@
     { "title": "Audit health AI chatbots for safety", "description": "Evaluate popular health AI chatbots for medical accuracy, appropriate uncertainty communication, and potential harms to patients." },
     { "title": "AI-assisted public health messaging consistency", "description": "Develop tools to detect and resolve conflicts in AI-generated public health guidance during emergencies." },
     { "title": "Health equity impact assessment for AI tools", "description": "Create frameworks for evaluating whether AI health tools serve all populations equitably or amplify existing disparities." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }
