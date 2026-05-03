@@ -18,5 +18,7 @@
     { "title": "Adapt DO-178C for AI systems", "description": "Translate aerospace software certification standards (DO-178C) into frameworks applicable to AI system safety assurance." },
     { "title": "Formal verification for autonomous systems", "description": "Develop formal safety proofs for AI-controlled autonomous vehicles and drones, drawing on aerospace methods." },
     { "title": "AI safety culture from aviation", "description": "Study how aviation's safety culture (incident reporting, investigation, continuous improvement) could be adopted by AI labs." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

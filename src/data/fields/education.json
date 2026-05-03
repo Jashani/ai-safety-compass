@@ -17,5 +17,7 @@
     { "title": "AI-resistant assessment design", "description": "Develop assessment methods that remain meaningful and valid in a world where students have access to powerful generative AI." },
     { "title": "Safe AI tutoring guidelines", "description": "Create standards for AI tutoring systems that ensure they develop student understanding rather than creating dependency." },
     { "title": "Evaluate AI impact on critical thinking", "description": "Study whether widespread use of generative AI in education strengthens or weakens students' critical thinking abilities." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

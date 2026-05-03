@@ -18,5 +18,7 @@
     { "title": "AI-dependent infrastructure risk assessment", "description": "Identify critical infrastructure systems increasingly reliant on AI and assess cascading failure risks." },
     { "title": "Resilience standards for AI in public systems", "description": "Develop engineering standards for AI systems deployed in water, energy, and transportation infrastructure." },
     { "title": "Multi-fidelity testing for AI safety", "description": "Adapt civil engineering simulation approaches to rapidly test AI systems under rare but severe failure conditions." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

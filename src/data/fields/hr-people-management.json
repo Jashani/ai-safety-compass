@@ -14,5 +14,7 @@
     { "title": "Audit AI in hiring", "description": "Check whether organisations are using AI in hiring and assess compliance with emerging regulation like the EU AI Act." },
     { "title": "Build a compliance checklist", "description": "Create a practical checklist for organisations using AI in recruitment, covering fairness, transparency, and legal requirements." },
     { "title": "Translate AI regulation for HR teams", "description": "Write plain-language guides explaining what the EU AI Act's employment provisions mean for HR practitioners." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

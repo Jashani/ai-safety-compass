@@ -19,5 +19,7 @@
     { "title": "Analyze value alignment definitions", "description": "Survey and critically compare different formal and informal definitions of 'AI alignment' in the literature, identifying gaps and contradictions." },
     { "title": "Apply moral uncertainty frameworks to AI", "description": "Develop frameworks for how AI systems should behave under moral uncertainty — when we don't know which ethical theory is correct." },
     { "title": "Philosophy of AI consciousness", "description": "Develop principled criteria for assessing whether AI systems have morally relevant experiences, and what follows if they do." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

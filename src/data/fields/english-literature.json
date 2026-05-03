@@ -17,5 +17,7 @@
     { "title": "Analyze narrative patterns in AI-generated fiction", "description": "Study what kinds of stories AI systems naturally produce and what values, biases, and cultural assumptions they encode." },
     { "title": "Map science fiction's influence on AI development", "description": "Trace how specific sci-fi narratives have shaped AI researchers' assumptions about intelligence, risk, and the future." },
     { "title": "Develop cultural bias audits for generative text", "description": "Create frameworks to detect when AI-generated narratives erase or misrepresent specific cultural traditions and perspectives." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

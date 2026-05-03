@@ -18,5 +18,7 @@
     { "title": "Draft model AI safety legislation", "description": "Write sample legislative language for AI safety requirements, drawing on precedents from other regulated industries." },
     { "title": "Analyze AI liability frameworks", "description": "Compare different legal theories of liability for AI harms and assess which best incentivize safety investment." },
     { "title": "International AI governance treaty analysis", "description": "Study existing international technology agreements and propose frameworks for international AI safety cooperation." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

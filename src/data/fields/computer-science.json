@@ -14,5 +14,7 @@
     { "title": "Map AI failure modes to software bugs", "description": "Read about AI failure modes (reward hacking, goal misgeneralisation, jailbreaking) and map them to software engineering concepts you already understand." },
     { "title": "Review AI safety tooling", "description": "Evaluate open-source AI safety tools from an engineering perspective. What would you improve for reliability and usability?" },
     { "title": "Contribute to safety infrastructure", "description": "Contribute to open-source AI safety tooling — the field's infrastructure desperately needs experienced engineers." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

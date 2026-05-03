@@ -18,5 +18,7 @@
     { "title": "Audit algorithmic risk assessment tools", "description": "Independently review AI tools used in sentencing or parole decisions for bias, accuracy, and compliance with due process." },
     { "title": "Develop 'glass box AI' standards", "description": "Create interpretability requirements for AI systems used in criminal justice, adaptable to other high-stakes domains." },
     { "title": "Map racial bias in predictive policing algorithms", "description": "Analyze how training data from over-policed communities perpetuates discrimination in AI-driven law enforcement tools." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

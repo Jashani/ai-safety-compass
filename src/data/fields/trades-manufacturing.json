@@ -14,5 +14,7 @@
     { "title": "Audit AI safety culture", "description": "Read one AI company's safety practices and compare them to safety protocols in your trade. Write up what's missing." },
     { "title": "Cross-domain safety transfer", "description": "Write about what AI safety can learn from construction site or manufacturing safety culture, including near-miss reporting." },
     { "title": "Physical AI safety standards", "description": "Contribute to safety work on AI in robotics, manufacturing, and autonomous vehicles, drawing on your hands-on experience." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

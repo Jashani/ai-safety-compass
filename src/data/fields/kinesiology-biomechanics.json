@@ -18,5 +18,7 @@
     { "title": "Physical safety standards for AI cobots", "description": "Develop biomechanics-based safety standards for collaborative robots in manufacturing, healthcare, and service environments." },
     { "title": "Impact testing framework for autonomous systems", "description": "Create standardized methods for testing the physical safety of AI-controlled systems that interact with humans." },
     { "title": "Ergonomic guidelines for AI-augmented workplaces", "description": "Design guidelines ensuring AI-enhanced workspaces account for human physical capabilities and injury prevention." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

@@ -17,5 +17,7 @@
     { "title": "Assess AI impact on vulnerable communities", "description": "Study how AI-driven automation, content moderation, and algorithmic services affect marginalized populations." },
     { "title": "Build community resilience models", "description": "Develop data-driven frameworks for predicting and strengthening community resilience against AI-driven economic or social disruption." },
     { "title": "Design participatory AI governance", "description": "Create frameworks for including affected community voices in decisions about how AI systems are deployed in social services." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

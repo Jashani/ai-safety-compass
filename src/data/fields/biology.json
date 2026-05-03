@@ -17,5 +17,7 @@
     { "title": "Assess AI biosecurity threat models", "description": "Evaluate how AI lowers barriers to biological weapon design and develop mitigation strategies for dual-use biology AI tools." },
     { "title": "AI and food security vulnerability analysis", "description": "Map systemic risks from AI use in agriculture, including cyber-attack vectors and supply chain dependencies." },
     { "title": "Generative immunoengineering safety framework", "description": "Develop guidelines for using AI to design synthetic immune responses while preventing misuse for pathogen creation." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

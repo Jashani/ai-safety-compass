@@ -14,5 +14,7 @@
     { "title": "Find dangerous translation errors", "description": "Run medical or legal documents through AI translation into your strongest language. Document where errors could get someone hurt." },
     { "title": "Translate AI safety resources", "description": "Translate key AI safety materials into your native language to help build the international AI safety community." },
     { "title": "Cross-cultural AI safety perspectives", "description": "Write about AI safety from your cultural perspective — what gets lost in English-only discourse?" }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

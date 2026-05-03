@@ -18,5 +18,7 @@
     { "title": "Visualize AI safety concepts", "description": "Create visual explanations, infographics, or interactive art that makes AI alignment concepts accessible to non-technical audiences." },
     { "title": "Human-AI collaboration ethics study", "description": "Document and analyze collaborative creative workflows between humans and AI to develop principles for maintaining human creative agency." },
     { "title": "Design public engagement campaigns", "description": "Create art-based campaigns that help communities understand and engage with AI safety issues in their own contexts." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

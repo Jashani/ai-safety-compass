@@ -18,5 +18,7 @@
     { "title": "Model economic incentives for AI safety investment", "description": "Analyze why firms underinvest in safety research and propose mechanism designs that could correct this market failure." },
     { "title": "Design a 'Token Tax' framework", "description": "Develop an economic model for usage-based AI taxation to fund social safety nets and public goods in a post-labor economy." },
     { "title": "Governance mechanism comparison", "description": "Compare regulatory approaches (liability, licensing, auditing) for AI systems using welfare economics frameworks." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

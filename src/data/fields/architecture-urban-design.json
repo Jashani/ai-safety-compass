@@ -18,5 +18,7 @@
     { "title": "Ethical smart city AI framework", "description": "Develop guidelines for deploying AI in urban environments that protect privacy, ensure equity, and maintain democratic oversight." },
     { "title": "AI-integrated building safety standards", "description": "Create safety standards for buildings increasingly reliant on AI systems for climate control, security, and energy management." },
     { "title": "Critical AI heritage reconstruction", "description": "Develop methodologies for using AI to reconstruct historical sites that explicitly communicate uncertainty and avoid misrepresentation." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

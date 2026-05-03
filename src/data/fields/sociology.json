@@ -18,5 +18,7 @@
     { "title": "Map the AI safety research community", "description": "Conduct a sociological network analysis of the AI safety field — who collaborates, what perspectives are missing, where are the gaps." },
     { "title": "Study human-bot network dynamics", "description": "Analyze how automated accounts and AI agents interact with human social networks and affect cooperation and trust." },
     { "title": "Institutional analysis of AI labs", "description": "Examine organizational cultures and incentive structures at major AI labs from a sociological perspective." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

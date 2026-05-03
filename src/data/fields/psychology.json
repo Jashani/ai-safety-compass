@@ -18,5 +18,7 @@
     { "title": "Design prebunking interventions for AI misinformation", "description": "Create and test psychological 'inoculation' games that build resilience against AI-generated misinformation campaigns." },
     { "title": "Benchmark LLM research competence", "description": "Evaluate whether frontier AI models can independently conduct rigorous behavioral science research, and what safety implications follow." },
     { "title": "AI persuasion risk assessment", "description": "Evaluate the persuasive capabilities of current language models and develop psychological frameworks for assessing manipulation risks." }
-  ]
+  ],
+  "content": [],
+  "questions": []
 }

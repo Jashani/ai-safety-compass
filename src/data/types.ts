@@ -9,6 +9,15 @@ export interface Project {
   description: string;
 }
 
+export type ContentType = "read" | "listen" | "watch";
+
+export interface ContentItem {
+  title: string;
+  type: ContentType;
+  url?: string;
+  description?: string;
+}
+
 export interface Field {
   name: string;
   slug: string;
@@ -17,6 +26,8 @@ export interface Field {
   people: Person[];
   trajectory: string[];
   projects: Project[];
+  content: ContentItem[];
+  questions: string[];
 }
 
 export interface Background {
