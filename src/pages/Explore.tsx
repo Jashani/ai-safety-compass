@@ -1,16 +1,11 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { fields, backgrounds, skillLabels } from "@/data/fields";
+import { fields, skillLabels } from "@/data/fields";
 
 const allSkillKeys = Object.keys(skillLabels);
 
 const Explore = () => {
-  const [selectedBackground, setSelectedBackground] = useState<string | null>(null);
   const [selectedSkills, setSelectedSkills] = useState<Set<string>>(new Set());
-
-  const handleBackgroundClick = (category: string) => {
-    setSelectedBackground((prev) => (prev === category ? null : category));
-  };
 
   const toggleSkill = (skill: string) => {
     setSelectedSkills((prev) => {
@@ -49,33 +44,11 @@ const Explore = () => {
             Find your path by skills and interests
           </h1>
           <p className="text-muted-foreground text-base">
-            Select what you're good at or drawn to.
+            Select the skills you have or are interested in developing.
           </p>
         </header>
 
-        {/* Step 1: Background */}
-        <section className="mb-10">
-          <h2 className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-4">
-            Your background
-          </h2>
-          <div className="flex flex-wrap gap-2">
-            {backgrounds.map((bg) => (
-              <button
-                key={bg.category}
-                onClick={() => handleBackgroundClick(bg.category)}
-                className={`rounded-md border px-3 py-1.5 text-sm transition-colors ${
-                  selectedBackground === bg.category
-                    ? "border-foreground bg-foreground text-background"
-                    : "border-border text-muted-foreground hover:border-muted-foreground/60 hover:text-foreground"
-                }`}
-              >
-                {bg.label}
-              </button>
-            ))}
-          </div>
-        </section>
-
-        {/* Step 2: Skills */}
+        {/* Skills */}
         <section className="mb-12">
           <h2 className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-4">
             Skills and interests
