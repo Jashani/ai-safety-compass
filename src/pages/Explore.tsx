@@ -9,25 +9,7 @@ const Explore = () => {
   const [selectedSkills, setSelectedSkills] = useState<Set<string>>(new Set());
 
   const handleBackgroundClick = (category: string) => {
-    const bg = backgrounds.find((b) => b.category === category);
-    if (!bg) return;
-
-    if (selectedBackground === category) {
-      // Deselect: remove this background's skills
-      setSelectedBackground(null);
-      setSelectedSkills((prev) => {
-        const next = new Set(prev);
-        bg.skills.forEach((s) => next.delete(s));
-        return next;
-      });
-    } else {
-      setSelectedBackground(category);
-      setSelectedSkills((prev) => {
-        const next = new Set(prev);
-        bg.skills.forEach((s) => next.add(s));
-        return next;
-      });
-    }
+    setSelectedBackground((prev) => (prev === category ? null : category));
   };
 
   const toggleSkill = (skill: string) => {
