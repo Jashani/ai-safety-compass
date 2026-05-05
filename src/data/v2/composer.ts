@@ -39,6 +39,15 @@ const stableSort = <T extends { id: string }>(arr: T[], score: (x: T) => number)
     .sort((a, b) => b.s - a.s || a.x.id.localeCompare(b.x.id))
     .map(({ x }) => x);
 
+const topicName = (t: string) => domainDisplay[t] || t;
+
+const formatList = (items: string[]): string => {
+  if (items.length === 0) return "";
+  if (items.length === 1) return items[0];
+  if (items.length === 2) return `${items[0]} or ${items[1]}`;
+  return `${items.slice(0, -1).join(", ")}, or ${items[items.length - 1]}`;
+};
+
 export const effectiveTopics = (profile: Profile): string[] => {
   const bg = profile.backgroundId ? backgroundsById[profile.backgroundId] : undefined;
   const fromBackground = bg ? valuesByAxis(bg.labels, "domain") : [];
@@ -121,8 +130,12 @@ export const composePlan = (profile: Profile): Plan => {
   const todayConsume = consumeRanked[0];
 
   if (todayConsume && todayConsume.level === "deep") {
+    const consumeTopics = todayConsume.labels
+      .filter((l) => l.axis === "domain" && topics.includes(l.value))
+      .map((l) => topicName(l.value));
+    const where = consumeTopics.length > 0 ? ` on ${formatList(consumeTopics)}` : "";
     gaps.push(
-      "We don't have a short, intro-level piece on this yet. Below is the most relevant thing we have — help us find better."
+      `We don't have a short, intro-level piece${where} yet. Below is the most relevant thing we have — help us find better.`
     );
   }
 
@@ -137,8 +150,10 @@ export const composePlan = (profile: Profile): Plan => {
     todayDoOrTry = peopleRanked[0];
   }
   if (!todayDoOrTry) {
+    const where =
+      topics.length > 0 ? ` for ${formatList(topics.map(topicName))}` : "";
     gaps.push(
-      "We don't yet have an interactive tool or person to DM in this space. Got a suggestion?"
+      `We don't yet have an interactive tool or person to DM${where}. Got a suggestion?`
     );
   }
 
@@ -148,8 +163,10 @@ export const composePlan = (profile: Profile): Plan => {
   ).filter((t) => scoreProduce(t, topics, createModes) > 0);
   const todayProduce = produceRanked[0];
   if (!todayProduce) {
+    const where =
+      topics.length > 0 ? ` for ${formatList(topics.map(topicName))}` : "";
     gaps.push(
-      "We don't have a produce prompt that matches your topic and create-mode yet — try the brainstorm prompt below."
+      `We don't have a produce prompt${where} that matches your create-mode yet — try the brainstorm prompt below.`
     );
   }
 
@@ -216,14 +233,21 @@ export const composePlan = (profile: Profile): Plan => {
     .filter(Boolean)
     .join(" ");
 
-  // Note potential format gaps.
-  if (matchedContent.length > 0) {
-    const formats = new Set(matchedContent.map((c) => c.format));
-    if (!formats.has("podcast") && !formats.has("video")) {
-      gaps.push(
-        "We don't have any listening or watching material on this yet — help us find some."
-      );
-    }
+  // Note potential format gaps — per topic, so users see which space lacks AV material.
+  const topicsLackingAV = topics.filter((t) => {
+    const inTopic = matchedContent.filter((c) =>
+      c.labels.some((l) => l.axis === "domain" && l.value === t)
+    );
+    if (inTopic.length === 0) return false; // covered by the empty-topic gap
+    const formats = new Set(inTopic.map((c) => c.format));
+    return !formats.has("podcast") && !formats.has("video");
+  });
+  if (topicsLackingAV.length > 0) {
+    gaps.push(
+      `We don't have any listening or watching material on ${formatList(
+        topicsLackingAV.map(topicName)
+      )} yet — help us find some.`
+    );
   }
 
   return {
