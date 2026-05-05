@@ -62,8 +62,14 @@ const Plan = () => {
   const plan = useMemo(() => composePlan(profile), [profile]);
   const bg = profile.backgroundId ? backgroundsById[profile.backgroundId] : undefined;
 
-  const topicNames = profile.topics.map((t) => domainDisplay[t] || t).join(", ");
-  const modeNames = profile.createModes.map((m) => createModeDisplay[m] || m).join(", ");
+  const topicNames = profile.topics
+    .map((t) => domainDisplay[t])
+    .filter(Boolean)
+    .join(", ");
+  const modeNames = profile.createModes
+    .map((m) => createModeDisplay[m])
+    .filter(Boolean)
+    .join(", ");
 
   const copyPrompt = async () => {
     await navigator.clipboard.writeText(plan.brainstormPrompt);
