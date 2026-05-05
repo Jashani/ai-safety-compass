@@ -5,7 +5,7 @@ export const domains: LabelDef[] = [
   { value: "medical", display: "AI in healthcare & medicine" },
   { value: "misinformation", display: "Misinformation & disinformation" },
   { value: "future_of_work", display: "Future of work" },
-  { value: "kids_and_ai", display: "Kids & AI" },
+  { value: "ai_and_children", display: "AI effects on children" },
   { value: "human_ai_relationships", display: "Human–AI relationships" },
   { value: "governance", display: "AI governance & policy" },
   { value: "biorisk", display: "Biorisk" },
