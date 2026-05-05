@@ -1,5 +1,6 @@
 import { backgroundsById } from "./backgrounds";
 import { content as allContent } from "./content";
+import { domainDisplay } from "./labels";
 import { people as allPeople } from "./people";
 import { projects as allProjects } from "./projects";
 import { produceTemplates } from "./produce";
@@ -93,6 +94,21 @@ export const composePlan = (profile: Profile): Plan => {
 
   // Filter content to topic-matching, then rank.
   const matchedContent = allContent.filter((c) => scoreContent(c, topics) > 0);
+
+  // Per-topic: flag any topic with zero content so users know we have a gap there.
+  const emptyTopics = topics.filter(
+    (t) =>
+      !allContent.some((c) =>
+        c.labels.some((l) => l.axis === "domain" && l.value === t)
+      )
+  );
+  if (emptyTopics.length > 0) {
+    const names = emptyTopics.map((t) => domainDisplay[t] || t).join(", ");
+    const verb = emptyTopics.length === 1 ? "is" : "are";
+    gaps.push(
+      `${names} ${verb} on our list but we don't have any content for it yet — your contributions would directly fill this gap.`
+    );
+  }
 
   // Slot 1: a consume-friendly piece, prefer intro/short.
   const consumeRanked = stableSort(matchedContent, (c) => {
