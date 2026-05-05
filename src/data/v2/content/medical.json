@@ -1,0 +1,35 @@
+[
+  {
+    "id": "med-pubmed-41236701",
+    "title": "Clinical reasoning and AI decision support (PubMed 41236701)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41236701/",
+    "summary": "Peer-reviewed study on how AI decision-support tools intersect with clinician judgement in practice.",
+    "format": "paper",
+    "consume": "read",
+    "level": "deep",
+    "minutes": 45,
+    "domains": ["medical"]
+  },
+  {
+    "id": "med-arxiv-2509-08833",
+    "title": "Safety considerations for medical LLMs",
+    "url": "https://arxiv.org/html/2509.08833v2",
+    "summary": "arXiv preprint on safety questions specific to medical large language models.",
+    "format": "paper",
+    "consume": "read",
+    "level": "deep",
+    "minutes": 60,
+    "domains": ["medical"]
+  },
+  {
+    "id": "med-pmc-12710678",
+    "title": "AI in clinical settings (PMC 12710678)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12710678/",
+    "summary": "Peer-reviewed article on AI integration in clinical practice and associated risks.",
+    "format": "paper",
+    "consume": "read",
+    "level": "deep",
+    "minutes": 45,
+    "domains": ["medical"]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "id": "misinfo-debunkbot",
+    "title": "DebunkBot — chat with an AI that argues against conspiracy beliefs",
+    "url": "https://debunkbot.com/",
+    "byline": "Costello, Pennycook & Rand",
+    "summary": "An interactive demo from the study showing personalised LLM dialogues meaningfully reduce belief in conspiracy theories. Try it for 15 minutes and notice what shifts.",
+    "format": "interactive",
+    "consume": "try",
+    "level": "intro",
+    "minutes": 15,
+    "domains": ["misinformation"],
+    "actions": ["try_it"]
+  },
+  {
+    "id": "misinfo-wef-2026",
+    "title": "How cognitive manipulation and AI will shape disinformation in 2026",
+    "url": "https://www.weforum.org/stories/2026/03/how-cognitive-manipulation-and-ai-will-shape-disinformation-in-2026/",
+    "byline": "World Economic Forum",
+    "summary": "Accessible piece framing the landscape of AI-shaped disinformation — good starting context before diving into research.",
+    "format": "article",
+    "consume": "read",
+    "level": "intro",
+    "minutes": 10,
+    "domains": ["misinformation"]
+  },
+  {
+    "id": "misinfo-mdpi-15-6-299",
+    "title": "Misinformation and the information ecosystem",
+    "url": "https://www.mdpi.com/2078-2489/15/6/299",
+    "summary": "Open-access journal article on the dynamics of misinformation in modern information systems.",
+    "format": "paper",
+    "consume": "read",
+    "level": "intermediate",
+    "minutes": 40,
+    "domains": ["misinformation"]
+  },
+  {
+    "id": "misinfo-genai-perception-policy",
+    "title": "Misinformation, Disinformation, and Generative AI: Implications for Perception and Policy",
+    "url": "https://www.researchgate.net/publication/383365447_Misinformation_Disinformation_and_Generative_AI_Implications_for_Perception_and_Policy",
+    "summary": "Survey-style paper connecting generative AI to perception effects and policy responses.",
+    "format": "paper",
+    "consume": "read",
+    "level": "deep",
+    "minutes": 50,
+    "domains": ["misinformation", "governance"]
+  }
+]

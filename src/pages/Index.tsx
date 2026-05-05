@@ -1,66 +1,52 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
-import { fields } from "@/data/fields";
-import { Input } from "@/components/ui/input";
 
 const Index = () => {
-  const [search, setSearch] = useState("");
-
-  const filtered = fields.filter(
-    (f) =>
-      f.name.toLowerCase().includes(search.toLowerCase()) ||
-      f.description.toLowerCase().includes(search.toLowerCase())
-  );
-
   return (
     <div className="min-h-screen bg-background text-foreground">
-      <div className="mx-auto max-w-4xl px-6 py-16">
+      <div className="mx-auto max-w-2xl px-6 py-24">
         <header className="mb-12">
-          <h1 className="text-3xl font-semibold tracking-tight mb-2">
-            AI Safety Pathways
+          <h1 className="text-4xl font-semibold tracking-tight mb-3">
+            AI Safety Compass
           </h1>
-          <p className="text-muted-foreground text-base">
-            Find your path to AI Safety from any field.
+          <p className="text-muted-foreground text-lg leading-relaxed">
+            Find your first move into AI safety, today. Whatever your background.
           </p>
         </header>
 
-        <Input
-          type="text"
-          placeholder="Search fields..."
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-        className="mb-4 max-w-md bg-card border-border"
-      />
+        <div className="space-y-4 mb-16">
+          <Link
+            to="/intake"
+            className="block rounded-lg border border-foreground bg-foreground text-background p-5 hover:opacity-90 transition-opacity"
+          >
+            <h2 className="text-base font-medium mb-1">Build my action plan</h2>
+            <p className="text-sm opacity-80 leading-relaxed">
+              Three quick questions. You'll get something concrete to read, do, and make today.
+            </p>
+          </Link>
 
-        <Link
-          to="/explore"
-          className="inline-block text-sm text-muted-foreground hover:text-foreground transition-colors mb-10"
-        >
-          Not sure which field? Explore by skills and interests &rarr;
-        </Link>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {filtered.map((field) => (
-            <Link
-              key={field.slug}
-              to={`/field/${field.slug}`}
-              className="group block rounded-lg border border-border bg-card p-5 transition-colors hover:border-muted-foreground/40"
-            >
-              <h2 className="text-base font-medium mb-1.5 group-hover:text-foreground">
-                {field.name}
-              </h2>
-              <p className="text-sm text-muted-foreground leading-relaxed line-clamp-2">
-                {field.description}
-              </p>
-            </Link>
-          ))}
+          <Link
+            to="/explore"
+            className="block rounded-lg border border-border bg-card p-5 hover:border-muted-foreground/40 transition-colors"
+          >
+            <h2 className="text-base font-medium mb-1">Browse fields</h2>
+            <p className="text-sm text-muted-foreground leading-relaxed">
+              Or poke around by background and skill if you'd rather forage.
+            </p>
+          </Link>
         </div>
 
-        {filtered.length === 0 && (
-          <p className="text-muted-foreground text-sm mt-8">
-            No fields match your search.
-          </p>
-        )}
+        <p className="text-xs text-muted-foreground leading-relaxed">
+          Built for the AI Safety Breaking Barriers Hackathon and anyone taking first steps into the field.{" "}
+          <a
+            href="https://github.com/Jashani/ai-safety-compass"
+            target="_blank"
+            rel="noreferrer"
+            className="underline hover:text-foreground transition-colors"
+          >
+            Contribute on GitHub
+          </a>
+          .
+        </p>
       </div>
     </div>
   );

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "fow-arxiv-2504-13959",
+    "title": "AI and labour markets",
+    "url": "https://arxiv.org/html/2504.13959v2",
+    "summary": "arXiv preprint on AI's effects on labour markets and work.",
+    "format": "paper",
+    "consume": "read",
+    "level": "deep",
+    "minutes": 60,
+    "domains": ["future_of_work"]
+  },
+  {
+    "id": "fow-digitalexaminer-2026",
+    "title": "AI job displacement in 2026",
+    "url": "https://www.digitalexaminer.com/ai-job-displacement-2026/",
+    "summary": "Popular-press take on where AI is reshaping employment now.",
+    "format": "article",
+    "consume": "read",
+    "level": "intro",
+    "minutes": 10,
+    "domains": ["future_of_work"]
+  }
+]
