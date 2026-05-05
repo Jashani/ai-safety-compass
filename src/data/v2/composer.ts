@@ -49,14 +49,9 @@ const formatList = (items: string[]): string => {
 };
 
 export const effectiveTopics = (profile: Profile): string[] => {
-  const bg = profile.backgroundId ? backgroundsById[profile.backgroundId] : undefined;
-  const fromBackground = bg ? valuesByAxis(bg.labels, "domain") : [];
-  const seen = new Set<string>();
-  return [...profile.topics, ...fromBackground].filter((t) => {
-    if (seen.has(t)) return false;
-    seen.add(t);
-    return true;
-  });
+  // Topics are the user's explicit choice. Background's domains are surfaced as
+  // suggestions in the intake; the user picks them or doesn't.
+  return [...profile.topics];
 };
 
 const scoreContent = (c: Content, topics: string[]): number => {

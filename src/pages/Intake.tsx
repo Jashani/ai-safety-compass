@@ -1,6 +1,6 @@
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { backgrounds } from "@/data/v2/backgrounds";
+import { backgrounds, backgroundsById } from "@/data/v2/backgrounds";
 import { createModes, domains } from "@/data/v2/labels";
 
 const Intake = () => {
@@ -8,6 +8,26 @@ const Intake = () => {
   const [backgroundId, setBackgroundId] = useState<string>("");
   const [topics, setTopics] = useState<Set<string>>(new Set());
   const [modes, setModes] = useState<Set<string>>(new Set());
+
+  const suggestedTopicValues = useMemo(() => {
+    const bg = backgroundId ? backgroundsById[backgroundId] : undefined;
+    if (!bg) return new Set<string>();
+    return new Set(
+      bg.labels
+        .filter((l) => l.axis === "domain")
+        .map((l) => l.value)
+        .filter((v) => domains.some((d) => d.value === v))
+    );
+  }, [backgroundId]);
+
+  const suggestedDomains = useMemo(
+    () => domains.filter((d) => suggestedTopicValues.has(d.value)),
+    [suggestedTopicValues]
+  );
+  const otherDomains = useMemo(
+    () => domains.filter((d) => !suggestedTopicValues.has(d.value)),
+    [suggestedTopicValues]
+  );
 
   const toggle = (set: Set<string>, value: string, setter: (s: Set<string>) => void) => {
     const next = new Set(set);
@@ -71,8 +91,36 @@ const Intake = () => {
           <h2 className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-4">
             What pulls you in?
           </h2>
+
+          {suggestedDomains.length > 0 && (
+            <div className="mb-5">
+              <p className="text-xs text-muted-foreground mb-2">
+                Based on your background, you may be interested in:
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {suggestedDomains.map((d) => (
+                  <button
+                    key={d.value}
+                    onClick={() => toggle(topics, d.value, setTopics)}
+                    className={`rounded-md border px-3 py-1.5 text-sm transition-colors ${
+                      topics.has(d.value)
+                        ? "border-foreground bg-foreground text-background"
+                        : "border-foreground/40 text-foreground hover:border-foreground/70"
+                    }`}
+                  >
+                    {d.display}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {suggestedDomains.length > 0 && otherDomains.length > 0 && (
+            <p className="text-xs text-muted-foreground mb-2">Other topics:</p>
+          )}
+
           <div className="flex flex-wrap gap-2">
-            {domains.map((d) => (
+            {otherDomains.map((d) => (
               <button
                 key={d.value}
                 onClick={() => toggle(topics, d.value, setTopics)}
