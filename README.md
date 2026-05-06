@@ -54,7 +54,7 @@ The data model is intentionally easy to edit: small JSON files, friendly field n
 
 ## Adding a piece of content (article, paper, video, podcast, interactive tool)
 
-Open the relevant file in [src/data/v2/content/](src/data/v2/content/) — one JSON per domain (`medical.json`, `misinformation.json`, `future-of-work.json`, etc.) — and append an item:
+Open the relevant file in [src/data/v2/content/](src/data/v2/content/) — one JSON per category (`philosophy.json`, `catastrophic-risk.json`, `technical-safety.json`, `human-ai-interaction.json`, `governance.json`, `domain-specific.json`, `misinformation.json`, `ai-and-children.json`) — and append an item:
 
 ```jsonc
 {
@@ -63,7 +63,7 @@ Open the relevant file in [src/data/v2/content/](src/data/v2/content/) — one J
   "url": "https://example.com/post",
   "byline": "Jane Doe",                     // optional
   "summary": "Why someone should read this in 1–2 sentences.",
-  "format": "article",                      // paper | article | blog | video | podcast | interactive | tool | book
+  "format": "article",                      // paper | article | blog | video | podcast | interactive | tool | book | org
   "consume": "read",                        // read | listen | watch | try
   "level": "intro",                         // intro | intermediate | deep
   "minutes": 8,                             // optional time-to-consume
@@ -73,7 +73,9 @@ Open the relevant file in [src/data/v2/content/](src/data/v2/content/) — one J
 }
 ```
 
-**Cross-domain content** (e.g. a paper about both misinformation and governance) just lists multiple domains: `"domains": ["misinformation", "governance"]`. Put the file under whichever domain is the better-fit home.
+**Cross-domain content** (e.g. a paper about both misinformation and governance) just lists multiple domains: `"domains": ["misinformation", "governance"]`. Put the item in the file for whichever category is the better-fit home — the matcher uses the `domains` tags inside, not the filename.
+
+Available domain values are defined in [src/data/v2/labels.ts](src/data/v2/labels.ts) under `domains`. Each carries a `category` for UI grouping (e.g. `biorisk` lives under "Catastrophic risk").
 
 We especially need:
 
@@ -82,7 +84,7 @@ We especially need:
 - **Interactive things** (tools, demos, things to play with for 15 minutes)
 - Anything by people who post regularly on LinkedIn, Substack, or Twitter — the site is currently academic-paper-heavy
 
-If you want to add a brand-new domain, also add an entry to `domains` in [src/data/v2/labels.ts](src/data/v2/labels.ts), and import the new JSON file in [src/data/v2/content/index.ts](src/data/v2/content/index.ts).
+If you want to add a brand-new domain, add an entry to `domains` in [src/data/v2/labels.ts](src/data/v2/labels.ts) (with the right `category`). If you're starting a new category, add it to `domainCategories` in the same file and create a new JSON in `src/data/v2/content/`, then import it in [src/data/v2/content/index.ts](src/data/v2/content/index.ts).
 
 ## Adding a person to follow
 
@@ -200,11 +202,16 @@ src/
 │   └── v2/                ← current data model
 │       ├── types.ts                       schema
 │       ├── labels.ts                      domain & create-mode vocabularies
-│       ├── content/                       per-domain content JSON files
+│       ├── content/                       per-category content JSON files
 │       │   ├── index.ts                   loader
-│       │   ├── medical.json
+│       │   ├── philosophy.json
+│       │   ├── ai-and-children.json
+│       │   ├── catastrophic-risk.json
+│       │   ├── technical-safety.json
+│       │   ├── human-ai-interaction.json
 │       │   ├── misinformation.json
-│       │   └── future-of-work.json
+│       │   ├── governance.json
+│       │   └── domain-specific.json
 │       ├── people.ts
 │       ├── projects.ts
 │       ├── produce.ts                     "one thing to make" prompts

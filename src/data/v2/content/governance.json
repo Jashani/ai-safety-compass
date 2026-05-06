@@ -1,0 +1,60 @@
+[
+  {
+    "id": "geo-helen-toner-80k",
+    "title": "Helen Toner on the geopolitics of AI in China and the Middle East",
+    "url": "https://80000hours.org/podcast/episodes/helen-toner-ai-policy-washington-dc/",
+    "byline": "80,000 Hours podcast",
+    "summary": "Long interview with one of the most respected voices on AI policy — covers China, the Middle East, and the politics of frontier AI.",
+    "format": "podcast",
+    "consume": "listen",
+    "level": "intermediate",
+    "minutes": 150,
+    "domains": ["geopolitics", "governance"]
+  },
+  {
+    "id": "fow-arxiv-2504-13959",
+    "title": "AI and labour markets",
+    "url": "https://arxiv.org/html/2504.13959v2",
+    "summary": "arXiv preprint on AI's effects on labour markets and work.",
+    "format": "paper",
+    "consume": "read",
+    "level": "deep",
+    "minutes": 60,
+    "domains": ["future_of_work"]
+  },
+  {
+    "id": "fow-digitalexaminer-2026",
+    "title": "AI job displacement in 2026",
+    "url": "https://www.digitalexaminer.com/ai-job-displacement-2026/",
+    "summary": "Popular-press take on where AI is reshaping employment now.",
+    "format": "article",
+    "consume": "read",
+    "level": "intro",
+    "minutes": 10,
+    "domains": ["future_of_work"]
+  },
+  {
+    "id": "fow-acemoglu-restrepo",
+    "title": "Artificial Intelligence, Automation and Work",
+    "url": "https://www.nber.org/papers/w24196",
+    "byline": "Acemoglu & Restrepo, NBER",
+    "summary": "Influential economics paper on how AI and automation reshape labour markets — a foundational read for thinking about the future of work.",
+    "format": "paper",
+    "consume": "read",
+    "level": "deep",
+    "minutes": 60,
+    "domains": ["future_of_work"]
+  },
+  {
+    "id": "fow-imf-acemoglu-johnson",
+    "title": "AI must complement workers, not replace them",
+    "url": "https://www.imf.org/en/publications/fandd/issues/2023/12/rebalancing-ai-acemoglu-johnson",
+    "byline": "Acemoglu & Johnson, IMF F&D",
+    "summary": "Short article-and-podcast arguing for an AI development direction that supports shared prosperity.",
+    "format": "article",
+    "consume": "read",
+    "level": "intro",
+    "minutes": 9,
+    "domains": ["future_of_work"]
+  }
+]

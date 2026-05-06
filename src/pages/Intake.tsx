@@ -1,7 +1,8 @@
 import { useMemo, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { backgrounds, backgroundsById } from "@/data/v2/backgrounds";
-import { createModes, domains } from "@/data/v2/labels";
+import { createModes, domainCategories, domains } from "@/data/v2/labels";
+import type { LabelDef } from "@/data/v2/types";
 
 const Intake = () => {
   const navigate = useNavigate();
@@ -28,6 +29,19 @@ const Intake = () => {
     () => domains.filter((d) => !suggestedTopicValues.has(d.value)),
     [suggestedTopicValues]
   );
+
+  const otherDomainsByCategory = useMemo(() => {
+    const groups: { category: string; items: LabelDef[] }[] = [];
+    for (const cat of domainCategories) {
+      const items = otherDomains.filter((d) => d.category === cat);
+      if (items.length > 0) groups.push({ category: cat, items });
+    }
+    const uncategorised = otherDomains.filter(
+      (d) => !d.category || !domainCategories.includes(d.category)
+    );
+    if (uncategorised.length > 0) groups.push({ category: "Other", items: uncategorised });
+    return groups;
+  }, [otherDomains]);
 
   const toggle = (set: Set<string>, value: string, setter: (s: Set<string>) => void) => {
     const next = new Set(set);
@@ -115,23 +129,32 @@ const Intake = () => {
             </div>
           )}
 
-          {suggestedDomains.length > 0 && otherDomains.length > 0 && (
-            <p className="text-xs text-muted-foreground mb-2">Other topics:</p>
+          {suggestedDomains.length > 0 && otherDomainsByCategory.length > 0 && (
+            <p className="text-xs text-muted-foreground mb-3 mt-1">Other topics:</p>
           )}
 
-          <div className="flex flex-wrap gap-2">
-            {otherDomains.map((d) => (
-              <button
-                key={d.value}
-                onClick={() => toggle(topics, d.value, setTopics)}
-                className={`rounded-md border px-3 py-1.5 text-sm transition-colors ${
-                  topics.has(d.value)
-                    ? "border-foreground bg-foreground text-background"
-                    : "border-border text-muted-foreground hover:border-muted-foreground/60 hover:text-foreground"
-                }`}
-              >
-                {d.display}
-              </button>
+          <div className="space-y-5">
+            {otherDomainsByCategory.map(({ category, items }) => (
+              <div key={category}>
+                <p className="text-xs uppercase tracking-wide text-muted-foreground/70 mb-2">
+                  {category}
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {items.map((d) => (
+                    <button
+                      key={d.value}
+                      onClick={() => toggle(topics, d.value, setTopics)}
+                      className={`rounded-md border px-3 py-1.5 text-sm transition-colors ${
+                        topics.has(d.value)
+                          ? "border-foreground bg-foreground text-background"
+                          : "border-border text-muted-foreground hover:border-muted-foreground/60 hover:text-foreground"
+                      }`}
+                    >
+                      {d.display}
+                    </button>
+                  ))}
+                </div>
+              </div>
             ))}
           </div>
         </section>

@@ -1,0 +1,116 @@
+[
+  {
+    "id": "comp-dark-side-paper",
+    "title": "The Dark Side of AI Companionship: A Taxonomy of Harmful Algorithmic Behaviors in Human-AI Relationships",
+    "url": "https://dl.acm.org/doi/10.1145/3706598.3713429",
+    "summary": "Empirical taxonomy of harms that emerge when people form relationships with AI companions — concrete categories and examples.",
+    "format": "paper",
+    "consume": "read",
+    "level": "intermediate",
+    "minutes": 50,
+    "domains": ["ai_companionship"]
+  },
+  {
+    "id": "comp-npr-bot-relationship",
+    "title": "If a bot relationship FEELS real, should we care that it's not?",
+    "url": "https://www.npr.org/2024/07/01/1247296788/the-benefits-and-drawbacks-of-chatbot-relationships",
+    "byline": "NPR",
+    "summary": "Short, accessible podcast episode on the lived experience of chatbot relationships and what's at stake.",
+    "format": "podcast",
+    "consume": "listen",
+    "level": "intro",
+    "minutes": 27,
+    "domains": ["ai_companionship"]
+  },
+  {
+    "id": "manip-sycophantic-prosocial",
+    "title": "Sycophantic AI decreases prosocial intentions and promotes dependence",
+    "url": "https://www.science.org/doi/10.1126/science.aec8352",
+    "byline": "Science",
+    "summary": "Empirical study on how sycophantic AI behaviour shapes user behaviour — pushes them toward dependence and away from prosocial action.",
+    "format": "paper",
+    "consume": "read",
+    "level": "intermediate",
+    "minutes": 30,
+    "domains": ["manipulation_and_sycophancy"]
+  },
+  {
+    "id": "manip-attacks-misaligned-ai",
+    "title": "Manipulation Attacks by Misaligned AI: Risk Analysis and Safety Case Framework",
+    "url": "https://arxiv.org/abs/2507.12872",
+    "summary": "Risk-analysis paper proposing how to think about manipulation attacks from misaligned AI systems and how to argue safety against them.",
+    "format": "paper",
+    "consume": "read",
+    "level": "deep",
+    "minutes": 60,
+    "domains": ["manipulation_and_sycophancy"]
+  },
+  {
+    "id": "manip-ask-dont-tell",
+    "title": "Ask don't tell: Reducing sycophancy in large language models",
+    "url": "https://arxiv.org/abs/2602.23971",
+    "summary": "Method paper on a concrete intervention to reduce sycophantic behaviour in LLMs.",
+    "format": "paper",
+    "consume": "read",
+    "level": "deep",
+    "minutes": 45,
+    "domains": ["manipulation_and_sycophancy"]
+  },
+  {
+    "id": "cog-brain-on-chatgpt-paper",
+    "title": "Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing",
+    "url": "https://www.brainonllm.com/",
+    "byline": "Kos'myna et al., MIT Media Lab",
+    "summary": "MIT study showing measurable changes in brain activity and engagement when participants use AI assistants for writing.",
+    "format": "paper",
+    "consume": "read",
+    "level": "intermediate",
+    "minutes": 50,
+    "domains": ["cognitive_resilience"]
+  },
+  {
+    "id": "cog-mit-cognitive-costs",
+    "title": "The Cognitive Costs of ChatGPT: Understanding MIT's Viral Study",
+    "url": "https://brainmindsociety.org/posts/the-cognitive-costs-of-chatgpt-understanding-mits-viral-study",
+    "summary": "Accessible explainer of the MIT 'Brain on ChatGPT' study — what the results show and what they don't.",
+    "format": "article",
+    "consume": "read",
+    "level": "intro",
+    "minutes": 15,
+    "domains": ["cognitive_resilience"]
+  },
+  {
+    "id": "cog-brain-on-chatgpt-video",
+    "title": "Video walkthrough of 'Your Brain on ChatGPT'",
+    "url": "https://www.youtube.com/watch?v=eET6eP3GGAg",
+    "summary": "Video summarising the MIT cognitive-debt study and its implications.",
+    "format": "video",
+    "consume": "watch",
+    "level": "intro",
+    "minutes": 20,
+    "domains": ["cognitive_resilience"]
+  },
+  {
+    "id": "cog-brainonllm-reading",
+    "title": "Brain on LLM — additional reading",
+    "url": "https://www.brainonllm.com/reading",
+    "summary": "Curated reading list from the Brain on LLM project covering cognitive impacts of AI use.",
+    "format": "article",
+    "consume": "read",
+    "level": "intro",
+    "minutes": 10,
+    "domains": ["cognitive_resilience"]
+  },
+  {
+    "id": "cog-feedback-loops-nature",
+    "title": "How human–AI feedback loops alter human perceptual, emotional and social judgements",
+    "url": "https://www.nature.com/articles/s41562-024-02077-2",
+    "byline": "Nature Human Behaviour",
+    "summary": "Empirical study showing AI use measurably reshapes how humans perceive and judge — relevant to long-run cognitive resilience questions.",
+    "format": "paper",
+    "consume": "read",
+    "level": "intermediate",
+    "minutes": 40,
+    "domains": ["cognitive_resilience", "manipulation_and_sycophancy"]
+  }
+]

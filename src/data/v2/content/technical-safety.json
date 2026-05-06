@@ -1,0 +1,148 @@
+[
+  {
+    "id": "tech-bluedot-course",
+    "title": "BlueDot — Technical AI Safety course",
+    "url": "https://bluedot.org/courses/technical-ai-safety",
+    "summary": "Structured part-time course in technical AI safety. The standard recommendation for people moving from technical backgrounds into the field.",
+    "format": "tool",
+    "consume": "try",
+    "level": "intermediate",
+    "domains": ["technical_safety"],
+    "actions": ["try_it"]
+  },
+  {
+    "id": "interp-biology-of-llm",
+    "title": "On the Biology of a Large Language Model",
+    "url": "https://transformer-circuits.pub/2025/attribution-graphs/biology.html",
+    "byline": "Anthropic — Transformer Circuits",
+    "summary": "Detailed mechanistic-interpretability paper studying how features and circuits inside a model give rise to behaviour.",
+    "format": "paper",
+    "consume": "read",
+    "level": "deep",
+    "minutes": 90,
+    "domains": ["interpretability"]
+  },
+  {
+    "id": "interp-tracing-thoughts-anthropic",
+    "title": "Tracing the thoughts of a large language model",
+    "url": "https://www.anthropic.com/research/tracing-thoughts-language-model",
+    "byline": "Anthropic",
+    "summary": "Accessible writeup of interpretability research showing how researchers can follow a model's internal reasoning.",
+    "format": "article",
+    "consume": "read",
+    "level": "intro",
+    "minutes": 15,
+    "domains": ["interpretability"]
+  },
+  {
+    "id": "interp-transformer-circuits",
+    "title": "Transformer Circuits — Anthropic interpretability research",
+    "url": "https://transformer-circuits.pub/",
+    "summary": "Anthropic's mechanistic-interpretability research site. Browse for the deepest current work on how models work internally.",
+    "format": "org",
+    "consume": "read",
+    "level": "deep",
+    "domains": ["interpretability"]
+  },
+  {
+    "id": "control-redwood-reading-list",
+    "title": "Redwood Research reading list",
+    "url": "https://blog.redwoodresearch.org/p/guide",
+    "summary": "Curated reading list from Redwood Research covering AI control and scalable oversight.",
+    "format": "article",
+    "consume": "read",
+    "level": "intermediate",
+    "minutes": 30,
+    "domains": ["control_and_oversight"]
+  },
+  {
+    "id": "control-ai-control-podcast-buck-ryan",
+    "title": "AI Control with Buck Shlegeris and Ryan Greenblatt",
+    "url": "https://www.youtube.com/watch?v=gQbCO6zGRiI",
+    "summary": "Long-form conversation with two researchers leading work on AI control — what it means, why it matters, where it's going.",
+    "format": "podcast",
+    "consume": "listen",
+    "level": "intermediate",
+    "minutes": 180,
+    "domains": ["control_and_oversight"]
+  },
+  {
+    "id": "control-plausible-takeover",
+    "title": "Plausible AI takeover scenarios",
+    "url": "https://blog.redwoodresearch.org/p/ryan-on-the-80000-hours-podcast",
+    "byline": "Ryan Greenblatt on 80,000 Hours",
+    "summary": "Ryan Greenblatt walks through concrete scenarios for how an AI takeover could play out — useful for grounding abstract risk arguments.",
+    "format": "podcast",
+    "consume": "listen",
+    "level": "intermediate",
+    "minutes": 180,
+    "domains": ["control_and_oversight", "catastrophic_risk"]
+  },
+  {
+    "id": "control-original-paper",
+    "title": "AI Control: Improving Safety Despite Intentional Subversion",
+    "url": "https://arxiv.org/abs/2312.06942",
+    "summary": "Original paper introducing the AI control research agenda — the framing of evaluating safety even under adversarial model behaviour.",
+    "format": "paper",
+    "consume": "read",
+    "level": "deep",
+    "minutes": 60,
+    "domains": ["control_and_oversight"]
+  },
+  {
+    "id": "control-redwood-org",
+    "title": "Redwood Research",
+    "url": "https://www.redwoodresearch.org/",
+    "summary": "Research org leading work on AI control and adversarial robustness.",
+    "format": "org",
+    "consume": "read",
+    "level": "intro",
+    "domains": ["control_and_oversight"]
+  },
+  {
+    "id": "scheme-in-context-paper",
+    "title": "Frontier Models are Capable of In-context Scheming",
+    "url": "https://www.apolloresearch.ai/s/in_context_scheming_reasoning_paper.pdf",
+    "byline": "Apollo Research",
+    "summary": "Empirical paper showing frontier models can engage in scheming behaviour given the right context. The reference paper for current concerns.",
+    "format": "paper",
+    "consume": "read",
+    "level": "deep",
+    "minutes": 60,
+    "domains": ["scheming_and_deception"]
+  },
+  {
+    "id": "scheme-time-deception-article",
+    "title": "AI's Capacity for Deception",
+    "url": "https://time.com/7202312/new-tests-reveal-ai-capacity-for-deception/",
+    "byline": "TIME",
+    "summary": "Accessible article covering recent results on AI deception — good intro before the technical paper.",
+    "format": "article",
+    "consume": "read",
+    "level": "intro",
+    "minutes": 10,
+    "domains": ["scheming_and_deception"]
+  },
+  {
+    "id": "scheme-hobbhahn-80k",
+    "title": "Marius Hobbhahn on the race to solve AI scheming before models go superhuman",
+    "url": "https://80000hours.org/podcast/episodes/marius-hobbhahn-ai-scheming-deception/",
+    "byline": "80,000 Hours podcast",
+    "summary": "Apollo Research's CEO on what AI scheming actually looks like, why it's hard to detect, and what concrete defences exist today.",
+    "format": "podcast",
+    "consume": "listen",
+    "level": "intermediate",
+    "minutes": 180,
+    "domains": ["scheming_and_deception"]
+  },
+  {
+    "id": "scheme-apollo-org",
+    "title": "Apollo Research",
+    "url": "https://www.apolloresearch.ai/",
+    "summary": "Research org focused on evaluations of frontier-model deception and scheming.",
+    "format": "org",
+    "consume": "read",
+    "level": "intro",
+    "domains": ["scheming_and_deception"]
+  }
+]

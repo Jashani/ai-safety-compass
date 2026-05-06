@@ -1,0 +1,13 @@
+[
+  {
+    "id": "kids-llm-safety",
+    "title": "LLM safety for children",
+    "url": "http://arxiv.org/pdf/2502.12552",
+    "summary": "arXiv paper on safety considerations specific to children's interactions with large language models.",
+    "format": "paper",
+    "consume": "read",
+    "level": "deep",
+    "minutes": 50,
+    "domains": ["ai_and_children"]
+  }
+]

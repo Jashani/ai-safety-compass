@@ -20,7 +20,8 @@ export type ContentFormat =
   | "podcast"
   | "interactive"
   | "tool"
-  | "book";
+  | "book"
+  | "org";
 
 export type ConsumeType = "read" | "listen" | "watch" | "try";
 export type Level = "intro" | "intermediate" | "deep";
@@ -81,4 +82,5 @@ export interface LabelDef {
   value: string;
   display: string;
   description?: string;
+  category?: string;
 }

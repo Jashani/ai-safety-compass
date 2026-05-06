@@ -45,5 +45,27 @@
     "level": "deep",
     "minutes": 50,
     "domains": ["misinformation", "governance"]
+  },
+  {
+    "id": "misinfo-deepfakes-pnas",
+    "title": "Mitigating the harms of manipulated media: Confronting deepfakes and digital deception",
+    "url": "https://academic.oup.com/pnasnexus/article/4/7/pgaf194/8209913",
+    "byline": "PNAS Nexus",
+    "summary": "Paper on the harms of manipulated media and concrete approaches to mitigation.",
+    "format": "paper",
+    "consume": "read",
+    "level": "intermediate",
+    "minutes": 40,
+    "domains": ["misinformation"]
+  },
+  {
+    "id": "misinfo-witness-org",
+    "title": "WITNESS",
+    "url": "https://www.witness.org/",
+    "summary": "International org training communities to use video and tech to defend human rights — leading work on responding to deepfakes and synthetic media.",
+    "format": "org",
+    "consume": "read",
+    "level": "intro",
+    "domains": ["misinformation"]
   }
 ]

@@ -1,10 +1,15 @@
 import type { Content, ConsumeType, ContentFormat, Label, Level } from "../types";
 
-import medical from "./medical.json";
+import philosophy from "./philosophy.json";
+import aiAndChildren from "./ai-and-children.json";
+import catastrophicRisk from "./catastrophic-risk.json";
+import technicalSafety from "./technical-safety.json";
+import humanAiInteraction from "./human-ai-interaction.json";
 import misinformation from "./misinformation.json";
-import futureOfWork from "./future-of-work.json";
+import governance from "./governance.json";
+import domainSpecific from "./domain-specific.json";
 
-// Friendly authoring shape used in the per-domain JSON files.
+// Friendly authoring shape used in the per-category JSON files.
 // Editors only need to fill what's relevant; arrays default to empty.
 interface RawContent {
   id: string;
@@ -46,9 +51,14 @@ const expand = (raw: RawContent): Content => {
 };
 
 const sources: RawContent[][] = [
-  medical as RawContent[],
+  philosophy as RawContent[],
+  aiAndChildren as RawContent[],
+  catastrophicRisk as RawContent[],
+  technicalSafety as RawContent[],
+  humanAiInteraction as RawContent[],
   misinformation as RawContent[],
-  futureOfWork as RawContent[],
+  governance as RawContent[],
+  domainSpecific as RawContent[],
 ];
 
 export const content: Content[] = sources.flat().map(expand);

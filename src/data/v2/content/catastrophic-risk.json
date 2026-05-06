@@ -1,0 +1,105 @@
+[
+  {
+    "id": "cat-carlsmith-power-seeking-podcast",
+    "title": "Existential Risk from Power-Seeking AI (audio essay)",
+    "url": "https://joecarlsmith.substack.com/p/existential-risk-from-power-seeking",
+    "byline": "Joe Carlsmith",
+    "summary": "Carlsmith's careful, accessible audio essay laying out the case that power-seeking AI poses an existential risk. Good single entry-point to the argument.",
+    "format": "podcast",
+    "consume": "listen",
+    "level": "intermediate",
+    "minutes": 55,
+    "domains": ["catastrophic_risk"]
+  },
+  {
+    "id": "cat-mit-overview-catastrophic-risks",
+    "title": "An Overview of Catastrophic AI Risks",
+    "url": "https://airisk.mit.edu/blog/an-overview-of-catastrophic-ai-risks",
+    "byline": "MIT AI Risk Initiative",
+    "summary": "Light-read survey of the main categories of catastrophic AI risk — useful as a first map of the territory.",
+    "format": "article",
+    "consume": "read",
+    "level": "intro",
+    "minutes": 20,
+    "domains": ["catastrophic_risk"]
+  },
+  {
+    "id": "biorisk-csis-bioterrorism",
+    "title": "Opportunities to Strengthen U.S. Biosecurity from AI-Enabled Bioterrorism",
+    "url": "https://www.csis.org/analysis/opportunities-strengthen-us-biosecurity-ai-enabled-bioterrorism-what-policymakers-should",
+    "byline": "CSIS",
+    "summary": "Policy analysis on what governments can do to harden biosecurity against AI-amplified bioterrorism risks.",
+    "format": "article",
+    "consume": "read",
+    "level": "intermediate",
+    "minutes": 30,
+    "domains": ["biorisk", "governance"]
+  },
+  {
+    "id": "biorisk-esvelt-sandbrink-podcast",
+    "title": "Risks from Biological Research",
+    "url": "https://hearthisidea.com/episodes/esvelt-sandbrink/",
+    "byline": "Hear This Idea — Esvelt & Sandbrink",
+    "summary": "Two leading biosecurity researchers discuss how AI changes the landscape of biorisk, and what to do about it.",
+    "format": "podcast",
+    "consume": "listen",
+    "level": "intermediate",
+    "minutes": 120,
+    "domains": ["biorisk"]
+  },
+  {
+    "id": "biorisk-mitigating-catastrophic-video",
+    "title": "Mitigating catastrophic biorisks",
+    "url": "https://www.youtube.com/watch?v=BbOHQLrVSX4&list=PLwp9xeoX5p8NfF4UmWcwV0fQlSU_zpHqc",
+    "summary": "Talk on what concrete mitigations look like for AI-amplified biorisks.",
+    "format": "video",
+    "consume": "watch",
+    "level": "intermediate",
+    "minutes": 47,
+    "domains": ["biorisk"]
+  },
+  {
+    "id": "biorisk-ea-reading-list",
+    "title": "A Biosecurity and Biorisk Reading List",
+    "url": "https://forum.effectivealtruism.org/posts/iAowzcZm87wNrTQCb/a-biosecurity-and-biorisk-reading-list",
+    "summary": "Curated reading list spanning biosecurity policy, dual-use research, and AI's role.",
+    "format": "article",
+    "consume": "read",
+    "level": "intro",
+    "minutes": 15,
+    "domains": ["biorisk"]
+  },
+  {
+    "id": "weapons-laws-research-directory",
+    "title": "Lethal Autonomous Weapon Systems research directory (up to 2023)",
+    "url": "https://people.eecs.berkeley.edu/~russell/research/LAWS.html",
+    "byline": "Stuart Russell",
+    "summary": "Directory of academic research on lethal autonomous weapons systems. A starting point for serious reading on the topic.",
+    "format": "article",
+    "consume": "read",
+    "level": "intro",
+    "minutes": 10,
+    "domains": ["autonomous_weapons"]
+  },
+  {
+    "id": "weapons-stop-killer-robots",
+    "title": "Stop Killer Robots",
+    "url": "https://www.stopkillerrobots.org/news/",
+    "summary": "International coalition advocating against the development and use of lethal autonomous weapons. Good place to find current campaigns and news.",
+    "format": "org",
+    "consume": "read",
+    "level": "intro",
+    "domains": ["autonomous_weapons"]
+  },
+  {
+    "id": "weapons-slaughterbots-video",
+    "title": "Slaughterbots — if human: kill()",
+    "url": "https://www.youtube.com/watch?v=9rDo1QxI260",
+    "summary": "Five-minute dramatised short film imagining a future of weaponised drone swarms — designed to make the abstract risk visceral.",
+    "format": "video",
+    "consume": "watch",
+    "level": "intro",
+    "minutes": 5,
+    "domains": ["autonomous_weapons"]
+  }
+]

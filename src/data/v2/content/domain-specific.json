@@ -1,0 +1,93 @@
+[
+  {
+    "id": "med-pubmed-41236701",
+    "title": "Clinical reasoning and AI decision support (PubMed 41236701)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41236701/",
+    "summary": "Peer-reviewed study on how AI decision-support tools intersect with clinician judgement in practice.",
+    "format": "paper",
+    "consume": "read",
+    "level": "deep",
+    "minutes": 45,
+    "domains": ["medical"]
+  },
+  {
+    "id": "med-arxiv-2509-08833",
+    "title": "Safety considerations for medical LLMs",
+    "url": "https://arxiv.org/html/2509.08833v2",
+    "summary": "arXiv preprint on safety questions specific to medical large language models.",
+    "format": "paper",
+    "consume": "read",
+    "level": "deep",
+    "minutes": 60,
+    "domains": ["medical"]
+  },
+  {
+    "id": "med-pmc-12710678",
+    "title": "AI in clinical settings (PMC 12710678)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12710678/",
+    "summary": "Peer-reviewed article on AI integration in clinical practice and associated risks.",
+    "format": "paper",
+    "consume": "read",
+    "level": "deep",
+    "minutes": 45,
+    "domains": ["medical"]
+  },
+  {
+    "id": "med-minds-in-crisis",
+    "title": "Minds in Crisis: How the AI Revolution is Impacting Mental Health",
+    "url": "https://www.mentalhealthjournal.org/articles/minds-in-crisis-how-the-ai-revolution-is-impacting-mental-health.html",
+    "summary": "Survey paper on the mental-health impacts of widespread AI adoption.",
+    "format": "paper",
+    "consume": "read",
+    "level": "intermediate",
+    "minutes": 30,
+    "domains": ["medical"]
+  },
+  {
+    "id": "med-high-performance-medicine",
+    "title": "High-performance medicine: the convergence of human and artificial intelligence",
+    "url": "https://www.nature.com/articles/s41591-018-0300-7",
+    "byline": "Eric Topol, Nature Medicine",
+    "summary": "Foundational paper framing how AI changes medical practice — still a key reference point.",
+    "format": "paper",
+    "consume": "read",
+    "level": "deep",
+    "minutes": 60,
+    "domains": ["medical"]
+  },
+  {
+    "id": "med-apa-genai-mental-health",
+    "title": "Use of generative AI chatbots and wellness applications for mental health",
+    "url": "https://www.apa.org/topics/artificial-intelligence-machine-learning/health-advisory-chatbots-wellness-apps",
+    "byline": "American Psychological Association",
+    "summary": "APA's longer advisory article on the risks and use of AI chatbots for mental health support.",
+    "format": "article",
+    "consume": "read",
+    "level": "intermediate",
+    "minutes": 25,
+    "domains": ["medical"]
+  },
+  {
+    "id": "cj-propublica-machine-bias",
+    "title": "Machine bias in the criminal justice system",
+    "url": "https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing",
+    "byline": "ProPublica",
+    "summary": "The reference investigative piece on bias in algorithmic risk-assessment tools used in sentencing.",
+    "format": "article",
+    "consume": "read",
+    "level": "intro",
+    "minutes": 25,
+    "domains": ["criminal_justice"]
+  },
+  {
+    "id": "cj-coded-bias-doc",
+    "title": "Coded Bias",
+    "url": "https://www.codedbias.com/",
+    "summary": "Documentary on algorithmic bias and the activists fighting it. A strong intro to the human stakes of the topic.",
+    "format": "video",
+    "consume": "watch",
+    "level": "intro",
+    "minutes": 86,
+    "domains": ["criminal_justice"]
+  }
+]

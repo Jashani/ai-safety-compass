@@ -1,0 +1,57 @@
+[
+  {
+    "id": "philo-am-i-documentary",
+    "title": "AM I? — documentary on consciousness",
+    "url": "https://www.youtube.com/watch?v=KbTvUOx2A6c",
+    "summary": "Feature-length documentary on consciousness, used here as a way into questions about machine consciousness and moral status.",
+    "format": "video",
+    "consume": "watch",
+    "level": "intro",
+    "minutes": 90,
+    "domains": ["philosophy_of_ai", "moral_status_of_ai"]
+  },
+  {
+    "id": "philo-stochastic-parrots",
+    "title": "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?",
+    "url": "https://dl.acm.org/doi/10.1145/3442188.3445922",
+    "byline": "Bender, Gebru, McMillan-Major, Shmitchell",
+    "summary": "Foundational critique of large language models — environmental, social, and epistemic costs of building ever-bigger systems. A starting point for ethical thinking about LLMs.",
+    "format": "paper",
+    "consume": "read",
+    "level": "intermediate",
+    "minutes": 60,
+    "domains": ["philosophy_of_ai"]
+  },
+  {
+    "id": "philo-ai-wellbeing-org",
+    "title": "AI Wellbeing",
+    "url": "https://www.ai-wellbeing.org/",
+    "summary": "Hub for research and resources on the moral status and welfare of AI systems.",
+    "format": "org",
+    "consume": "read",
+    "level": "intro",
+    "domains": ["moral_status_of_ai"]
+  },
+  {
+    "id": "philo-kyle-fish-ai-welfare-80k",
+    "title": "Kyle Fish on the most bizarre findings from 5 AI welfare experiments",
+    "url": "https://80000hours.org/podcast/episodes/kyle-fish-ai-welfare-anthropic/",
+    "byline": "80,000 Hours podcast",
+    "summary": "Interview with Anthropic's AI welfare researcher on what experiments are showing about model wellbeing — concrete, surprising, and a good intro to the field.",
+    "format": "podcast",
+    "consume": "listen",
+    "level": "intro",
+    "minutes": 150,
+    "domains": ["moral_status_of_ai"]
+  },
+  {
+    "id": "philo-eleos-ai-org",
+    "title": "Eleos AI",
+    "url": "https://eleosai.org/",
+    "summary": "Research organisation focused on AI moral status and welfare. A good place to read about open questions in the space.",
+    "format": "org",
+    "consume": "read",
+    "level": "intro",
+    "domains": ["moral_status_of_ai"]
+  }
+]
