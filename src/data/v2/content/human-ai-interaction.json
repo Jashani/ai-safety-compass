@@ -1,5 +1,17 @@
 [
   {
+    "id": "hai-socioaffective-alignment",
+    "title": "Why human-AI relationships need socioaffective alignment",
+    "url": "https://www.aisi.gov.uk/research/why-human-ai-relationships-need-socioaffective-alignment-2",
+    "byline": "UK AI Security Institute",
+    "summary": "Paper arguing that beyond companionship, broader human-AI relationships require alignment with the socio-emotional fabric of human life.",
+    "format": "paper",
+    "consume": "read",
+    "level": "intermediate",
+    "minutes": 40,
+    "domains": ["ai_companionship", "manipulation_and_sycophancy"]
+  },
+  {
     "id": "comp-dark-side-paper",
     "title": "The Dark Side of AI Companionship: A Taxonomy of Harmful Algorithmic Behaviors in Human-AI Relationships",
     "url": "https://dl.acm.org/doi/10.1145/3706598.3713429",
@@ -57,6 +69,66 @@
     "domains": ["manipulation_and_sycophancy"]
   },
   {
+    "id": "manip-ieee-sycophancy",
+    "title": "Why AI Chatbots Agree With You Even When You're Wrong",
+    "url": "https://spectrum.ieee.org/ai-sycophancy",
+    "byline": "IEEE Spectrum",
+    "summary": "Accessible explainer on why models tend to agree with users — what causes sycophancy and what can be done about it.",
+    "format": "article",
+    "consume": "read",
+    "level": "intro",
+    "minutes": 12,
+    "domains": ["manipulation_and_sycophancy"]
+  },
+  {
+    "id": "manip-persuading-voters-nature",
+    "title": "Persuading voters using human-AI dialogues",
+    "url": "https://www.nature.com/articles/s41586-025-09771-9",
+    "byline": "Nature",
+    "summary": "Empirical study on how AI dialogues shift voter views — direct evidence for AI's persuasive power in democratic settings.",
+    "format": "paper",
+    "consume": "read",
+    "level": "intermediate",
+    "minutes": 45,
+    "domains": ["manipulation_and_sycophancy", "misinformation", "governance"]
+  },
+  {
+    "id": "manip-era-ai-persuasion-elections",
+    "title": "The era of AI persuasion in elections is about to begin",
+    "url": "https://www.technologyreview.com/2025/12/05/1128837/the-era-of-ai-persuasion-in-elections-is-about-to-begin/",
+    "byline": "MIT Technology Review",
+    "summary": "Magazine piece on what AI-driven persuasion looks like as it enters live elections.",
+    "format": "article",
+    "consume": "read",
+    "level": "intro",
+    "minutes": 12,
+    "domains": ["manipulation_and_sycophancy", "misinformation", "governance"]
+  },
+  {
+    "id": "manip-weaponising-ai-kcl",
+    "title": "Weaponising AI: Political Persuasion at an Industrial Scale",
+    "url": "https://www.kcl.ac.uk/weaponising-ai",
+    "byline": "King's College London",
+    "summary": "Article on industrial-scale political persuasion enabled by AI — how it works and what's at stake.",
+    "format": "article",
+    "consume": "read",
+    "level": "intermediate",
+    "minutes": 15,
+    "domains": ["manipulation_and_sycophancy", "misinformation", "governance"]
+  },
+  {
+    "id": "manip-diresta-misinformation-podcast",
+    "title": "The online misinformation epidemic, with Renée DiResta",
+    "url": "https://www.niskanencenter.org/the-online-misinformation-epidemic-with-renee-diresta/",
+    "byline": "Niskanen Center",
+    "summary": "Hour-long podcast with one of the leading voices on online influence operations — useful background for AI-amplified misinformation.",
+    "format": "podcast",
+    "consume": "listen",
+    "level": "intro",
+    "minutes": 60,
+    "domains": ["manipulation_and_sycophancy", "misinformation"]
+  },
+  {
     "id": "cog-brain-on-chatgpt-paper",
     "title": "Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing",
     "url": "https://www.brainonllm.com/",
@@ -100,6 +172,18 @@
     "level": "intro",
     "minutes": 10,
     "domains": ["cognitive_resilience"]
+  },
+  {
+    "id": "cog-conversational-ai-political-knowledge",
+    "title": "Conversational AI increases political knowledge as effectively as self-directed internet search",
+    "url": "https://www.aisi.gov.uk/research/conversational-ai-increases-political-knowledge-as-effectively-as-self-directed-internet-search",
+    "byline": "UK AI Security Institute",
+    "summary": "AISI study showing conversational AI can teach political content as effectively as searching — a counterweight to fully pessimistic takes on AI and information.",
+    "format": "paper",
+    "consume": "read",
+    "level": "intermediate",
+    "minutes": 35,
+    "domains": ["cognitive_resilience", "misinformation"]
   },
   {
     "id": "cog-feedback-loops-nature",

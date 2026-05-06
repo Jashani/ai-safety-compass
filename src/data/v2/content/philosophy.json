@@ -8,7 +8,7 @@
     "consume": "watch",
     "level": "intro",
     "minutes": 90,
-    "domains": ["philosophy_of_ai", "moral_status_of_ai"]
+    "domains": ["philosophy_and_morality"]
   },
   {
     "id": "philo-stochastic-parrots",
@@ -20,7 +20,20 @@
     "consume": "read",
     "level": "intermediate",
     "minutes": 60,
-    "domains": ["philosophy_of_ai"]
+    "domains": ["philosophy_and_morality"]
+  },
+  {
+    "id": "philo-civai-ai-values",
+    "title": "AI opinions and values",
+    "url": "https://civai.org/p/ai-values",
+    "byline": "CivAI",
+    "summary": "Interactive demo exploring the opinions and values frontier models express. Try it to see what 'AI values' looks like up close.",
+    "format": "interactive",
+    "consume": "try",
+    "level": "intro",
+    "minutes": 15,
+    "domains": ["philosophy_and_morality"],
+    "actions": ["try_it"]
   },
   {
     "id": "philo-ai-wellbeing-org",
@@ -30,7 +43,7 @@
     "format": "org",
     "consume": "read",
     "level": "intro",
-    "domains": ["moral_status_of_ai"]
+    "domains": ["philosophy_and_morality"]
   },
   {
     "id": "philo-kyle-fish-ai-welfare-80k",
@@ -42,7 +55,7 @@
     "consume": "listen",
     "level": "intro",
     "minutes": 150,
-    "domains": ["moral_status_of_ai"]
+    "domains": ["philosophy_and_morality"]
   },
   {
     "id": "philo-eleos-ai-org",
@@ -52,6 +65,6 @@
     "format": "org",
     "consume": "read",
     "level": "intro",
-    "domains": ["moral_status_of_ai"]
+    "domains": ["philosophy_and_morality"]
   }
 ]

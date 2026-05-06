@@ -59,6 +59,32 @@
     "domains": ["misinformation"]
   },
   {
+    "id": "misinfo-civai-voter-turnout",
+    "title": "Voter Turnout Manipulation Using AI",
+    "url": "https://civai.org/p/election-interference",
+    "byline": "CivAI",
+    "summary": "Interactive demo showing how AI could be used to manipulate voter turnout — try it to feel the threat surface.",
+    "format": "interactive",
+    "consume": "try",
+    "level": "intro",
+    "minutes": 15,
+    "domains": ["misinformation", "manipulation_and_sycophancy"],
+    "actions": ["try_it"]
+  },
+  {
+    "id": "misinfo-civai-deepfake-sandbox",
+    "title": "Deepfake sandbox",
+    "url": "https://civai.org/deepfake-sandbox",
+    "byline": "CivAI",
+    "summary": "Interactive sandbox for trying out deepfake creation hands-on. The fastest way to see how cheap and convincing it has become.",
+    "format": "interactive",
+    "consume": "try",
+    "level": "intro",
+    "minutes": 15,
+    "domains": ["misinformation"],
+    "actions": ["try_it"]
+  },
+  {
     "id": "misinfo-witness-org",
     "title": "WITNESS",
     "url": "https://www.witness.org/",

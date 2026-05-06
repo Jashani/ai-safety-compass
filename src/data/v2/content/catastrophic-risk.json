@@ -1,5 +1,116 @@
 [
   {
+    "id": "general-bluedot-narrated-podcast",
+    "title": "BlueDot Narrated",
+    "url": "https://open.spotify.com/show/4LvXaqFpmG1GSBtIxcmJjc",
+    "byline": "BlueDot Impact",
+    "summary": "Narrated audio of BlueDot's curated AI safety articles — a good general listen across the safety landscape.",
+    "format": "podcast",
+    "consume": "listen",
+    "level": "intro",
+    "domains": ["catastrophic_risk", "technical_safety", "governance"]
+  },
+  {
+    "id": "cat-ai-could-defeat-us-podcast",
+    "title": "AI could defeat all of us combined",
+    "url": "https://open.spotify.com/episode/4reDpdXTUT9u25lEBqZ8HI",
+    "summary": "Short audio essay laying out the case that an unaligned advanced AI could pose a threat at civilizational scale.",
+    "format": "podcast",
+    "consume": "listen",
+    "level": "intro",
+    "minutes": 24,
+    "domains": ["catastrophic_risk"]
+  },
+  {
+    "id": "cat-fli-org",
+    "title": "Future of Life Institute",
+    "url": "https://futureoflife.org/",
+    "summary": "Long-running org working on existential and catastrophic risks, including AI. A good place to follow advocacy and research at the policy/risk intersection.",
+    "format": "org",
+    "consume": "read",
+    "level": "intro",
+    "domains": ["catastrophic_risk"]
+  },
+  {
+    "id": "disemp-gradual-disempowerment-summary",
+    "title": "Gradual disempowerment summary",
+    "url": "https://blog.bluedot.org/p/gradual-disempowerment-summary",
+    "byline": "BlueDot",
+    "summary": "Accessible summary of the 'gradual disempowerment' argument — that humanity could lose meaningful control even without a sudden takeover.",
+    "format": "article",
+    "consume": "read",
+    "level": "intro",
+    "minutes": 15,
+    "domains": ["disempowerment", "catastrophic_risk"]
+  },
+  {
+    "id": "cyber-emerging-cyberattack-capabilities",
+    "title": "A Framework for Evaluating Emerging Cyberattack Capabilities of AI",
+    "url": "https://arxiv.org/abs/2503.11917",
+    "summary": "Paper proposing a framework for evaluating how AI systems advance offensive cyber capabilities — useful for thinking about evaluations and defence.",
+    "format": "paper",
+    "consume": "read",
+    "level": "deep",
+    "minutes": 60,
+    "domains": ["cybersecurity"]
+  },
+  {
+    "id": "cyber-hackers-talk-about-ai",
+    "title": "What hackers talk about when they talk about AI",
+    "url": "https://arxiv.org/abs/2602.14783",
+    "summary": "Empirical paper studying early-stage diffusion of AI-enabled cybercrime techniques in hacker communities.",
+    "format": "paper",
+    "consume": "read",
+    "level": "intermediate",
+    "minutes": 45,
+    "domains": ["cybersecurity"]
+  },
+  {
+    "id": "cyber-schneier-fireside",
+    "title": "AI in Cybersecurity: A Fireside Chat with Bruce Schneier",
+    "url": "https://firecompass.com/ai-in-cybersecurity-bruce-schneier/",
+    "byline": "Bruce Schneier",
+    "summary": "Conversational blogpost with Schneier on how AI is changing offence and defence in cybersecurity.",
+    "format": "blog",
+    "consume": "read",
+    "level": "intro",
+    "minutes": 15,
+    "domains": ["cybersecurity"]
+  },
+  {
+    "id": "cyber-future-of-phishing",
+    "title": "The future of phishing",
+    "url": "https://civai.org/p/email-phishing?utm_source=bluedot-impact",
+    "byline": "CivAI",
+    "summary": "Interactive demo from CivAI showing how AI changes the phishing landscape — try it for 15 minutes to feel the threat directly.",
+    "format": "interactive",
+    "consume": "try",
+    "level": "intro",
+    "minutes": 15,
+    "domains": ["cybersecurity"],
+    "actions": ["try_it"]
+  },
+  {
+    "id": "biorisk-bluedot-course",
+    "title": "BlueDot — Biosecurity course",
+    "url": "https://bluedot.org/courses/biosecurity",
+    "summary": "Structured part-time BlueDot course on biosecurity in the age of AI.",
+    "format": "course",
+    "consume": "try",
+    "level": "intermediate",
+    "domains": ["biosecurity"]
+  },
+  {
+    "id": "weapons-fli-autonomous-site",
+    "title": "Future of Life — autonomous weapons site",
+    "url": "https://autonomousweapons.org/",
+    "summary": "Hub site from FLI on autonomous weapons — explainers, advocacy materials, and policy resources.",
+    "format": "org",
+    "consume": "read",
+    "level": "intro",
+    "domains": ["autonomous_weapons"]
+  },
+  {
     "id": "cat-carlsmith-power-seeking-podcast",
     "title": "Existential Risk from Power-Seeking AI (audio essay)",
     "url": "https://joecarlsmith.substack.com/p/existential-risk-from-power-seeking",
@@ -33,7 +144,7 @@
     "consume": "read",
     "level": "intermediate",
     "minutes": 30,
-    "domains": ["biorisk", "governance"]
+    "domains": ["biosecurity", "governance"]
   },
   {
     "id": "biorisk-esvelt-sandbrink-podcast",
@@ -45,7 +156,7 @@
     "consume": "listen",
     "level": "intermediate",
     "minutes": 120,
-    "domains": ["biorisk"]
+    "domains": ["biosecurity"]
   },
   {
     "id": "biorisk-mitigating-catastrophic-video",
@@ -56,7 +167,7 @@
     "consume": "watch",
     "level": "intermediate",
     "minutes": 47,
-    "domains": ["biorisk"]
+    "domains": ["biosecurity"]
   },
   {
     "id": "biorisk-ea-reading-list",
@@ -67,7 +178,7 @@
     "consume": "read",
     "level": "intro",
     "minutes": 15,
-    "domains": ["biorisk"]
+    "domains": ["biosecurity"]
   },
   {
     "id": "weapons-laws-research-directory",

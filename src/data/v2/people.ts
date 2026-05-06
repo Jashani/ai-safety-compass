@@ -23,8 +23,32 @@ export const people: Person[] = [
     ],
     labels: [
       { axis: "domain", value: "catastrophic_risk" },
-      { axis: "domain", value: "philosophy_of_ai" },
+      { axis: "domain", value: "philosophy_and_morality" },
     ],
+  },
+  {
+    id: "mikel-rodriguez",
+    name: "Mikel Rodriguez",
+    role: "AI security researcher",
+    why: "Works on AI's intersection with cybersecurity and emerging cyberattack capabilities. Good follow if you care about AI as an offensive cyber tool.",
+    links: [{ label: "Website", url: "https://www.mikel-rodriguez.com/" }],
+    labels: [{ axis: "domain", value: "cybersecurity" }],
+  },
+  {
+    id: "jonas-sandbrink",
+    name: "Jonas Sandbrink",
+    role: "Biosecurity researcher",
+    why: "Researcher writing on AI-amplified biorisk and how to defend against it. Clear thinker on the policy dimensions.",
+    links: [{ label: "Website", url: "https://jonassandbrink.com/" }],
+    labels: [{ axis: "domain", value: "biosecurity" }],
+  },
+  {
+    id: "sonia-livingstone",
+    name: "Sonia Livingstone",
+    role: "Professor of social psychology, LSE",
+    why: "Decades of research on children, young people, and digital media. Essential follow for AI's effects on children — focused on rights, evidence, and policy.",
+    links: [{ label: "LSE profile", url: "https://www.lse.ac.uk/people/sonia-livingstone" }],
+    labels: [{ axis: "domain", value: "ai_and_children" }],
   },
   {
     id: "kevin-esvelt",
@@ -32,7 +56,7 @@ export const people: Person[] = [
     role: "Biosecurity researcher, MIT Media Lab",
     why: "Leading thinker on biosecurity in the age of AI. Posts about dual-use research, biorisk policy, and concrete defences.",
     links: [{ label: "X", url: "https://x.com/kesvelt" }],
-    labels: [{ axis: "domain", value: "biorisk" }],
+    labels: [{ axis: "domain", value: "biosecurity" }],
   },
   {
     id: "sherry-turkle",

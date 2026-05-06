@@ -9,5 +9,27 @@
     "level": "deep",
     "minutes": 50,
     "domains": ["ai_and_children"]
+  },
+  {
+    "id": "kids-childrens-rights-digital",
+    "title": "Children's Rights in the Digital Age",
+    "url": "https://www.lse.ac.uk/media-and-communications/research/research-projects/Children's-Rights-in-the-Digital-Age",
+    "byline": "LSE",
+    "summary": "Short intro to LSE's research project on children's rights in the digital age — a quick way into the framing.",
+    "format": "article",
+    "consume": "read",
+    "level": "intro",
+    "minutes": 5,
+    "domains": ["ai_and_children"]
+  },
+  {
+    "id": "kids-common-sense-media",
+    "title": "Common Sense Media — AI",
+    "url": "https://www.commonsense.org/ai",
+    "summary": "Common Sense Media's hub on AI — reviews, guidance for parents and educators, and policy advocacy.",
+    "format": "org",
+    "consume": "read",
+    "level": "intro",
+    "domains": ["ai_and_children"]
   }
 ]

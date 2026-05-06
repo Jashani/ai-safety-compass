@@ -2,6 +2,7 @@ import type { Content, ConsumeType, ContentFormat, Label, Level } from "../types
 
 import philosophy from "./philosophy.json";
 import aiAndChildren from "./ai-and-children.json";
+import societalResilience from "./societal-resilience.json";
 import catastrophicRisk from "./catastrophic-risk.json";
 import technicalSafety from "./technical-safety.json";
 import humanAiInteraction from "./human-ai-interaction.json";
@@ -53,6 +54,7 @@ const expand = (raw: RawContent): Content => {
 const sources: RawContent[][] = [
   philosophy as RawContent[],
   aiAndChildren as RawContent[],
+  societalResilience as RawContent[],
   catastrophicRisk as RawContent[],
   technicalSafety as RawContent[],
   humanAiInteraction as RawContent[],

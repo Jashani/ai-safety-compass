@@ -3,16 +3,18 @@ import type { LabelDef } from "./types";
 // Domains shown in the intake as topic chips, grouped by `category` for the UI.
 // `category` is purely a UI grouping device — matching uses `value` only.
 export const domains: LabelDef[] = [
-  // Philosophy
-  { value: "philosophy_of_ai", display: "Philosophy of AI", category: "Philosophy" },
-  { value: "moral_status_of_ai", display: "Moral status of AI", category: "Philosophy" },
-
-  // AI effects on children
-  { value: "ai_and_children", display: "AI effects on children", category: "AI effects on children" },
+  // Societal resilience & impacts
+  { value: "societal_resilience", display: "Societal resilience", category: "Societal resilience & impacts" },
+  { value: "ai_and_children", display: "AI effects on children", category: "Societal resilience & impacts" },
+  { value: "pluralism", display: "Pluralism", category: "Societal resilience & impacts" },
+  { value: "misinformation", display: "Misinformation & disinformation", category: "Societal resilience & impacts" },
+  { value: "future_of_work", display: "Future of work", category: "Societal resilience & impacts" },
 
   // Catastrophic risk
   { value: "catastrophic_risk", display: "Catastrophic risk", category: "Catastrophic risk" },
-  { value: "biorisk", display: "Biorisk", category: "Catastrophic risk" },
+  { value: "disempowerment", display: "Disempowerment", category: "Catastrophic risk" },
+  { value: "cybersecurity", display: "Cybersecurity", category: "Catastrophic risk" },
+  { value: "biosecurity", display: "Biosecurity", category: "Catastrophic risk" },
   { value: "autonomous_weapons", display: "Autonomous weapons", category: "Catastrophic risk" },
 
   // Technical AI safety
@@ -26,28 +28,25 @@ export const domains: LabelDef[] = [
   { value: "manipulation_and_sycophancy", display: "Manipulation & sycophancy", category: "Human–AI interaction" },
   { value: "cognitive_resilience", display: "Cognitive resilience", category: "Human–AI interaction" },
 
-  // Misinformation
-  { value: "misinformation", display: "Misinformation & disinformation", category: "Misinformation" },
-
-  // Governance
-  { value: "governance", display: "AI governance & policy", category: "Governance" },
-  { value: "geopolitics", display: "Geopolitics of AI", category: "Governance" },
-  { value: "future_of_work", display: "Future of work", category: "Governance" },
+  // Governance & policy
+  { value: "governance", display: "AI governance", category: "Governance & policy" },
+  { value: "policy", display: "Policy", category: "Governance & policy" },
+  { value: "geopolitics", display: "Geopolitics of AI", category: "Governance & policy" },
 
   // Domain-specific
   { value: "medical", display: "Medicine & mental health", category: "Domain-specific" },
   { value: "criminal_justice", display: "Criminal justice", category: "Domain-specific" },
+  { value: "finance", display: "Finance", category: "Domain-specific" },
+  { value: "philosophy_and_morality", display: "Philosophy & morality", category: "Domain-specific" },
 ];
 
 // Stable category order for the intake UI.
 export const domainCategories: string[] = [
-  "Philosophy",
-  "AI effects on children",
+  "Societal resilience & impacts",
   "Catastrophic risk",
   "Technical AI safety",
   "Human–AI interaction",
-  "Misinformation",
-  "Governance",
+  "Governance & policy",
   "Domain-specific",
 ];
 

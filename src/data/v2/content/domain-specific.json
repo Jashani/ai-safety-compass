@@ -68,6 +68,30 @@
     "domains": ["medical"]
   },
   {
+    "id": "med-jed-youth-mental-health",
+    "title": "Tech Companies and Policymakers Must Safeguard Youth Mental Health in AI Technologies",
+    "url": "https://jedfoundation.org/artificial-intelligence-youth-mental-health-pov/",
+    "byline": "The JED Foundation",
+    "summary": "Policy-leaning article on safeguarding youth mental health as AI products spread — a useful primer at the medical/policy intersection.",
+    "format": "article",
+    "consume": "read",
+    "level": "intro",
+    "minutes": 12,
+    "domains": ["medical", "ai_and_children", "governance"]
+  },
+  {
+    "id": "fin-aisi-multi-turn-fraud",
+    "title": "A multi-turn framework for evaluating AI misuse in fraud and cybercrime scenarios",
+    "url": "https://www.aisi.gov.uk/research/a-multi-turn-framework-for-evaluating-ai-misuse-in-fraud-and-cybercrime-scenarios",
+    "byline": "UK AI Security Institute",
+    "summary": "Paper proposing a framework to evaluate how AI systems can be misused across fraud and cybercrime — sits at the finance/cybersecurity intersection.",
+    "format": "paper",
+    "consume": "read",
+    "level": "deep",
+    "minutes": 60,
+    "domains": ["finance", "cybersecurity"]
+  },
+  {
     "id": "cj-propublica-machine-bias",
     "title": "Machine bias in the criminal justice system",
     "url": "https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing",

@@ -1,5 +1,107 @@
 [
   {
+    "id": "gov-bluedot-course",
+    "title": "BlueDot — AI Governance course",
+    "url": "https://bluedot.org/courses/ai-governance",
+    "summary": "Structured BlueDot course on AI governance — the standard recommendation for moving into governance work.",
+    "format": "course",
+    "consume": "try",
+    "level": "intermediate",
+    "domains": ["governance"]
+  },
+  {
+    "id": "gov-global-governance-interactive",
+    "title": "Current global governance efforts",
+    "url": "https://global-governance.ai/",
+    "summary": "Interactive map of ongoing AI governance initiatives across countries and bodies. Browse to see who's doing what.",
+    "format": "interactive",
+    "consume": "try",
+    "level": "intro",
+    "minutes": 15,
+    "domains": ["governance"],
+    "actions": ["try_it"]
+  },
+  {
+    "id": "gov-international-ai-treaty",
+    "title": "International AI treaty open letter",
+    "url": "https://aitreaty.org/",
+    "summary": "Open letter and campaign for an international treaty on AI. A way to read the case being made and consider signing.",
+    "format": "org",
+    "consume": "read",
+    "level": "intro",
+    "domains": ["governance"]
+  },
+  {
+    "id": "gov-compute-governance-intro",
+    "title": "Introduction to Compute Governance",
+    "url": "https://blog.bluedot.org/p/introduction-to-compute-governance",
+    "byline": "BlueDot",
+    "summary": "Light intro article to compute governance — why compute is a useful policy lever for AI.",
+    "format": "article",
+    "consume": "read",
+    "level": "intro",
+    "minutes": 12,
+    "domains": ["governance"]
+  },
+  {
+    "id": "gov-international-ai-safety-report",
+    "title": "International AI Safety Report",
+    "url": "https://internationalaisafetyreport.org/",
+    "summary": "The international scientific report on AI safety — a flagship reference document on the state of risks and capabilities.",
+    "format": "paper",
+    "consume": "read",
+    "level": "intermediate",
+    "minutes": 90,
+    "domains": ["governance", "catastrophic_risk"]
+  },
+  {
+    "id": "geo-mutually-assured-malfunction",
+    "title": "Mutually assured AI malfunction",
+    "url": "https://oscardelaney.substack.com/p/crucial-considerations-in-asi-deterrence",
+    "byline": "Oscar Delaney",
+    "summary": "Blog post exploring whether ASI deterrence dynamics could mirror nuclear MAD — speculative but worth thinking through.",
+    "format": "blog",
+    "consume": "read",
+    "level": "intermediate",
+    "minutes": 20,
+    "domains": ["geopolitics"]
+  },
+  {
+    "id": "policy-ai-policy-levers",
+    "title": "AI Policy Levers: A Review of the U.S. Government's Tools",
+    "url": "https://www.governance.ai/research-paper/ai-policy-levers-a-review-of-the-u-s-governments-tools-to-shape-ai-research-development-and-deployment",
+    "byline": "GovAI",
+    "summary": "Reference paper cataloguing the policy tools the U.S. government has to shape AI development and deployment.",
+    "format": "paper",
+    "consume": "read",
+    "level": "intermediate",
+    "minutes": 60,
+    "domains": ["policy", "governance"]
+  },
+  {
+    "id": "policy-eu-ai-act",
+    "title": "EU AI Act",
+    "url": "https://artificialintelligenceact.eu/the-act/",
+    "summary": "The official text and structure of the EU AI Act — the world's first comprehensive AI regulation.",
+    "format": "paper",
+    "consume": "read",
+    "level": "deep",
+    "minutes": 90,
+    "domains": ["policy", "governance"]
+  },
+  {
+    "id": "policy-eu-ai-act-explainer",
+    "title": "EU AI Act explainer",
+    "url": "https://www.europarl.europa.eu/topics/en/article/20230601STO93804/eu-ai-act-first-regulation-on-artificial-intelligence",
+    "byline": "European Parliament",
+    "summary": "Short explainer on the EU AI Act from the European Parliament — read this before the act itself.",
+    "format": "article",
+    "consume": "read",
+    "level": "intro",
+    "minutes": 7,
+    "domains": ["policy", "governance"]
+  },
+  {
     "id": "geo-helen-toner-80k",
     "title": "Helen Toner on the geopolitics of AI in China and the Middle East",
     "url": "https://80000hours.org/podcast/episodes/helen-toner-ai-policy-washington-dc/",

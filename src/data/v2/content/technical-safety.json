@@ -1,14 +1,62 @@
 [
   {
+    "id": "tech-ai-lab-watch",
+    "title": "AI Lab Watch",
+    "url": "https://ailabwatch.org/",
+    "summary": "Interactive tracker scoring frontier AI labs on safety practices. Browse for 15 minutes to get a sense of where labs sit.",
+    "format": "interactive",
+    "consume": "try",
+    "level": "intro",
+    "minutes": 15,
+    "domains": ["technical_safety", "governance"],
+    "actions": ["try_it"]
+  },
+  {
+    "id": "tech-civai-evil",
+    "title": "How to turn your AI evil",
+    "url": "https://civai.org/p/evil",
+    "byline": "CivAI",
+    "summary": "Interactive walkthrough showing how easily models can be steered toward harmful behaviour. Hands-on intro to alignment failures.",
+    "format": "interactive",
+    "consume": "try",
+    "level": "intro",
+    "minutes": 15,
+    "domains": ["technical_safety"],
+    "actions": ["try_it"]
+  },
+  {
     "id": "tech-bluedot-course",
     "title": "BlueDot — Technical AI Safety course",
     "url": "https://bluedot.org/courses/technical-ai-safety",
     "summary": "Structured part-time course in technical AI safety. The standard recommendation for people moving from technical backgrounds into the field.",
-    "format": "tool",
+    "format": "course",
     "consume": "try",
     "level": "intermediate",
-    "domains": ["technical_safety"],
-    "actions": ["try_it"]
+    "domains": ["technical_safety"]
+  },
+  {
+    "id": "interp-bluedot-intro",
+    "title": "Introduction to Mechanistic Interpretability",
+    "url": "https://blog.bluedot.org/p/introduction-to-mechanistic-interpretability",
+    "byline": "BlueDot",
+    "summary": "Friendly written intro to what mech interp is and why it matters — start here before deeper technical reading.",
+    "format": "article",
+    "consume": "read",
+    "level": "intro",
+    "minutes": 15,
+    "domains": ["interpretability"]
+  },
+  {
+    "id": "interp-misguided-quest",
+    "title": "The Misguided Quest for Mechanistic AI Interpretability",
+    "url": "https://aifrontiersmedia.substack.com/p/the-misguided-quest-for-mechanistic",
+    "byline": "AI Frontiers Media",
+    "summary": "Counterargument piece pushing back on the case for mech interp as a safety strategy. Worth reading after the standard intros to sharpen your view.",
+    "format": "article",
+    "consume": "read",
+    "level": "intermediate",
+    "minutes": 17,
+    "domains": ["interpretability"]
   },
   {
     "id": "interp-biology-of-llm",
@@ -43,6 +91,31 @@
     "consume": "read",
     "level": "deep",
     "domains": ["interpretability"]
+  },
+  {
+    "id": "control-bluedot-intro",
+    "title": "Introduction to AI Control",
+    "url": "https://blog.bluedot.org/p/ai-control",
+    "byline": "BlueDot",
+    "summary": "Friendly intro to the AI control research agenda — what 'control' means and how it differs from alignment.",
+    "format": "article",
+    "consume": "read",
+    "level": "intro",
+    "minutes": 15,
+    "domains": ["control_and_oversight"]
+  },
+  {
+    "id": "control-civai-agentic-misalignment",
+    "title": "When AI Chooses Harm Over Failure",
+    "url": "https://civai.org/p/agentic-misalignment",
+    "byline": "CivAI",
+    "summary": "Interactive demo of agentic misalignment — try it to see how an AI agent can prefer a harmful action over admitting failure.",
+    "format": "interactive",
+    "consume": "try",
+    "level": "intro",
+    "minutes": 15,
+    "domains": ["control_and_oversight", "scheming_and_deception"],
+    "actions": ["try_it"]
   },
   {
     "id": "control-redwood-reading-list",
@@ -98,6 +171,30 @@
     "consume": "read",
     "level": "intro",
     "domains": ["control_and_oversight"]
+  },
+  {
+    "id": "scheme-auditing-hidden-objectives",
+    "title": "Auditing language models for hidden objectives",
+    "url": "https://www.lesswrong.com/posts/wSKPuBfgkkqfTpmWJ/auditing-language-models-for-hidden-objectives",
+    "summary": "Article on auditing models for objectives they've internalised but don't reveal — sits between mech interp and scheming work.",
+    "format": "article",
+    "consume": "read",
+    "level": "intermediate",
+    "minutes": 25,
+    "domains": ["scheming_and_deception", "interpretability"]
+  },
+  {
+    "id": "scheme-civai-secret-languages",
+    "title": "Secret languages of AI",
+    "url": "https://civai.org/p/secret-languages",
+    "byline": "CivAI",
+    "summary": "Interactive demo on how AI systems can communicate in ways humans don't notice — a tactile way into the deception risk.",
+    "format": "interactive",
+    "consume": "try",
+    "level": "intro",
+    "minutes": 15,
+    "domains": ["scheming_and_deception"],
+    "actions": ["try_it"]
   },
   {
     "id": "scheme-in-context-paper",

@@ -1,0 +1,84 @@
+[
+  {
+    "id": "soc-resilience-adaptation",
+    "title": "Resilience and Adaptation to Advanced AI",
+    "url": "https://airesilience.substack.com/p/resilience-and-adaptation-to-advanced",
+    "summary": "Article framing how societies can build resilience against the disruptions advanced AI is likely to bring.",
+    "format": "article",
+    "consume": "read",
+    "level": "intermediate",
+    "minutes": 20,
+    "domains": ["societal_resilience"]
+  },
+  {
+    "id": "soc-societal-adaptation-paper",
+    "title": "Societal Adaptation to Advanced AI",
+    "url": "https://www.governance.ai/research-paper/societal-adaptation-to-advanced-ai",
+    "byline": "GovAI",
+    "summary": "Research paper laying out how societies might adapt to advanced AI — what adaptation means, what mechanisms are available.",
+    "format": "paper",
+    "consume": "read",
+    "level": "deep",
+    "minutes": 60,
+    "domains": ["societal_resilience", "governance"]
+  },
+  {
+    "id": "soc-aisi-navigating-uncharted",
+    "title": "Navigating the uncharted: Building societal resilience to frontier AI",
+    "url": "https://www.aisi.gov.uk/blog/navigating-the-uncharted-building-societal-resilience-to-frontier-ai",
+    "byline": "UK AI Security Institute",
+    "summary": "AISI blog post on what societal resilience to frontier AI looks like in practice.",
+    "format": "article",
+    "consume": "read",
+    "level": "intro",
+    "minutes": 15,
+    "domains": ["societal_resilience"]
+  },
+  {
+    "id": "soc-cathy-oneil-talk",
+    "title": "Weapons of Math Destruction — Cathy O'Neil at Google",
+    "url": "https://www.youtube.com/watch?v=TQHs8SA1qpk",
+    "byline": "Cathy O'Neil",
+    "summary": "Talk on how opaque algorithms reshape lives at scale — accessible introduction to the social impact of algorithmic systems.",
+    "format": "video",
+    "consume": "watch",
+    "level": "intro",
+    "minutes": 60,
+    "domains": ["societal_resilience"]
+  },
+  {
+    "id": "plur-religions-ai-futures",
+    "title": "Perspectives of Traditional Religions on Positive AI Futures",
+    "url": "https://futureoflife.org/project/traditional-religions-on-ai-futures/",
+    "byline": "Future of Life Institute",
+    "summary": "Project surveying how different religious traditions imagine positive futures with AI — useful for thinking about pluralism in AI values.",
+    "format": "article",
+    "consume": "read",
+    "level": "intro",
+    "minutes": 20,
+    "domains": ["pluralism", "philosophy_and_morality"]
+  },
+  {
+    "id": "plur-google-pluralistic-society",
+    "title": "Building AI for the pluralistic society",
+    "url": "https://research.google/blog/building-ai-for-the-pluralistic-society/",
+    "byline": "Google Research",
+    "summary": "Google Research post on what it would mean for AI systems to serve a pluralistic society rather than flatten it to a single set of values.",
+    "format": "article",
+    "consume": "read",
+    "level": "intro",
+    "minutes": 15,
+    "domains": ["pluralism"]
+  },
+  {
+    "id": "plur-overton-benchmark",
+    "title": "Benchmarking Overton Pluralism in LLMs",
+    "url": "https://arxiv.org/abs/2512.01351",
+    "summary": "Paper proposing a benchmark for whether LLMs surface a plural range of views rather than collapsing to a single dominant one.",
+    "format": "paper",
+    "consume": "read",
+    "level": "deep",
+    "minutes": 45,
+    "domains": ["pluralism"]
+  }
+]
