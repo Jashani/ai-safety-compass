@@ -4,7 +4,7 @@ import { backgroundsById } from "@/data/v2/backgrounds";
 import { composePlan, isPerson } from "@/data/v2/composer";
 import type { Profile } from "@/data/v2/composer";
 import { createModeDisplay, domainDisplay } from "@/data/v2/labels";
-import { BookOpen, ExternalLink, Headphones, Play, Sparkles, Wrench } from "lucide-react";
+import { BookOpen, ExternalLink, GraduationCap, Headphones, Play, Sparkles, Wrench } from "lucide-react";
 import type { Content, Label } from "@/data/v2/types";
 
 const LABEL_AXES_TO_SHOW: Label["axis"][] = ["domain", "create_mode"];
@@ -215,6 +215,40 @@ const Plan = () => {
             <div className="space-y-4">
               {plan.deeper.map((c) => (
                 <ConsumeRow key={c.id} item={c} />
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* COURSES */}
+        {plan.courses.length > 0 && (
+          <section className="mb-12">
+            <h2 className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-4">
+              Courses to sign up for
+            </h2>
+            <p className="text-sm text-muted-foreground leading-relaxed mb-4">
+              Longer commitments — not for today, but worth signing up for if you want a structured path.
+            </p>
+            <div className="space-y-4">
+              {plan.courses.map((c) => (
+                <div key={c.id} className="rounded-lg border border-border bg-card p-5">
+                  <div className="flex items-center gap-2 text-xs uppercase tracking-wide text-muted-foreground mb-2">
+                    <GraduationCap className="h-3.5 w-3.5" />
+                    Course
+                  </div>
+                  <a
+                    href={c.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-base font-medium hover:underline inline-flex items-center gap-1.5"
+                  >
+                    {c.title}
+                    <ExternalLink className="h-3.5 w-3.5 text-muted-foreground" />
+                  </a>
+                  {c.byline && <p className="text-xs text-muted-foreground mt-1">{c.byline}</p>}
+                  <p className="text-sm text-muted-foreground leading-relaxed mt-2">{c.summary}</p>
+                  <LabelStrip labels={c.labels} />
+                </div>
               ))}
             </div>
           </section>

@@ -21,7 +21,8 @@ export type ContentFormat =
   | "interactive"
   | "tool"
   | "book"
-  | "org";
+  | "org"
+  | "course";
 
 export type ConsumeType = "read" | "listen" | "watch" | "try";
 export type Level = "intro" | "intermediate" | "deep";

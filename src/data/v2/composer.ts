@@ -19,6 +19,7 @@ export interface Plan {
   todayProduce?: ProduceTemplate;
   people: Person[];
   deeper: Content[];
+  courses: Content[];
   projects: Project[];
   brainstormPrompt: string;
   gaps: string[];
@@ -96,8 +97,15 @@ export const composePlan = (profile: Profile): Plan => {
   const { createModes } = profile;
   const gaps: string[] = [];
 
-  // Filter content to topic-matching, then rank.
-  const matchedContent = allContent.filter((c) => scoreContent(c, topics) > 0);
+  // Courses are surfaced in their own section — sign-up not "today" actions.
+  const matchedCourses = allContent.filter(
+    (c) => c.format === "course" && scoreContent(c, topics) > 0
+  );
+
+  // Filter content to topic-matching, then rank. Exclude courses from regular slots.
+  const matchedContent = allContent.filter(
+    (c) => c.format !== "course" && scoreContent(c, topics) > 0
+  );
 
   // Per-topic: flag any topic with zero content so users know we have a gap there.
   const emptyTopics = topics.filter(
@@ -245,6 +253,8 @@ export const composePlan = (profile: Profile): Plan => {
     );
   }
 
+  const coursesRanked = stableSort(matchedCourses, (c) => scoreContent(c, topics));
+
   return {
     effectiveTopics: topics,
     todayConsume,
@@ -252,6 +262,7 @@ export const composePlan = (profile: Profile): Plan => {
     todayProduce,
     people: peopleList,
     deeper,
+    courses: coursesRanked.slice(0, 3),
     projects: projectsList,
     brainstormPrompt,
     gaps,
