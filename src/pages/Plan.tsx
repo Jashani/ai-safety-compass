@@ -71,6 +71,13 @@ const Plan = () => {
   const plan = useMemo(() => composePlan(profile), [profile]);
   const bg = profile.backgroundId ? backgroundsById[profile.backgroundId] : undefined;
 
+  const browseQuery = useMemo(() => {
+    const q = new URLSearchParams();
+    if (profile.backgroundId) q.set("bg", profile.backgroundId);
+    if (profile.topics.length > 0) q.set("topics", profile.topics.join(","));
+    return q.toString();
+  }, [profile]);
+
   const topicNames = profile.topics
     .map((t) => domainDisplay[t])
     .filter(Boolean)
@@ -225,6 +232,15 @@ const Plan = () => {
               {plan.deeper.map((c) => (
                 <ConsumeRow key={c.id} item={c} />
               ))}
+            </div>
+            <div className="mt-5">
+              <Link
+                to={`/browse?${browseQuery}`}
+                className="inline-flex items-center gap-1.5 rounded-md border border-border px-3 py-1.5 text-sm hover:border-muted-foreground/60 transition-colors"
+              >
+                See all relevant resources
+                <span aria-hidden>&rarr;</span>
+              </Link>
             </div>
           </section>
         )}
