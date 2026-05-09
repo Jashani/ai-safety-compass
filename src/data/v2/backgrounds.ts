@@ -156,7 +156,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "process" },
       { axis: "skill", value: "critical_thinking" },
     ],
-    careerResources: [RES.founder, RES.fieldbuilding],
+    careerResources: [RES.founder, RES.operations],
   },
   {
     id: "marketing",
@@ -185,7 +185,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "people_management" },
       { axis: "skill", value: "communication" },
     ],
-    careerResources: [RES.operations, RES.grantmaker],
+    careerResources: [RES.operations, RES.grantmaker, RES.fieldbuilding],
   },
   {
     id: "finance",
@@ -283,7 +283,6 @@ export const backgrounds: Background[] = [
       { axis: "intent", value: "support_practitioners" },
       { axis: "intent", value: "raise_awareness" },
     ],
-    careerResources: [RES.fieldbuilding],
   },
   {
     id: "medicine",
@@ -316,7 +315,6 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "critical_thinking" },
       { axis: "intent", value: "support_practitioners" },
     ],
-    careerResources: [RES.biorisk_research],
   },
   {
     id: "mental_health",
@@ -335,7 +333,6 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "interviewing" },
       { axis: "intent", value: "support_practitioners" },
     ],
-    careerResources: [RES.fieldbuilding],
   },
   {
     id: "social_research",
@@ -410,7 +407,6 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "communication" },
       { axis: "intent", value: "raise_awareness" },
     ],
-    careerResources: [RES.fieldbuilding],
   },
   {
     id: "other",
