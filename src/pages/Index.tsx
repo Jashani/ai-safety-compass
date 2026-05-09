@@ -25,12 +25,12 @@ const Index = () => {
           </Link>
 
           <Link
-            to="/explore"
+            to="/browse"
             className="block rounded-lg border border-border bg-card p-5 hover:border-muted-foreground/40 transition-colors"
           >
-            <h2 className="text-base font-medium mb-1">Browse fields</h2>
+            <h2 className="text-base font-medium mb-1">Browse content</h2>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Or poke around by background and skill if you'd rather forage.
+              Poke around by background and interests.
             </p>
           </Link>
         </div>

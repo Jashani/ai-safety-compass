@@ -79,12 +79,17 @@ export interface BackgroundResource {
   summary?: string;
 }
 
+// A background's resource list can mix inline entries with string IDs that
+// reference items already in the content pool — letting us pin a topical piece
+// (e.g. an AI-safety musical for Art) directly to a background.
+export type BackgroundResourceRef = BackgroundResource | string;
+
 export interface Background {
   id: string;
   label: string;
   blurb: string;
   labels: Label[];
-  resources?: BackgroundResource[];
+  resources?: BackgroundResourceRef[];
 }
 
 export interface LabelDef {

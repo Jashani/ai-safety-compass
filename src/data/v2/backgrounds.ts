@@ -407,6 +407,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "communication" },
       { axis: "intent", value: "raise_awareness" },
     ],
+    resources: ["art-out-of-this-box-musical"],
   },
   {
     id: "other",

@@ -64,3 +64,7 @@ const sources: RawContent[][] = [
 ];
 
 export const content: Content[] = sources.flat().map(expand);
+
+export const contentById: Record<string, Content> = Object.fromEntries(
+  content.map((c) => [c.id, c])
+);

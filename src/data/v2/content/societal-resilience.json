@@ -85,11 +85,11 @@
     "id": "art-out-of-this-box-musical",
     "title": "Out of This Box (an AI safety musical)",
     "url": "https://outofthisbox.show/",
-    "summary": "An actual musical about AI safety — a model for what it looks like to take this seriously as a creative artist. Browse for inspiration on how the questions can be told as story, song, performance.",
+    "summary": "A model for what it looks like to present AI safety as a creative artist. Browse for inspiration on how the questions can be told as story, song, performance.",
     "format": "org",
     "consume": "watch",
     "level": "intro",
     "minutes": 15,
-    "domains": ["pluralism", "philosophy_and_morality", "future_of_work"]
+    "domains": ["pluralism", "philosophy_and_morality"]
   }
 ]

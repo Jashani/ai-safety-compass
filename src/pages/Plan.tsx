@@ -3,9 +3,17 @@ import { Link, useSearchParams } from "react-router-dom";
 import { backgroundsById } from "@/data/v2/backgrounds";
 import { composePlan, isPerson } from "@/data/v2/composer";
 import type { Profile } from "@/data/v2/composer";
+import { contentById } from "@/data/v2/content";
 import { createModeDisplay, domainDisplay } from "@/data/v2/labels";
 import { BookOpen, Briefcase, ExternalLink, GraduationCap, Headphones, Play, Sparkles, Wrench } from "lucide-react";
-import type { Content, Label } from "@/data/v2/types";
+import type { BackgroundResource, Content, Label } from "@/data/v2/types";
+
+const resolveResource = (ref: BackgroundResource | string): BackgroundResource | undefined => {
+  if (typeof ref !== "string") return ref;
+  const c = contentById[ref];
+  if (!c) return undefined;
+  return { title: c.title, url: c.url, byline: c.byline, summary: c.summary };
+};
 
 const LABEL_AXES_TO_SHOW: Label["axis"][] = ["domain", "create_mode"];
 
@@ -221,36 +229,43 @@ const Plan = () => {
         )}
 
         {/* BACKGROUND RESOURCES — tied directly to background, not topics */}
-        {bg && bg.resources && bg.resources.length > 0 && (
-          <section className="mb-12">
-            <h2 className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-4">
-              Resources for your background
-            </h2>
-            <div className="space-y-4">
-              {bg.resources.map((r) => (
-                <div key={r.url} className="rounded-lg border border-border bg-card p-5">
-                  <div className="flex items-center gap-2 text-xs uppercase tracking-wide text-muted-foreground mb-2">
-                    <Briefcase className="h-3.5 w-3.5" />
-                    For your background
+        {(() => {
+          const refs = bg?.resources ?? [];
+          const resolved = refs
+            .map(resolveResource)
+            .filter((r): r is BackgroundResource => !!r);
+          if (resolved.length === 0) return null;
+          return (
+            <section className="mb-12">
+              <h2 className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-4">
+                Resources for your background
+              </h2>
+              <div className="space-y-4">
+                {resolved.map((r) => (
+                  <div key={r.url} className="rounded-lg border border-border bg-card p-5">
+                    <div className="flex items-center gap-2 text-xs uppercase tracking-wide text-muted-foreground mb-2">
+                      <Briefcase className="h-3.5 w-3.5" />
+                      For your background
+                    </div>
+                    <a
+                      href={r.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-base font-medium hover:underline inline-flex items-center gap-1.5"
+                    >
+                      {r.title}
+                      <ExternalLink className="h-3.5 w-3.5 text-muted-foreground" />
+                    </a>
+                    {r.byline && <p className="text-xs text-muted-foreground mt-1">{r.byline}</p>}
+                    {r.summary && (
+                      <p className="text-sm text-muted-foreground leading-relaxed mt-2">{r.summary}</p>
+                    )}
                   </div>
-                  <a
-                    href={r.url}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-base font-medium hover:underline inline-flex items-center gap-1.5"
-                  >
-                    {r.title}
-                    <ExternalLink className="h-3.5 w-3.5 text-muted-foreground" />
-                  </a>
-                  {r.byline && <p className="text-xs text-muted-foreground mt-1">{r.byline}</p>}
-                  {r.summary && (
-                    <p className="text-sm text-muted-foreground leading-relaxed mt-2">{r.summary}</p>
-                  )}
-                </div>
-              ))}
-            </div>
-          </section>
-        )}
+                ))}
+              </div>
+            </section>
+          );
+        })()}
 
         {/* COURSES */}
         {plan.courses.length > 0 && (
