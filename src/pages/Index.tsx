@@ -35,8 +35,21 @@ const Index = () => {
           </Link>
         </div>
 
+        <p className="text-sm text-muted-foreground leading-relaxed mb-6">
+          Curious about shifting into AI safety as a career? Start with{" "}
+          <a
+            href="https://80000hours.substack.com/p/how-to-get-into-ai-safety-in-3-months"
+            target="_blank"
+            rel="noreferrer"
+            className="underline hover:text-foreground transition-colors"
+          >
+            How to get into AI safety in 3 months
+          </a>
+          .
+        </p>
+
         <p className="text-xs text-muted-foreground leading-relaxed">
-          Built for the AI Safety Breaking Barriers Hackathon and anyone taking first steps into the field.{" "}
+          Built for anyone taking first steps into the field, or for the curious.{" "}
           <a
             href="https://github.com/Jashani/ai-safety-compass"
             target="_blank"
@@ -45,7 +58,7 @@ const Index = () => {
           >
             Contribute on GitHub
           </a>
-          .
+          {" "}(this could be your side project!)
         </p>
       </div>
     </div>

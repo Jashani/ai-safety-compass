@@ -4,6 +4,7 @@ import { backgroundsById } from "@/data/v2/backgrounds";
 import { composePlan, isPerson } from "@/data/v2/composer";
 import type { Profile } from "@/data/v2/composer";
 import { contentById } from "@/data/v2/content";
+import { generalResources } from "@/data/v2/general-resources";
 import { createModeDisplay, domainDisplay } from "@/data/v2/labels";
 import { BookOpen, Briefcase, ExternalLink, GraduationCap, Headphones, Play, Sparkles, Wrench } from "lucide-react";
 import type { BackgroundResource, Content, Label } from "@/data/v2/types";
@@ -346,6 +347,35 @@ const Plan = () => {
               {copied ? "Copied" : "Copy prompt"}
             </button>
           </div>
+        </section>
+
+        {/* GENERAL RESOURCES — backstop, always visible */}
+        <section className="mb-12">
+          <h2 className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-4">
+            General resources
+          </h2>
+          <p className="text-sm text-muted-foreground leading-relaxed mb-4">
+            Foundational starting points if you want a broader view, regardless of background or interests.
+          </p>
+          <ul className="space-y-3">
+            {generalResources.map((r) => (
+              <li key={r.url} className="border-l-2 border-border pl-4">
+                <a
+                  href={r.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-sm font-medium hover:underline inline-flex items-center gap-1.5"
+                >
+                  {r.title}
+                  <ExternalLink className="h-3 w-3 text-muted-foreground" />
+                </a>
+                {r.byline && <p className="text-xs text-muted-foreground mt-0.5">{r.byline}</p>}
+                {r.summary && (
+                  <p className="text-sm text-muted-foreground leading-relaxed mt-1">{r.summary}</p>
+                )}
+              </li>
+            ))}
+          </ul>
         </section>
       </div>
     </div>
