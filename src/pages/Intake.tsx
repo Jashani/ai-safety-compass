@@ -102,9 +102,12 @@ const Intake = () => {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-4">
+          <h2 className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-1">
             What pulls you in?
           </h2>
+          <p className="text-xs text-muted-foreground mb-4">
+            Pick as many as you'd like — or none.
+          </p>
 
           {suggestedDomains.length > 0 && (
             <div className="mb-5">
