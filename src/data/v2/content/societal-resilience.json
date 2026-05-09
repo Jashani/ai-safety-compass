@@ -82,42 +82,6 @@
     "domains": ["pluralism"]
   },
   {
-    "id": "soc-80k-career-fieldbuilding",
-    "title": "Career review: AI safety fieldbuilding",
-    "url": "https://80000hours.org/career-reviews/ai-safety-fieldbuilding/",
-    "byline": "80,000 Hours",
-    "summary": "What fieldbuilding looks like as a career — running courses, programmes, and infrastructure that get more good people working on safety.",
-    "format": "article",
-    "consume": "read",
-    "level": "intro",
-    "minutes": 25,
-    "domains": ["societal_resilience", "future_of_work"]
-  },
-  {
-    "id": "soc-80k-career-operations",
-    "title": "Career review: operations management at impactful organisations",
-    "url": "https://80000hours.org/articles/operations-management/",
-    "byline": "80,000 Hours",
-    "summary": "Why operations roles at AI safety orgs are unusually high-leverage, and what 'good ops' actually looks like in this context.",
-    "format": "article",
-    "consume": "read",
-    "level": "intro",
-    "minutes": 25,
-    "domains": ["future_of_work", "societal_resilience"]
-  },
-  {
-    "id": "soc-80k-career-founder",
-    "title": "Career review: founder of impactful organisations",
-    "url": "https://80000hours.org/career-reviews/founder-impactful-organisations/",
-    "byline": "80,000 Hours",
-    "summary": "Why the safety field needs more founders, what it takes, and how to figure out whether starting something is the right move for you.",
-    "format": "article",
-    "consume": "read",
-    "level": "intro",
-    "minutes": 25,
-    "domains": ["future_of_work", "technical_safety", "societal_resilience"]
-  },
-  {
     "id": "art-out-of-this-box-musical",
     "title": "Out of This Box (an AI safety musical)",
     "url": "https://outofthisbox.show/",

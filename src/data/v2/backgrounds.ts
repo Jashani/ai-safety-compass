@@ -1,4 +1,93 @@
-import type { Background } from "./types";
+import type { Background, CareerResource } from "./types";
+
+// Reusable career-resource entries — referenced by individual backgrounds below.
+// These surface as a "Career resources" section on the plan, not via topic match.
+const RES: Record<string, CareerResource> = {
+  ai_policy_strategy: {
+    title: "Career review: AI policy and strategy",
+    url: "https://80000hours.org/career-reviews/ai-policy-and-strategy/",
+    byline: "80,000 Hours",
+    summary:
+      "What working on AI policy and strategy actually involves, and the routes in. Probably the highest-leverage non-technical safety path right now.",
+  },
+  ai_safety_researcher: {
+    title: "Career review: AI safety researcher",
+    url: "https://80000hours.org/career-reviews/ai-safety-researcher/",
+    byline: "80,000 Hours",
+    summary:
+      "What the AI-safety-research career path actually looks like — what people do day to day, how to get in, where to start.",
+  },
+  biorisk_research: {
+    title: "Career review: biorisk research",
+    url: "https://80000hours.org/career-reviews/biorisk-research/",
+    byline: "80,000 Hours",
+    summary:
+      "What biorisk research careers look like, why they matter as AI lowers the barrier to engineering biothreats, and how to enter the field.",
+  },
+  fieldbuilding: {
+    title: "Career review: AI safety fieldbuilding",
+    url: "https://80000hours.org/career-reviews/ai-safety-fieldbuilding/",
+    byline: "80,000 Hours",
+    summary:
+      "Running courses, programmes, and infrastructure that get more good people working on safety. A path that suits communicators, organisers, and educators.",
+  },
+  infosec: {
+    title: "Career review: information security",
+    url: "https://80000hours.org/career-reviews/information-security/",
+    byline: "80,000 Hours",
+    summary:
+      "Why infosec is increasingly central to AI safety — protecting model weights, lab security, critical infrastructure — and how to build a career there.",
+  },
+  grantmaker: {
+    title: "Career review: grantmaker",
+    url: "https://80000hours.org/career-reviews/grantmaker/",
+    byline: "80,000 Hours",
+    summary:
+      "What grantmaking is actually like, and why it's a high-leverage role inside the AI safety ecosystem.",
+  },
+  operations: {
+    title: "Operations management at impactful organisations",
+    url: "https://80000hours.org/articles/operations-management/",
+    byline: "80,000 Hours",
+    summary:
+      "Why operations roles at AI safety orgs are unusually high-leverage, and what 'good ops' actually looks like in this context.",
+  },
+  macrostrategy: {
+    title: "Career review: macrostrategy research",
+    url: "https://80000hours.org/career-reviews/macrostrategy-research/",
+    byline: "80,000 Hours",
+    summary:
+      "What macrostrategy research is, who funds it, and how it shapes longer-horizon thinking about AI and existential risk.",
+  },
+  founder: {
+    title: "Career review: founder of impactful organisations",
+    url: "https://80000hours.org/career-reviews/founder-impactful-organisations/",
+    byline: "80,000 Hours",
+    summary:
+      "Why the safety field needs more founders, what it takes, and how to figure out whether starting something is the right move for you.",
+  },
+  journalism: {
+    title: "Career review: journalism",
+    url: "https://80000hours.org/career-reviews/journalism/",
+    byline: "80,000 Hours",
+    summary:
+      "How journalism can be a high-impact career on AI and other emerging-tech beats — what good looks like, and where the leverage points are.",
+  },
+  ai_hardware: {
+    title: "Career review: AI hardware expert",
+    url: "https://80000hours.org/career-reviews/become-an-expert-in-ai-hardware/",
+    byline: "80,000 Hours",
+    summary:
+      "Why AI hardware expertise matters for safety, and how to build it. A more technical, less-crowded angle on the field.",
+  },
+  think_tank: {
+    title: "Career review: think tank research",
+    url: "https://80000hours.org/career-reviews/think-tank-research/",
+    byline: "80,000 Hours",
+    summary:
+      "What think-tank research careers look like and how they feed into AI policy. Suits people who like research with a public-facing edge.",
+  },
+};
 
 export const backgrounds: Background[] = [
   {
@@ -17,6 +106,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "process" },
       { axis: "intent", value: "build_and_research" },
     ],
+    careerResources: [RES.ai_safety_researcher, RES.infosec, RES.ai_hardware],
   },
   {
     id: "engineering",
@@ -33,6 +123,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "process" },
       { axis: "intent", value: "build_and_research" },
     ],
+    careerResources: [RES.ai_hardware, RES.ai_safety_researcher],
   },
   {
     id: "data_science",
@@ -50,6 +141,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "critical_thinking" },
       { axis: "intent", value: "build_and_research" },
     ],
+    careerResources: [RES.ai_safety_researcher, RES.infosec],
   },
   {
     id: "product_management",
@@ -64,6 +156,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "process" },
       { axis: "skill", value: "critical_thinking" },
     ],
+    careerResources: [RES.founder, RES.fieldbuilding],
   },
   {
     id: "marketing",
@@ -78,6 +171,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "design" },
       { axis: "intent", value: "raise_awareness" },
     ],
+    careerResources: [RES.fieldbuilding, RES.journalism],
   },
   {
     id: "operations",
@@ -91,6 +185,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "people_management" },
       { axis: "skill", value: "communication" },
     ],
+    careerResources: [RES.operations, RES.grantmaker],
   },
   {
     id: "finance",
@@ -105,6 +200,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "critical_thinking" },
       { axis: "skill", value: "process" },
     ],
+    careerResources: [RES.grantmaker, RES.operations],
   },
   {
     id: "hr",
@@ -119,6 +215,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "communication" },
       { axis: "intent", value: "support_practitioners" },
     ],
+    careerResources: [RES.operations, RES.fieldbuilding],
   },
   {
     id: "consulting",
@@ -135,6 +232,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "writing" },
       { axis: "skill", value: "critical_thinking" },
     ],
+    careerResources: [RES.ai_policy_strategy, RES.think_tank, RES.macrostrategy],
   },
   {
     id: "entrepreneurship",
@@ -149,6 +247,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "design" },
       { axis: "intent", value: "build_and_research" },
     ],
+    careerResources: [RES.founder],
   },
   {
     id: "journalism",
@@ -166,6 +265,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "research" },
       { axis: "intent", value: "raise_awareness" },
     ],
+    careerResources: [RES.journalism],
   },
   {
     id: "education",
@@ -183,6 +283,7 @@ export const backgrounds: Background[] = [
       { axis: "intent", value: "support_practitioners" },
       { axis: "intent", value: "raise_awareness" },
     ],
+    careerResources: [RES.fieldbuilding],
   },
   {
     id: "medicine",
@@ -198,6 +299,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "critical_thinking" },
       { axis: "intent", value: "support_practitioners" },
     ],
+    careerResources: [RES.biorisk_research, RES.ai_safety_researcher],
   },
   {
     id: "nursing",
@@ -214,6 +316,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "critical_thinking" },
       { axis: "intent", value: "support_practitioners" },
     ],
+    careerResources: [RES.biorisk_research],
   },
   {
     id: "mental_health",
@@ -232,6 +335,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "interviewing" },
       { axis: "intent", value: "support_practitioners" },
     ],
+    careerResources: [RES.fieldbuilding],
   },
   {
     id: "social_research",
@@ -252,6 +356,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "critical_thinking" },
       { axis: "intent", value: "build_and_research" },
     ],
+    careerResources: [RES.think_tank, RES.macrostrategy, RES.ai_policy_strategy],
   },
   {
     id: "policy",
@@ -269,6 +374,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "communication" },
       { axis: "skill", value: "critical_thinking" },
     ],
+    careerResources: [RES.ai_policy_strategy, RES.think_tank, RES.macrostrategy],
   },
   {
     id: "law",
@@ -286,6 +392,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "critical_thinking" },
       { axis: "intent", value: "support_practitioners" },
     ],
+    careerResources: [RES.ai_policy_strategy, RES.think_tank],
   },
   {
     id: "art",
@@ -303,6 +410,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "communication" },
       { axis: "intent", value: "raise_awareness" },
     ],
+    careerResources: [RES.fieldbuilding],
   },
   {
     id: "other",

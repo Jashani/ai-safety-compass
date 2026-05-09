@@ -255,30 +255,6 @@
     "domains": ["technical_safety", "interpretability", "control_and_oversight"]
   },
   {
-    "id": "tech-80k-career-researcher",
-    "title": "Career review: AI safety researcher",
-    "url": "https://80000hours.org/career-reviews/ai-safety-researcher/",
-    "byline": "80,000 Hours",
-    "summary": "What the AI-safety-research career path actually looks like — what people do day to day, how to get in, where to start.",
-    "format": "article",
-    "consume": "read",
-    "level": "intro",
-    "minutes": 25,
-    "domains": ["technical_safety"]
-  },
-  {
-    "id": "tech-80k-career-hardware",
-    "title": "Career review: AI hardware expert",
-    "url": "https://80000hours.org/career-reviews/become-an-expert-in-ai-hardware/",
-    "byline": "80,000 Hours",
-    "summary": "Why AI hardware expertise matters for safety, and how to build it. Useful for engineers considering a more technical, less-crowded angle on the field.",
-    "format": "article",
-    "consume": "read",
-    "level": "intro",
-    "minutes": 25,
-    "domains": ["technical_safety", "cybersecurity"]
-  },
-  {
     "id": "eval-project-ideas-doc",
     "title": "Eval project ideas",
     "url": "https://docs.google.com/document/d/1gi32-HZozxVimNg5Mhvk4CvW4zq8J12rGmK_j2zxNEg/edit",

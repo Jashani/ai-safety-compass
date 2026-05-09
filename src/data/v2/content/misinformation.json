@@ -93,17 +93,5 @@
     "consume": "read",
     "level": "intro",
     "domains": ["misinformation"]
-  },
-  {
-    "id": "misinfo-80k-career-journalism",
-    "title": "Career review: journalism",
-    "url": "https://80000hours.org/career-reviews/journalism/",
-    "byline": "80,000 Hours",
-    "summary": "How journalism can be a high-impact career on AI and other emerging-tech beats — what good looks like, and where the leverage points are.",
-    "format": "article",
-    "consume": "read",
-    "level": "intro",
-    "minutes": 25,
-    "domains": ["misinformation", "future_of_work"]
   }
 ]

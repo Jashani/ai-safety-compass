@@ -172,42 +172,6 @@
     "domains": ["governance", "policy"]
   },
   {
-    "id": "policy-80k-career-policy-strategy",
-    "title": "Career review: AI policy and strategy",
-    "url": "https://80000hours.org/career-reviews/ai-policy-and-strategy/",
-    "byline": "80,000 Hours",
-    "summary": "What working on AI policy and strategy actually involves, and the routes in. Probably the highest-leverage non-technical safety path right now.",
-    "format": "article",
-    "consume": "read",
-    "level": "intro",
-    "minutes": 30,
-    "domains": ["governance", "policy"]
-  },
-  {
-    "id": "policy-80k-career-thinktank",
-    "title": "Career review: think tank research",
-    "url": "https://80000hours.org/career-reviews/think-tank-research/",
-    "byline": "80,000 Hours",
-    "summary": "What think-tank research careers look like and how they feed into AI policy. A path that suits people who like research with a public-facing edge.",
-    "format": "article",
-    "consume": "read",
-    "level": "intro",
-    "minutes": 25,
-    "domains": ["policy", "governance"]
-  },
-  {
-    "id": "policy-80k-career-grantmaker",
-    "title": "Career review: grantmaker",
-    "url": "https://80000hours.org/career-reviews/grantmaker/",
-    "byline": "80,000 Hours",
-    "summary": "What grantmaking is actually like, and why it's a high-leverage role inside the AI safety ecosystem.",
-    "format": "article",
-    "consume": "read",
-    "level": "intro",
-    "minutes": 25,
-    "domains": ["governance"]
-  },
-  {
     "id": "gov-research-ideas-doc",
     "title": "AI governance research ideas",
     "url": "https://docs.google.com/document/d/13LJhP3ksrcEBKxYFG5GkJaC2UoxHKUYAHCRdRlpePEc/edit",

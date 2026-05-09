@@ -72,11 +72,19 @@ export interface ProduceTemplate {
   labels: Label[];
 }
 
+export interface CareerResource {
+  title: string;
+  url: string;
+  byline?: string;
+  summary?: string;
+}
+
 export interface Background {
   id: string;
   label: string;
   blurb: string;
   labels: Label[];
+  careerResources?: CareerResource[];
 }
 
 export interface LabelDef {
