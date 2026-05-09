@@ -236,7 +236,7 @@ export const backgrounds: Background[] = [
   },
   {
     id: "social_research",
-    label: "Social research / academia",
+    label: "Social research",
     blurb:
       "You know how to ask a question carefully, design a study, and survive peer review. The empirical evidence base on how AI is actually changing societies, workplaces, and power is thin — there's a lot of room for someone who can do this rigorously.",
     labels: [
