@@ -19,6 +19,22 @@ export const backgrounds: Background[] = [
     ],
   },
   {
+    id: "engineering",
+    label: "Engineering",
+    blurb:
+      "You have an intuition for what real systems do at edges and under load. That makes you well placed to look at how AI is actually built, deployed, and broken, in the real world.",
+    labels: [
+      { axis: "domain", value: "technical_safety" },
+      { axis: "domain", value: "interpretability" },
+      { axis: "domain", value: "control_and_oversight" },
+      { axis: "domain", value: "autonomous_weapons" },
+      { axis: "skill", value: "programming" },
+      { axis: "skill", value: "critical_thinking" },
+      { axis: "skill", value: "process" },
+      { axis: "intent", value: "build_and_research" },
+    ],
+  },
+  {
     id: "data_science",
     label: "Data science / ML",
     blurb:
@@ -41,27 +57,12 @@ export const backgrounds: Background[] = [
     blurb:
       "You're paid to ask whether a feature actually helps the person using it — and whether the org should ship it at all. That's a useful disposition for AI products, where small choices about defaults, friction, and feedback loops decide whether users end up better or worse off.",
     labels: [
-      { axis: "domain", value: "future_of_work" },
       { axis: "domain", value: "manipulation_and_sycophancy" },
       { axis: "domain", value: "cognitive_resilience" },
+      { axis: "domain", value: "technical_safety" },
       { axis: "skill", value: "communication" },
       { axis: "skill", value: "process" },
       { axis: "skill", value: "critical_thinking" },
-    ],
-  },
-  {
-    id: "design",
-    label: "Design (UX / product)",
-    blurb:
-      "You think about how interfaces shape behaviour — what they nudge people toward, what they hide, whose perspective they centre. That's the front line of manipulation, sycophancy, AI companions, and the more intimate questions about cognitive resilience.",
-    labels: [
-      { axis: "domain", value: "manipulation_and_sycophancy" },
-      { axis: "domain", value: "ai_companionship" },
-      { axis: "domain", value: "cognitive_resilience" },
-      { axis: "domain", value: "pluralism" },
-      { axis: "skill", value: "design" },
-      { axis: "skill", value: "communication" },
-      { axis: "skill", value: "research" },
     ],
   },
   {
@@ -72,7 +73,6 @@ export const backgrounds: Background[] = [
     labels: [
       { axis: "domain", value: "misinformation" },
       { axis: "domain", value: "manipulation_and_sycophancy" },
-      { axis: "domain", value: "future_of_work" },
       { axis: "skill", value: "writing" },
       { axis: "skill", value: "communication" },
       { axis: "skill", value: "design" },
@@ -99,7 +99,6 @@ export const backgrounds: Background[] = [
       "You work where small errors compound, where audit trails matter, and where automation is already changing roles fast. That gives you a grounded view on AI in finance, on what real oversight looks like in practice, and on the cybersecurity surface that comes with all of it.",
     labels: [
       { axis: "domain", value: "finance" },
-      { axis: "domain", value: "future_of_work" },
       { axis: "domain", value: "governance" },
       { axis: "domain", value: "cybersecurity" },
       { axis: "skill", value: "data_analysis" },
@@ -114,7 +113,7 @@ export const backgrounds: Background[] = [
       "You see, up close, how organisations actually adopt new tools — who benefits, who quietly loses ground, and what changes about the job afterwards. That's central to the future-of-work questions and to whether AI deployment leaves people better or worse off.",
     labels: [
       { axis: "domain", value: "future_of_work" },
-      { axis: "domain", value: "disempowerment" },
+      { axis: "domain", value: "cognitive_resilience" },
       { axis: "skill", value: "people_management" },
       { axis: "skill", value: "process" },
       { axis: "skill", value: "communication" },

@@ -5,7 +5,7 @@ import type { ProduceTemplate } from "./types";
 export const produceTemplates: ProduceTemplate[] = [
   // ─── WORDS ──────────────────────────────────────────────────────────────
   {
-    id: "any-wrods-concept-explainer",
+    id: "any-words-concept-explainer",
     title: "Write a post explaining one AI safety concept",
     prompt:
       "Pick one concept (e.g., mislaignment, scheming, disempowerment, control). Write a post explaining it to someone smart but new. Post it on LinkedIn or Twitter.",
@@ -15,7 +15,36 @@ export const produceTemplates: ProduceTemplate[] = [
       "A common misconception, with a 'what people think vs what's actually meant' layout",
     ],
     labels: [
-      { axis: "create_mode", value: "visuals" },
+      { axis: "create_mode", value: "words" },
+    ],
+  },
+  {
+    id: "any-words-concern",
+    title: "Write a short post discussing one of your AI safety concerns",
+    prompt:
+      "What about AI safety concerns you? What do you think people should be thinking more about, and working to resolve? Write a post explaining it to those who may be unfamiliar, and share.",
+    exampleAngles: [
+      "Immediate threats, like cybersecurity, vs long-term threats, like disempowerment",
+      "Possible effects on society and individuals",
+      "What is driving you to want to work on AI safety?",
+    ],
+    labels: [
+      { axis: "create_mode", value: "words" },
+    ],
+  },
+  {
+    id: "geopolitics-wrods-concept-explainer",
+    title: "Write a post comparing AI safety approaches of two powers",
+    prompt:
+      "Consider the US, Europe, China, Russia, or others. How are they approaching AI and safety? What does competition look like, and where could it lead? Can we expect collaboration or conflict?",
+    exampleAngles: [
+      "Does Europe do a better job on safety and does it put it behind competitors?",
+      "What might come up as a result of an AI race between the US and China?",
+      "What may Russia's role look like?",
+    ],
+    labels: [
+      { axis: "domain", value: "geopolitics" },
+      { axis: "create_mode", value: "words" },
     ],
   },
   {
