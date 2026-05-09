@@ -36,7 +36,7 @@ const Index = () => {
         </div>
 
         <p className="text-sm text-muted-foreground leading-relaxed mb-6">
-          Curious about shifting into AI safety as a career? Start with{" "}
+          Curious about shifting into AI safety as a career? Check out{" "}
           <a
             href="https://80000hours.substack.com/p/how-to-get-into-ai-safety-in-3-months"
             target="_blank"

@@ -15,13 +15,13 @@ export const generalResources: BackgroundResource[] = [
     url: "https://80000hours.org/2025/06/technical-ai-safety-upskilling-resources/",
     byline: "80,000 Hours",
     summary:
-      "Curated guide to upskilling for technical AI safety — courses, papers, programmes.",
+      "Curated guide and resource list for upskilling in technical AI safety.",
   },
   {
-    title: "57 useful resources for upskilling in AI policy",
+    title: "AI policy upskilling resources",
     url: "https://80000hours.org/2026/04/want-to-upskill-in-ai-policy-here-are-57-useful-resources/",
     byline: "80,000 Hours",
     summary:
-      "Big curated list of AI policy resources — courses, fellowships, reading, podcasts.",
+      "Curated guide and resource list for upskilling in AI policy.",
   },
 ];
