@@ -1,8 +1,8 @@
-import type { Background, CareerResource } from "./types";
+import type { Background, BackgroundResource } from "./types";
 
-// Reusable career-resource entries — referenced by individual backgrounds below.
-// These surface as a "Career resources" section on the plan, not via topic match.
-const RES: Record<string, CareerResource> = {
+// Reusable resource entries — referenced by individual backgrounds below.
+// These surface as a "Resources for your background" section on the plan, not via topic match.
+const RES: Record<string, BackgroundResource> = {
   ai_policy_strategy: {
     title: "Career review: AI policy and strategy",
     url: "https://80000hours.org/career-reviews/ai-policy-and-strategy/",
@@ -106,7 +106,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "process" },
       { axis: "intent", value: "build_and_research" },
     ],
-    careerResources: [RES.ai_safety_researcher, RES.infosec, RES.ai_hardware],
+    resources: [RES.ai_safety_researcher, RES.infosec, RES.ai_hardware],
   },
   {
     id: "engineering",
@@ -123,7 +123,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "process" },
       { axis: "intent", value: "build_and_research" },
     ],
-    careerResources: [RES.ai_hardware, RES.ai_safety_researcher],
+    resources: [RES.ai_hardware, RES.ai_safety_researcher],
   },
   {
     id: "data_science",
@@ -141,7 +141,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "critical_thinking" },
       { axis: "intent", value: "build_and_research" },
     ],
-    careerResources: [RES.ai_safety_researcher, RES.infosec],
+    resources: [RES.ai_safety_researcher, RES.infosec],
   },
   {
     id: "product_management",
@@ -156,7 +156,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "process" },
       { axis: "skill", value: "critical_thinking" },
     ],
-    careerResources: [RES.founder, RES.operations],
+    resources: [RES.founder, RES.operations],
   },
   {
     id: "marketing",
@@ -171,7 +171,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "design" },
       { axis: "intent", value: "raise_awareness" },
     ],
-    careerResources: [RES.fieldbuilding, RES.journalism],
+    resources: [RES.fieldbuilding, RES.journalism],
   },
   {
     id: "operations",
@@ -185,7 +185,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "people_management" },
       { axis: "skill", value: "communication" },
     ],
-    careerResources: [RES.operations, RES.grantmaker, RES.fieldbuilding],
+    resources: [RES.operations, RES.grantmaker, RES.fieldbuilding],
   },
   {
     id: "finance",
@@ -200,7 +200,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "critical_thinking" },
       { axis: "skill", value: "process" },
     ],
-    careerResources: [RES.grantmaker, RES.operations],
+    resources: [RES.grantmaker, RES.operations],
   },
   {
     id: "hr",
@@ -215,7 +215,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "communication" },
       { axis: "intent", value: "support_practitioners" },
     ],
-    careerResources: [RES.operations, RES.fieldbuilding],
+    resources: [RES.operations, RES.fieldbuilding],
   },
   {
     id: "consulting",
@@ -232,7 +232,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "writing" },
       { axis: "skill", value: "critical_thinking" },
     ],
-    careerResources: [RES.ai_policy_strategy, RES.think_tank, RES.macrostrategy],
+    resources: [RES.ai_policy_strategy, RES.think_tank, RES.macrostrategy],
   },
   {
     id: "entrepreneurship",
@@ -247,7 +247,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "design" },
       { axis: "intent", value: "build_and_research" },
     ],
-    careerResources: [RES.founder],
+    resources: [RES.founder],
   },
   {
     id: "journalism",
@@ -265,7 +265,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "research" },
       { axis: "intent", value: "raise_awareness" },
     ],
-    careerResources: [RES.journalism],
+    resources: [RES.journalism],
   },
   {
     id: "education",
@@ -298,7 +298,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "critical_thinking" },
       { axis: "intent", value: "support_practitioners" },
     ],
-    careerResources: [RES.biorisk_research, RES.ai_safety_researcher],
+    resources: [RES.biorisk_research, RES.ai_safety_researcher],
   },
   {
     id: "nursing",
@@ -353,7 +353,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "critical_thinking" },
       { axis: "intent", value: "build_and_research" },
     ],
-    careerResources: [RES.think_tank, RES.macrostrategy, RES.ai_policy_strategy],
+    resources: [RES.think_tank, RES.macrostrategy, RES.ai_policy_strategy],
   },
   {
     id: "policy",
@@ -371,7 +371,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "communication" },
       { axis: "skill", value: "critical_thinking" },
     ],
-    careerResources: [RES.ai_policy_strategy, RES.think_tank, RES.macrostrategy],
+    resources: [RES.ai_policy_strategy, RES.think_tank, RES.macrostrategy],
   },
   {
     id: "law",
@@ -389,7 +389,7 @@ export const backgrounds: Background[] = [
       { axis: "skill", value: "critical_thinking" },
       { axis: "intent", value: "support_practitioners" },
     ],
-    careerResources: [RES.ai_policy_strategy, RES.think_tank],
+    resources: [RES.ai_policy_strategy, RES.think_tank],
   },
   {
     id: "art",

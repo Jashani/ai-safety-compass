@@ -72,7 +72,7 @@ export interface ProduceTemplate {
   labels: Label[];
 }
 
-export interface CareerResource {
+export interface BackgroundResource {
   title: string;
   url: string;
   byline?: string;
@@ -84,7 +84,7 @@ export interface Background {
   label: string;
   blurb: string;
   labels: Label[];
-  careerResources?: CareerResource[];
+  resources?: BackgroundResource[];
 }
 
 export interface LabelDef {

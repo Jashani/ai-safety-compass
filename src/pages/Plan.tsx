@@ -161,41 +161,6 @@ const Plan = () => {
           </section>
         )}
 
-        {/* CAREER RESOURCES — tied directly to background, not topics */}
-        {bg && bg.careerResources && bg.careerResources.length > 0 && (
-          <section className="mb-12">
-            <h2 className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-4">
-              Career paths for your background
-            </h2>
-            <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-              Longer-horizon reading on routes into AI safety that fit a {bg.label.toLowerCase()} background.
-            </p>
-            <div className="space-y-4">
-              {bg.careerResources.map((r) => (
-                <div key={r.url} className="rounded-lg border border-border bg-card p-5">
-                  <div className="flex items-center gap-2 text-xs uppercase tracking-wide text-muted-foreground mb-2">
-                    <Briefcase className="h-3.5 w-3.5" />
-                    Career path
-                  </div>
-                  <a
-                    href={r.url}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-base font-medium hover:underline inline-flex items-center gap-1.5"
-                  >
-                    {r.title}
-                    <ExternalLink className="h-3.5 w-3.5 text-muted-foreground" />
-                  </a>
-                  {r.byline && <p className="text-xs text-muted-foreground mt-1">{r.byline}</p>}
-                  {r.summary && (
-                    <p className="text-sm text-muted-foreground leading-relaxed mt-2">{r.summary}</p>
-                  )}
-                </div>
-              ))}
-            </div>
-          </section>
-        )}
-
         {/* GAPS */}
         {plan.gaps.length > 0 && (
           <section className="mb-12">
@@ -250,6 +215,38 @@ const Plan = () => {
             <div className="space-y-4">
               {plan.deeper.map((c) => (
                 <ConsumeRow key={c.id} item={c} />
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* BACKGROUND RESOURCES — tied directly to background, not topics */}
+        {bg && bg.resources && bg.resources.length > 0 && (
+          <section className="mb-12">
+            <h2 className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-4">
+              Resources for your background
+            </h2>
+            <div className="space-y-4">
+              {bg.resources.map((r) => (
+                <div key={r.url} className="rounded-lg border border-border bg-card p-5">
+                  <div className="flex items-center gap-2 text-xs uppercase tracking-wide text-muted-foreground mb-2">
+                    <Briefcase className="h-3.5 w-3.5" />
+                    For your background
+                  </div>
+                  <a
+                    href={r.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-base font-medium hover:underline inline-flex items-center gap-1.5"
+                  >
+                    {r.title}
+                    <ExternalLink className="h-3.5 w-3.5 text-muted-foreground" />
+                  </a>
+                  {r.byline && <p className="text-xs text-muted-foreground mt-1">{r.byline}</p>}
+                  {r.summary && (
+                    <p className="text-sm text-muted-foreground leading-relaxed mt-2">{r.summary}</p>
+                  )}
+                </div>
               ))}
             </div>
           </section>
