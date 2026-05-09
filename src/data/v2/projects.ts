@@ -72,4 +72,472 @@ export const projects: Project[] = [
       { axis: "create_mode", value: "words" },
     ],
   },
+  {
+    id: "any-presentation-night",
+    title: "Host an AI safety presentation night with friends",
+    blurb:
+      "Pick 4–6 friends. Each picks one AI safety topic and gives a 5–10 minute talk. Drinks, snacks, bad slides welcome. The point is to make a few people you like actually engage with this for one evening.",
+    steps: [
+      "Send invites for a specific evening, 4–6 people",
+      "Share a list of topic suggestions; let people pick",
+      "Set a 5–10 minute time limit and a 'one slide minimum, ten max' rule",
+      "Run the night, take photos, post a short writeup with the topic list",
+    ],
+    timeEstimate: "an evening (plus a week to organise)",
+    labels: [
+      { axis: "create_mode", value: "with_people" },
+      { axis: "create_mode", value: "voice" },
+      { axis: "skill", value: "facilitation" },
+    ],
+  },
+  {
+    id: "any-social-poll-synthesis",
+    title: "Run a social-media poll on AI concerns and synthesise the results",
+    blurb:
+      "Post a poll asking your network what they're most concerned (or excited) about regarding AI. Pair it with a question for free-text replies. Synthesise the results with your own take.",
+    steps: [
+      "Draft a poll with 3–4 well-chosen options + a free-text follow-up question",
+      "Post on LinkedIn / Twitter / Instagram and let it run for 48 hours",
+      "Read every reply; tag the patterns",
+      "Write a 600-word post: what people said, what surprised you, what you think",
+    ],
+    timeEstimate: "2 days (mostly waiting)",
+    labels: [
+      { axis: "create_mode", value: "with_people" },
+      { axis: "create_mode", value: "words" },
+    ],
+  },
+  {
+    id: "manip-poll-research-post",
+    title: "Run a poll on AI persuasion + share results with research",
+    blurb:
+      "Ask your network whether they think AI could persuade or manipulate them. Pair the results with one published study, and write a 500-word post weaving them together.",
+    steps: [
+      "Post a 2-question poll: 'Do you think AI could change your mind?' + 'Do you think it could change someone else's?'",
+      "Pull in one paper on AI persuasion (DebunkBot, persuasion studies, sycophancy research)",
+      "Write 500 words on the mismatch between the two answers and what the research says",
+      "Post and tag the researchers",
+    ],
+    timeEstimate: "a day",
+    labels: [
+      { axis: "domain", value: "manipulation_and_sycophancy" },
+      { axis: "create_mode", value: "with_people" },
+      { axis: "create_mode", value: "words" },
+    ],
+  },
+  {
+    id: "tech-shortform-series",
+    title: "Launch a 5-episode short-form video series on safety basics",
+    blurb:
+      "Pick 5 AI safety concepts. Make 5 sixty-second videos explaining each. Post them on the same handle across a fortnight. The repetition matters.",
+    steps: [
+      "Pick 5 concepts you can explain in under 60 seconds each",
+      "Sketch each video on paper before filming",
+      "Film all 5 in one or two sessions",
+      "Post on a schedule (e.g. every other day) and respond to every comment",
+    ],
+    timeEstimate: "two weekends",
+    labels: [
+      { axis: "domain", value: "technical_safety" },
+      { axis: "create_mode", value: "voice" },
+    ],
+  },
+  {
+    id: "any-reading-group-session",
+    title: "Run a 1-session reading group on one safety paper",
+    blurb:
+      "Pick one paper. Invite 4–8 people you'd like to read it with. Spend 60 minutes discussing — the paper, then your reactions, then what you'd do next.",
+    steps: [
+      "Pick a paper that's accessible enough for non-experts",
+      "Send the paper a week ahead with 3 questions to focus on",
+      "Run a 60–90 minute discussion (in person or video)",
+      "Post a 400-word writeup of what came out of it",
+    ],
+    timeEstimate: "an evening, a week of lead time",
+    labels: [
+      { axis: "create_mode", value: "with_people" },
+      { axis: "skill", value: "facilitation" },
+    ],
+  },
+  {
+    id: "companion-week-journal",
+    title: "Use an AI companion app for a week and journal the experience",
+    blurb:
+      "Pick one AI companion product (Replika, Character.AI, Pi, a roleplay setup). Use it daily for a week. Journal each session honestly. Synthesise into a 1000-word essay or 15-minute audio.",
+    steps: [
+      "Pick the product and set the loose rule: at least one session per day",
+      "Journal each session — what you used it for, how you felt, what felt off",
+      "On day 8, read the whole journal in one sitting",
+      "Write 1000 words or record 15 minutes on what the week did to you",
+    ],
+    timeEstimate: "a week + an afternoon to write",
+    labels: [
+      { axis: "domain", value: "ai_companionship" },
+      { axis: "create_mode", value: "words" },
+      { axis: "create_mode", value: "voice" },
+    ],
+  },
+  {
+    id: "companion-podcast-3-users",
+    title: "Interview 3 AI companion users and turn it into a podcast episode",
+    blurb:
+      "Find three people who actually use AI companions. Interview each for 30 minutes about how they use it, what it gives them, what worries them. Cut into a 25-minute podcast episode.",
+    steps: [
+      "Find 3 users with different reasons (grief, productivity, social, roleplay)",
+      "Run 30-minute recorded interviews with consent",
+      "Edit into a 25-minute episode with light narration",
+      "Publish on Spotify / YouTube / a personal feed and share with each interviewee",
+    ],
+    timeEstimate: "a week",
+    labels: [
+      { axis: "domain", value: "ai_companionship" },
+      { axis: "create_mode", value: "voice" },
+      { axis: "skill", value: "interviewing" },
+    ],
+  },
+  {
+    id: "children-school-pulse",
+    title: "Take the pulse of one local school on AI use",
+    blurb:
+      "Pick one school you have access to. Talk to 2 teachers, 2 parents, and (with consent) 2 students about how AI shows up in school life. Write a synthesis nobody at the school would have written themselves.",
+    steps: [
+      "Get permission from one school or community group",
+      "Interview 6 people across the three groups",
+      "Synthesise: what's shared, what's different across roles, what's missing",
+      "Write a 1000-word piece and share it back with the school first",
+    ],
+    timeEstimate: "a week",
+    labels: [
+      { axis: "domain", value: "ai_and_children" },
+      { axis: "create_mode", value: "with_people" },
+      { axis: "create_mode", value: "words" },
+      { axis: "skill", value: "interviewing" },
+    ],
+  },
+  {
+    id: "cogres-attention-experiment",
+    title: "Run an AI-on / AI-off week and post the results",
+    blurb:
+      "Spend one week using AI freely for thinking work, one week deliberately without. Track time, output quality, what you noticed about your own thinking. Post results.",
+    steps: [
+      "Pick one type of task to focus on (writing, coding, research, planning)",
+      "Run two weeks: one AI-on, one AI-off, in random order",
+      "Log every session — quality, time, mood, retention",
+      "Write 800 words or record 10 minutes on what changed",
+    ],
+    timeEstimate: "two weeks + an afternoon",
+    labels: [
+      { axis: "domain", value: "cognitive_resilience" },
+      { axis: "create_mode", value: "words" },
+    ],
+  },
+  {
+    id: "misinfo-deepfake-workshop",
+    title: "Run a 60-minute deepfake-spotting workshop",
+    blurb:
+      "Run a small workshop teaching 4–10 people to spot AI-generated images, audio, and video. Use real recent examples. Send everyone away with one thing they'll do differently.",
+    steps: [
+      "Collect 5–10 recent real / AI-generated pairs across formats",
+      "Build a 30-min teach + 30-min hands-on agenda",
+      "Run it for 4–10 people (work team, friends group, library)",
+      "Send a one-page recap with the examples and links",
+    ],
+    timeEstimate: "an evening + half a day prep",
+    labels: [
+      { axis: "domain", value: "misinformation" },
+      { axis: "create_mode", value: "with_people" },
+      { axis: "skill", value: "facilitation" },
+    ],
+  },
+  {
+    id: "fow-team-interview-series",
+    title: "Interview 5 colleagues across functions about AI in their work",
+    blurb:
+      "Run 5 short structured interviews across functions in your org. Compare answers. Write something nobody else internally has the angle to write.",
+    steps: [
+      "Pick 5 colleagues in different functions (eng, design, ops, sales, support, etc.)",
+      "Run 20-minute structured interviews with the same 4 questions",
+      "Look at where the answers cluster and where they diverge",
+      "Publish a 700-word internal post or external version with names removed",
+    ],
+    timeEstimate: "a week",
+    labels: [
+      { axis: "domain", value: "future_of_work" },
+      { axis: "create_mode", value: "with_people" },
+      { axis: "create_mode", value: "words" },
+      { axis: "skill", value: "interviewing" },
+    ],
+  },
+  {
+    id: "cyber-prompt-injection-demo",
+    title: "Build and demo a prompt-injection example to non-technical people",
+    blurb:
+      "Build a short, clear prompt-injection demo against a tool you have access to. Show it to 3 non-technical friends or colleagues. Make a 5-minute screen recording of it.",
+    steps: [
+      "Pick one realistic injection vector (indirect via a doc or link is great)",
+      "Build a minimal reproducible demo",
+      "Walk it through with 3 non-technical people; note what surprised them",
+      "Record a 5-minute screen capture with voiceover and post it",
+    ],
+    timeEstimate: "half a day + an afternoon",
+    labels: [
+      { axis: "domain", value: "cybersecurity" },
+      { axis: "create_mode", value: "code" },
+      { axis: "create_mode", value: "voice" },
+    ],
+  },
+  {
+    id: "bio-tabletop",
+    title: "Run a 90-minute tabletop on AI-enabled biorisk",
+    blurb:
+      "Run a tabletop exercise with 4–8 people around one realistic AI-and-bio scenario. Capture where the group gets stuck and what they wish existed. Write it up.",
+    steps: [
+      "Pick or write a 1-page scenario (uplift, dual-use research, lab automation)",
+      "Recruit 4–8 people across roles (clinician, policy, eng, public)",
+      "Run a 90-minute facilitated tabletop with timed phases",
+      "Write 800 words on the decisions the group fought over and why",
+    ],
+    timeEstimate: "an evening + half a day prep",
+    labels: [
+      { axis: "domain", value: "biosecurity" },
+      { axis: "create_mode", value: "with_people" },
+      { axis: "skill", value: "facilitation" },
+    ],
+  },
+  {
+    id: "legal-case-tracker",
+    title: "Compile a tracker of ongoing AI lawsuits in your jurisdiction",
+    blurb:
+      "Build a simple public tracker of AI-related litigation in your country — copyright, liability, criminal evidence, employment. Keep it lightweight, link out generously, update it once.",
+    steps: [
+      "Pick your jurisdiction; identify 8–15 ongoing or recently-decided cases",
+      "Build a one-page table: case, parties, question, status, your one-line take",
+      "Publish on a static page or as a public spreadsheet",
+      "Write a 600-word companion post on the patterns",
+    ],
+    timeEstimate: "a weekend",
+    labels: [
+      { axis: "domain", value: "criminal_justice" },
+      { axis: "domain", value: "governance" },
+      { axis: "create_mode", value: "words" },
+      { axis: "skill", value: "research" },
+    ],
+  },
+  {
+    id: "art-creative-piece",
+    title: "Make one piece of art on a specific AI safety question",
+    blurb:
+      "Pick one question that pulls you in and make one piece of art that lands it for someone else. A poem, a song, a short film, a comic, a short story, a piece of theatre. Share it publicly.",
+    steps: [
+      "Pick the question; pick the form you'd actually finish in",
+      "Make the piece — set yourself a deadline",
+      "Share it somewhere public with a sentence on the question behind it",
+      "Tag two people whose work informed yours",
+    ],
+    timeEstimate: "a weekend (more if it gets you)",
+    labels: [
+      { axis: "domain", value: "philosophy_and_morality" },
+      { axis: "domain", value: "future_of_work" },
+      { axis: "create_mode", value: "visuals" },
+      { axis: "create_mode", value: "voice" },
+      { axis: "create_mode", value: "words" },
+    ],
+  },
+  {
+    id: "philosophy-essay",
+    title: "Write a 1500-word essay on one philosophical question AI raises",
+    blurb:
+      "Pick one philosophical question, take a position, and defend it carefully against the strongest counter-argument you can construct. Aim for an essay you'd be willing to send to someone whose mind you respect.",
+    steps: [
+      "Pick the question and write a one-sentence position",
+      "Write the strongest version of the counter-argument first",
+      "Draft 1500 words; cut to 1500 words again",
+      "Share with one trusted reader before posting",
+    ],
+    timeEstimate: "a weekend",
+    labels: [
+      { axis: "domain", value: "philosophy_and_morality" },
+      { axis: "create_mode", value: "words" },
+    ],
+  },
+  {
+    id: "med-rounds-brief",
+    title: "Brief a 5-minute case at clinical rounds on an AI-related decision",
+    blurb:
+      "Pick one real (anonymised) case where AI was or could have been part of a clinical decision. Brief it at your next rounds or team meeting. Five minutes, one slide, one question.",
+    steps: [
+      "Pick a real anonymised case from the last 3 months",
+      "Build one slide: case, the AI angle, your question",
+      "Brief at rounds; note the team's reactions",
+      "Write 400 words afterwards on what the discussion surfaced",
+    ],
+    timeEstimate: "a few hours",
+    labels: [
+      { axis: "domain", value: "medical" },
+      { axis: "create_mode", value: "with_people" },
+      { axis: "skill", value: "clinical_practice" },
+    ],
+  },
+  {
+    id: "med-clinician-podcast",
+    title: "Interview a clinician on AI in their practice — publish a podcast",
+    blurb:
+      "Interview one clinician about AI in their practice. Cut into a 20-minute podcast episode. Publish.",
+    steps: [
+      "Pick a clinician whose perspective deserves a wider audience",
+      "Run a 45-minute recorded interview with consent",
+      "Edit into a 20-minute episode with brief intro and outro",
+      "Publish and share back with their team",
+    ],
+    timeEstimate: "a week",
+    labels: [
+      { axis: "domain", value: "medical" },
+      { axis: "create_mode", value: "voice" },
+      { axis: "skill", value: "interviewing" },
+    ],
+  },
+  {
+    id: "fow-newsletter-launch",
+    title: "Launch a 4-issue newsletter on AI in your industry",
+    blurb:
+      "Commit to writing 4 short newsletter issues — one a week, 600 words each — on AI in your specific industry. Real takes, no thinkpieces. Publish on Substack.",
+    steps: [
+      "Outline 4 issues end-to-end before publishing the first",
+      "Set a recurring weekly slot to write",
+      "Publish on Substack; ask 5 colleagues to subscribe and reply",
+      "After issue 4, write a short note on whether to keep going",
+    ],
+    timeEstimate: "a month",
+    labels: [
+      { axis: "domain", value: "future_of_work" },
+      { axis: "create_mode", value: "words" },
+    ],
+  },
+  {
+    id: "children-parent-event",
+    title: "Run a 1-hour info session for parents on kids and AI",
+    blurb:
+      "Run an evening session (in person or online) for 5–15 parents on how to think about kids and AI. Be honest about what you do and don't know. Send them away with one thing to try this week.",
+    steps: [
+      "Build a 45-minute teach + 15-minute Q&A agenda",
+      "Recruit 5–15 parents through one school, friend group, or community",
+      "Run the session; capture every question asked",
+      "Send a follow-up note with the questions and what you'd answer with another week",
+    ],
+    timeEstimate: "an evening + half a day prep",
+    labels: [
+      { axis: "domain", value: "ai_and_children" },
+      { axis: "create_mode", value: "with_people" },
+      { axis: "skill", value: "facilitation" },
+    ],
+  },
+  {
+    id: "policy-research-note",
+    title: "Write a 1500-word research note on one open governance question",
+    blurb:
+      "Pick one open governance question (a gap in a current bill, an enforcement question, a comparative question across jurisdictions). Write a 1500-word note that someone in policy could actually use.",
+    steps: [
+      "Pick the question — narrow enough to actually move",
+      "Read 5 sources, including primary documents not just commentary",
+      "Draft 1500 words with a clear claim, the strongest counter, and a recommendation",
+      "Send to one policy person for feedback before posting",
+    ],
+    timeEstimate: "a weekend",
+    labels: [
+      { axis: "domain", value: "governance" },
+      { axis: "domain", value: "policy" },
+      { axis: "create_mode", value: "words" },
+      { axis: "skill", value: "research" },
+    ],
+  },
+  {
+    id: "tech-redteam-jam",
+    title: "Run a 2-hour red-team jam against an open LLM with friends",
+    blurb:
+      "Get 3–6 friends together for two hours and try to break a model's safety behaviour on one specific failure mode. Capture every prompt that worked. Write it up.",
+    steps: [
+      "Pick a specific behaviour to test (refusal-on-benign, eliciting harmful instructions, sycophancy)",
+      "Get 3–6 people in a room or video call, set a 2-hour timer",
+      "Capture every successful prompt + the model's output in a shared doc",
+      "Publish a 600-word summary with patterns you saw",
+    ],
+    timeEstimate: "an evening",
+    labels: [
+      { axis: "domain", value: "technical_safety" },
+      { axis: "create_mode", value: "with_people" },
+      { axis: "create_mode", value: "code" },
+    ],
+  },
+  {
+    id: "interp-paper-replication",
+    title: "Replicate one mech interp result and write it up",
+    blurb:
+      "Pick a small published mech interp finding. Reproduce it on a smaller open model, write up where it matched and where it didn't, push the notebook.",
+    steps: [
+      "Pick a result with clear methods and a small enough model",
+      "Set up the experiment in a Colab notebook",
+      "Run it; document everything that doesn't match",
+      "Publish notebook + a 600-word writeup",
+    ],
+    timeEstimate: "a weekend",
+    labels: [
+      { axis: "domain", value: "interpretability" },
+      { axis: "create_mode", value: "code" },
+      { axis: "create_mode", value: "words" },
+    ],
+  },
+  {
+    id: "gov-policy-tracker",
+    title: "Build a one-page tracker of current AI legislation in your country",
+    blurb:
+      "Build a one-page public tracker of live AI bills, frameworks, and executive actions in your country. Linkable, lightweight, useful. Update it once.",
+    steps: [
+      "Identify all live AI policy threads in your jurisdiction",
+      "Build a single-page table: name, stage, scope, key dates, your one-line take",
+      "Publish as a static page or public spreadsheet",
+      "Write a 500-word companion post; share with policy folks",
+    ],
+    timeEstimate: "a weekend",
+    labels: [
+      { axis: "domain", value: "governance" },
+      { axis: "domain", value: "policy" },
+      { axis: "create_mode", value: "words" },
+      { axis: "skill", value: "research" },
+    ],
+  },
+  {
+    id: "pluralism-cultural-stress-test",
+    title: "Stress-test AI tools on a cultural context they handle poorly",
+    blurb:
+      "Pick a cultural, linguistic, or professional context you know well that current AI tools handle badly. Run 15–20 prompts. Document failures with examples. Write it up.",
+    steps: [
+      "Pick the context; write 15–20 prompts that probe it specifically",
+      "Run them through 2 frontier models",
+      "Document each failure mode with a screenshot or transcript",
+      "Publish a 700-word post with concrete examples",
+    ],
+    timeEstimate: "a day",
+    labels: [
+      { axis: "domain", value: "pluralism" },
+      { axis: "create_mode", value: "words" },
+    ],
+  },
+  {
+    id: "fin-ai-audit",
+    title: "Map AI tools in your finance or audit workflow + assess risk",
+    blurb:
+      "Map every AI tool currently used in your finance/audit/accounting workflow. Assess each on data exposure, model risk, and reversibility. Share internally first, externally if appropriate.",
+    steps: [
+      "List every AI tool actually in use in your function",
+      "Score each on data exposure, model risk, reversibility, audit-trail quality",
+      "Identify the 2–3 places that need a human-in-the-loop change",
+      "Write a 600-word internal memo; share an anonymised public version",
+    ],
+    timeEstimate: "a few days",
+    labels: [
+      { axis: "domain", value: "finance" },
+      { axis: "create_mode", value: "words" },
+      { axis: "skill", value: "process" },
+    ],
+  },
 ];

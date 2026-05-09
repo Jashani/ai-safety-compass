@@ -158,5 +158,65 @@
     "level": "intro",
     "minutes": 9,
     "domains": ["future_of_work"]
+  },
+  {
+    "id": "policy-80k-upskilling",
+    "title": "57 useful resources for upskilling in AI policy",
+    "url": "https://80000hours.org/2026/04/want-to-upskill-in-ai-policy-here-are-57-useful-resources/",
+    "byline": "80,000 Hours",
+    "summary": "Big curated list of AI policy resources — courses, fellowships, reading, podcasts. The single most useful starting point if you're moving toward policy work.",
+    "format": "article",
+    "consume": "read",
+    "level": "intro",
+    "minutes": 30,
+    "domains": ["governance", "policy"]
+  },
+  {
+    "id": "policy-80k-career-policy-strategy",
+    "title": "Career review: AI policy and strategy",
+    "url": "https://80000hours.org/career-reviews/ai-policy-and-strategy/",
+    "byline": "80,000 Hours",
+    "summary": "What working on AI policy and strategy actually involves, and the routes in. Probably the highest-leverage non-technical safety path right now.",
+    "format": "article",
+    "consume": "read",
+    "level": "intro",
+    "minutes": 30,
+    "domains": ["governance", "policy"]
+  },
+  {
+    "id": "policy-80k-career-thinktank",
+    "title": "Career review: think tank research",
+    "url": "https://80000hours.org/career-reviews/think-tank-research/",
+    "byline": "80,000 Hours",
+    "summary": "What think-tank research careers look like and how they feed into AI policy. A path that suits people who like research with a public-facing edge.",
+    "format": "article",
+    "consume": "read",
+    "level": "intro",
+    "minutes": 25,
+    "domains": ["policy", "governance"]
+  },
+  {
+    "id": "policy-80k-career-grantmaker",
+    "title": "Career review: grantmaker",
+    "url": "https://80000hours.org/career-reviews/grantmaker/",
+    "byline": "80,000 Hours",
+    "summary": "What grantmaking is actually like, and why it's a high-leverage role inside the AI safety ecosystem.",
+    "format": "article",
+    "consume": "read",
+    "level": "intro",
+    "minutes": 25,
+    "domains": ["governance"]
+  },
+  {
+    "id": "gov-research-ideas-doc",
+    "title": "AI governance research ideas",
+    "url": "https://docs.google.com/document/d/13LJhP3ksrcEBKxYFG5GkJaC2UoxHKUYAHCRdRlpePEc/edit",
+    "summary": "Open document of governance research questions worth attacking — pick one your background fits and write something.",
+    "format": "interactive",
+    "consume": "try",
+    "level": "intermediate",
+    "minutes": 20,
+    "domains": ["governance", "policy"],
+    "actions": ["try_it"]
   }
 ]

@@ -241,5 +241,66 @@
     "consume": "read",
     "level": "intro",
     "domains": ["scheming_and_deception"]
+  },
+  {
+    "id": "tech-80k-upskilling",
+    "title": "Technical AI safety upskilling resources",
+    "url": "https://80000hours.org/2025/06/technical-ai-safety-upskilling-resources/",
+    "byline": "80,000 Hours",
+    "summary": "Curated guide to upskilling for technical AI safety — courses, papers, and programmes for someone moving in from a technical background.",
+    "format": "article",
+    "consume": "read",
+    "level": "intro",
+    "minutes": 30,
+    "domains": ["technical_safety", "interpretability", "control_and_oversight"]
+  },
+  {
+    "id": "tech-80k-career-researcher",
+    "title": "Career review: AI safety researcher",
+    "url": "https://80000hours.org/career-reviews/ai-safety-researcher/",
+    "byline": "80,000 Hours",
+    "summary": "What the AI-safety-research career path actually looks like — what people do day to day, how to get in, where to start.",
+    "format": "article",
+    "consume": "read",
+    "level": "intro",
+    "minutes": 25,
+    "domains": ["technical_safety"]
+  },
+  {
+    "id": "tech-80k-career-hardware",
+    "title": "Career review: AI hardware expert",
+    "url": "https://80000hours.org/career-reviews/become-an-expert-in-ai-hardware/",
+    "byline": "80,000 Hours",
+    "summary": "Why AI hardware expertise matters for safety, and how to build it. Useful for engineers considering a more technical, less-crowded angle on the field.",
+    "format": "article",
+    "consume": "read",
+    "level": "intro",
+    "minutes": 25,
+    "domains": ["technical_safety", "cybersecurity"]
+  },
+  {
+    "id": "eval-project-ideas-doc",
+    "title": "Eval project ideas",
+    "url": "https://docs.google.com/document/d/1gi32-HZozxVimNg5Mhvk4CvW4zq8J12rGmK_j2zxNEg/edit",
+    "summary": "Working list of evaluation project ideas — pick one that fits your skills and try it. A great starting point for a hackathon-shaped technical contribution.",
+    "format": "interactive",
+    "consume": "try",
+    "level": "intermediate",
+    "minutes": 20,
+    "domains": ["technical_safety", "control_and_oversight"],
+    "actions": ["try_it"]
+  },
+  {
+    "id": "interp-apollo-projects",
+    "title": "45 mech interp project ideas (Apollo Research)",
+    "url": "https://www.alignmentforum.org/posts/KfkpgXdgRheSRWDy8/a-list-of-45-mech-interp-project-ideas-from-apollo-research",
+    "byline": "Apollo Research",
+    "summary": "List of 45 concrete mechanistic-interpretability project ideas — pick one and start. Most are scoped small enough to attempt in a weekend.",
+    "format": "interactive",
+    "consume": "try",
+    "level": "intermediate",
+    "minutes": 30,
+    "domains": ["interpretability", "technical_safety"],
+    "actions": ["try_it"]
   }
 ]

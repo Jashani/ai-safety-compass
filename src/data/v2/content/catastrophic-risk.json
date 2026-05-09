@@ -212,5 +212,41 @@
     "level": "intro",
     "minutes": 5,
     "domains": ["autonomous_weapons"]
+  },
+  {
+    "id": "bio-80k-career-biorisk",
+    "title": "Career review: biorisk research",
+    "url": "https://80000hours.org/career-reviews/biorisk-research/",
+    "byline": "80,000 Hours",
+    "summary": "What biorisk research careers look like, why they matter as AI lowers the barrier to engineering biothreats, and how to enter the field.",
+    "format": "article",
+    "consume": "read",
+    "level": "intro",
+    "minutes": 30,
+    "domains": ["biosecurity"]
+  },
+  {
+    "id": "cyber-80k-career-infosec",
+    "title": "Career review: information security",
+    "url": "https://80000hours.org/career-reviews/information-security/",
+    "byline": "80,000 Hours",
+    "summary": "Why infosec is increasingly central to AI safety — protecting model weights, lab security, and critical infrastructure — and how to build a career there.",
+    "format": "article",
+    "consume": "read",
+    "level": "intro",
+    "minutes": 25,
+    "domains": ["cybersecurity"]
+  },
+  {
+    "id": "catrisk-80k-career-macrostrategy",
+    "title": "Career review: macrostrategy research",
+    "url": "https://80000hours.org/career-reviews/macrostrategy-research/",
+    "byline": "80,000 Hours",
+    "summary": "What macrostrategy research is, who funds it, and how it shapes longer-horizon thinking about AI and existential risk.",
+    "format": "article",
+    "consume": "read",
+    "level": "intermediate",
+    "minutes": 25,
+    "domains": ["catastrophic_risk"]
   }
 ]
