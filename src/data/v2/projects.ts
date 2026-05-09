@@ -9,7 +9,7 @@ export const projects: Project[] = [
     steps: [
       "Draft 5 short questions you'd want answered",
       "DM 10 clinicians, aim for 5 responses",
-      "Write a 600-word post on the patterns you saw",
+      "Write a 400-word post on the patterns you saw",
       "Share on LinkedIn and tag 2 people whose answers shaped your thinking",
     ],
     timeEstimate: "a day",
@@ -40,7 +40,7 @@ export const projects: Project[] = [
   },
   {
     id: "misinfo-debunkbot-reactions",
-    title: "Try DebunkBot and write up what surprised you",
+    title: "Try DebunkBot and write up what you found interesting",
     blurb:
       "Spend 30 minutes with DebunkBot from a few angles, then write a short post on what worked, what didn't, and what it suggests for misinformation interventions.",
     steps: [
@@ -62,11 +62,11 @@ export const projects: Project[] = [
       "Track every AI-assisted task you did this week. Then do the same work without AI for a day. Write up the delta — quality, time, what changed.",
     steps: [
       "Log AI-assisted tasks for 2 days",
-      "Repeat the same work without AI for 1 day",
+      "Repeat the same work without AI for 2 days",
       "Compare: quality, time, mood, outcomes",
-      "Write 600 words on what 'AI-augmented work' actually feels like",
+      "Write 400 words on what 'AI-augmented work' actually feels like",
     ],
-    timeEstimate: "a week of background, half a day to write",
+    timeEstimate: "4 days of background, half a day to write",
     labels: [
       { axis: "domain", value: "future_of_work" },
       { axis: "create_mode", value: "words" },
@@ -74,16 +74,15 @@ export const projects: Project[] = [
   },
   {
     id: "any-presentation-night",
-    title: "Host an AI safety presentation night with friends",
+    title: "Host a presentation night with friends, and present about AI safety",
     blurb:
-      "Pick 4–6 friends. Each picks one AI safety topic and gives a 5–10 minute talk. Drinks, snacks, bad slides welcome. The point is to make a few people you like actually engage with this for one evening.",
+      "Each friend picks one topic and gives a 5–10 minute talk. Snacks and bad slides welcome. The point is to share your thoughts in a fun evening.",
     steps: [
-      "Send invites for a specific evening, 4–6 people",
-      "Share a list of topic suggestions; let people pick",
-      "Set a 5–10 minute time limit and a 'one slide minimum, ten max' rule",
-      "Run the night, take photos, post a short writeup with the topic list",
+      "Send invites to your friends for a specific evening",
+      "Share a list of topic suggestions, or people cn come up with their own",
+      "Run the night, take photos, post a short writeup with reactions and questions you got",
     ],
-    timeEstimate: "an evening (plus a week to organise)",
+    timeEstimate: "an evening (plus some time to organise)",
     labels: [
       { axis: "create_mode", value: "with_people" },
       { axis: "create_mode", value: "voice" },
@@ -97,11 +96,11 @@ export const projects: Project[] = [
       "Post a poll asking your network what they're most concerned (or excited) about regarding AI. Pair it with a question for free-text replies. Synthesise the results with your own take.",
     steps: [
       "Draft a poll with 3–4 well-chosen options + a free-text follow-up question",
-      "Post on LinkedIn / Twitter / Instagram and let it run for 48 hours",
-      "Read every reply; tag the patterns",
-      "Write a 600-word post: what people said, what surprised you, what you think",
+      "Post on LinkedIn / Twitter / Instagram and let it run",
+      "Find patterns in the replies",
+      "Write a 400-word post: what people said, what surprised you, what you think",
     ],
-    timeEstimate: "2 days (mostly waiting)",
+    timeEstimate: "2 days",
     labels: [
       { axis: "create_mode", value: "with_people" },
       { axis: "create_mode", value: "words" },
@@ -113,14 +112,15 @@ export const projects: Project[] = [
     blurb:
       "Ask your network whether they think AI could persuade or manipulate them. Pair the results with one published study, and write a 500-word post weaving them together.",
     steps: [
-      "Post a 2-question poll: 'Do you think AI could change your mind?' + 'Do you think it could change someone else's?'",
+      "Post a 2-question poll: 'Do you think AI could change your mind on a topic you strongly believe in?' + 'Do you think it could change someone else's?'",
       "Pull in one paper on AI persuasion (DebunkBot, persuasion studies, sycophancy research)",
-      "Write 500 words on the mismatch between the two answers and what the research says",
+      "Write 500 words on the mismatch between the answers and what the research says",
       "Post and tag the researchers",
     ],
-    timeEstimate: "a day",
+    timeEstimate: "2 days",
     labels: [
       { axis: "domain", value: "manipulation_and_sycophancy" },
+      { axis: "domain", value: "misinformation" },
       { axis: "create_mode", value: "with_people" },
       { axis: "create_mode", value: "words" },
     ],
@@ -129,24 +129,25 @@ export const projects: Project[] = [
     id: "tech-shortform-series",
     title: "Launch a 5-episode short-form video series on safety basics",
     blurb:
-      "Pick 5 AI safety concepts. Make 5 sixty-second videos explaining each. Post them on the same handle across a fortnight. The repetition matters.",
+      "Pick 5 AI safety concepts. Make 5 sixty-second videos explaining each. Post them over some time and share.",
     steps: [
-      "Pick 5 concepts you can explain in under 60 seconds each",
+      "Pick 5 concepts you can explain in under 60 seconds each (or learn them well enough to do that!)",
       "Sketch each video on paper before filming",
       "Film all 5 in one or two sessions",
-      "Post on a schedule (e.g. every other day) and respond to every comment",
+      "Post on a schedule (e.g. every other day)",
     ],
     timeEstimate: "two weekends",
     labels: [
       { axis: "domain", value: "technical_safety" },
       { axis: "create_mode", value: "voice" },
+      { axis: "create_mode", value: "visuals" },
     ],
   },
   {
     id: "any-reading-group-session",
     title: "Run a 1-session reading group on one safety paper",
     blurb:
-      "Pick one paper. Invite 4–8 people you'd like to read it with. Spend 60 minutes discussing — the paper, then your reactions, then what you'd do next.",
+      "Pick one paper. Invite 4–8 people you'd like to read it with. Spend 60 minutes discussing the paper, your thoughts, and what you'd do next.",
     steps: [
       "Pick a paper that's accessible enough for non-experts",
       "Send the paper a week ahead with 3 questions to focus on",
@@ -178,43 +179,6 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: "companion-podcast-3-users",
-    title: "Interview 3 AI companion users and turn it into a podcast episode",
-    blurb:
-      "Find three people who actually use AI companions. Interview each for 30 minutes about how they use it, what it gives them, what worries them. Cut into a 25-minute podcast episode.",
-    steps: [
-      "Find 3 users with different reasons (grief, productivity, social, roleplay)",
-      "Run 30-minute recorded interviews with consent",
-      "Edit into a 25-minute episode with light narration",
-      "Publish on Spotify / YouTube / a personal feed and share with each interviewee",
-    ],
-    timeEstimate: "a week",
-    labels: [
-      { axis: "domain", value: "ai_companionship" },
-      { axis: "create_mode", value: "voice" },
-      { axis: "skill", value: "interviewing" },
-    ],
-  },
-  {
-    id: "children-school-pulse",
-    title: "Take the pulse of one local school on AI use",
-    blurb:
-      "Pick one school you have access to. Talk to 2 teachers, 2 parents, and (with consent) 2 students about how AI shows up in school life. Write a synthesis nobody at the school would have written themselves.",
-    steps: [
-      "Get permission from one school or community group",
-      "Interview 6 people across the three groups",
-      "Synthesise: what's shared, what's different across roles, what's missing",
-      "Write a 1000-word piece and share it back with the school first",
-    ],
-    timeEstimate: "a week",
-    labels: [
-      { axis: "domain", value: "ai_and_children" },
-      { axis: "create_mode", value: "with_people" },
-      { axis: "create_mode", value: "words" },
-      { axis: "skill", value: "interviewing" },
-    ],
-  },
-  {
     id: "cogres-attention-experiment",
     title: "Run an AI-on / AI-off week and post the results",
     blurb:
@@ -223,7 +187,7 @@ export const projects: Project[] = [
       "Pick one type of task to focus on (writing, coding, research, planning)",
       "Run two weeks: one AI-on, one AI-off, in random order",
       "Log every session — quality, time, mood, retention",
-      "Write 800 words or record 10 minutes on what changed",
+      "Write 500 words or record 6 minutes on what changed",
     ],
     timeEstimate: "two weeks + an afternoon",
     labels: [
@@ -242,7 +206,7 @@ export const projects: Project[] = [
       "Run it for 4–10 people (work team, friends group, library)",
       "Send a one-page recap with the examples and links",
     ],
-    timeEstimate: "an evening + half a day prep",
+    timeEstimate: "an evening + a day of prep",
     labels: [
       { axis: "domain", value: "misinformation" },
       { axis: "create_mode", value: "with_people" },
@@ -253,12 +217,12 @@ export const projects: Project[] = [
     id: "fow-team-interview-series",
     title: "Interview 5 colleagues across functions about AI in their work",
     blurb:
-      "Run 5 short structured interviews across functions in your org. Compare answers. Write something nobody else internally has the angle to write.",
+      "Run 5 short structured interviews across functions in your org. Compare answers. Write about it.",
     steps: [
       "Pick 5 colleagues in different functions (eng, design, ops, sales, support, etc.)",
-      "Run 20-minute structured interviews with the same 4 questions",
+      "Run 20-minute interviews with the same questions",
       "Look at where the answers cluster and where they diverge",
-      "Publish a 700-word internal post or external version with names removed",
+      "Publish a 400-word internal post or external version with names removed",
     ],
     timeEstimate: "a week",
     labels: [
@@ -272,36 +236,16 @@ export const projects: Project[] = [
     id: "cyber-prompt-injection-demo",
     title: "Build and demo a prompt-injection example to non-technical people",
     blurb:
-      "Build a short, clear prompt-injection demo against a tool you have access to. Show it to 3 non-technical friends or colleagues. Make a 5-minute screen recording of it.",
+      "Build a short, clear prompt-injection demo against a tool you have access to. Show it to 3 non-technical friends or colleagues. Ask for their thoughts. Share about it.",
     steps: [
       "Pick one realistic injection vector (indirect via a doc or link is great)",
       "Build a minimal reproducible demo",
-      "Walk it through with 3 non-technical people; note what surprised them",
-      "Record a 5-minute screen capture with voiceover and post it",
+      "Walk it through with 3 non-technical people; note what they think",
     ],
-    timeEstimate: "half a day + an afternoon",
+    timeEstimate: "a day",
     labels: [
       { axis: "domain", value: "cybersecurity" },
       { axis: "create_mode", value: "code" },
-      { axis: "create_mode", value: "voice" },
-    ],
-  },
-  {
-    id: "bio-tabletop",
-    title: "Run a 90-minute tabletop on AI-enabled biorisk",
-    blurb:
-      "Run a tabletop exercise with 4–8 people around one realistic AI-and-bio scenario. Capture where the group gets stuck and what they wish existed. Write it up.",
-    steps: [
-      "Pick or write a 1-page scenario (uplift, dual-use research, lab automation)",
-      "Recruit 4–8 people across roles (clinician, policy, eng, public)",
-      "Run a 90-minute facilitated tabletop with timed phases",
-      "Write 800 words on the decisions the group fought over and why",
-    ],
-    timeEstimate: "an evening + half a day prep",
-    labels: [
-      { axis: "domain", value: "biosecurity" },
-      { axis: "create_mode", value: "with_people" },
-      { axis: "skill", value: "facilitation" },
     ],
   },
   {
@@ -310,7 +254,7 @@ export const projects: Project[] = [
     blurb:
       "Build a simple public tracker of AI-related litigation in your country — copyright, liability, criminal evidence, employment. Keep it lightweight, link out generously, update it once.",
     steps: [
-      "Pick your jurisdiction; identify 8–15 ongoing or recently-decided cases",
+      "Pick your jurisdiction; identify 8–15 ongoing or recently-decided cases. You can use an LLM for this",
       "Build a one-page table: case, parties, question, status, your one-line take",
       "Publish on a static page or as a public spreadsheet",
       "Write a 600-word companion post on the patterns",
@@ -320,6 +264,7 @@ export const projects: Project[] = [
       { axis: "domain", value: "criminal_justice" },
       { axis: "domain", value: "governance" },
       { axis: "create_mode", value: "words" },
+      { axis: "create_mode", value: "code" },
       { axis: "skill", value: "research" },
     ],
   },
@@ -327,7 +272,7 @@ export const projects: Project[] = [
     id: "art-creative-piece",
     title: "Make one piece of art on a specific AI safety question",
     blurb:
-      "Pick one question that pulls you in and make one piece of art that lands it for someone else. A poem, a song, a short film, a comic, a short story, a piece of theatre. Share it publicly.",
+      "Pick one question that pulls you in and make one piece of art that lands it for someone else. A poem, a painting, a short film, a comic, a short story, a piece of theatre. Share it publicly.",
     steps: [
       "Pick the question; pick the form you'd actually finish in",
       "Make the piece — set yourself a deadline",
@@ -337,7 +282,6 @@ export const projects: Project[] = [
     timeEstimate: "a weekend (more if it gets you)",
     labels: [
       { axis: "domain", value: "philosophy_and_morality" },
-      { axis: "domain", value: "future_of_work" },
       { axis: "create_mode", value: "visuals" },
       { axis: "create_mode", value: "voice" },
       { axis: "create_mode", value: "words" },
@@ -345,7 +289,7 @@ export const projects: Project[] = [
   },
   {
     id: "philosophy-essay",
-    title: "Write a 1500-word essay on one philosophical question AI raises",
+    title: "Write an essay on one philosophical question AI raises",
     blurb:
       "Pick one philosophical question, take a position, and defend it carefully against the strongest counter-argument you can construct. Aim for an essay you'd be willing to send to someone whose mind you respect.",
     steps: [
@@ -364,7 +308,7 @@ export const projects: Project[] = [
     id: "med-rounds-brief",
     title: "Brief a 5-minute case at clinical rounds on an AI-related decision",
     blurb:
-      "Pick one real (anonymised) case where AI was or could have been part of a clinical decision. Brief it at your next rounds or team meeting. Five minutes, one slide, one question.",
+      "Pick one real (anonymised) case where AI was or could have been part of a clinical decision. Brief it at your next rounds or team meeting.",
     steps: [
       "Pick a real anonymised case from the last 3 months",
       "Build one slide: case, the AI angle, your question",
@@ -421,10 +365,10 @@ export const projects: Project[] = [
     steps: [
       "Build a 45-minute teach + 15-minute Q&A agenda",
       "Recruit 5–15 parents through one school, friend group, or community",
-      "Run the session; capture every question asked",
+      "Run the session; capture questions asked",
       "Send a follow-up note with the questions and what you'd answer with another week",
     ],
-    timeEstimate: "an evening + half a day prep",
+    timeEstimate: "an evening + a day prep",
     labels: [
       { axis: "domain", value: "ai_and_children" },
       { axis: "create_mode", value: "with_people" },
@@ -433,12 +377,12 @@ export const projects: Project[] = [
   },
   {
     id: "policy-research-note",
-    title: "Write a 1500-word research note on one open governance question",
+    title: "Write a research note on one open governance question",
     blurb:
-      "Pick one open governance question (a gap in a current bill, an enforcement question, a comparative question across jurisdictions). Write a 1500-word note that someone in policy could actually use.",
+      "Pick one open governance question (a gap in a current bill, an enforcement question, a comparative question across jurisdictions). Write a 1500-word note that someone in policy could use.",
     steps: [
-      "Pick the question — narrow enough to actually move",
-      "Read 5 sources, including primary documents not just commentary",
+      "Pick the question — narrow enough to tackle",
+      "Read 5 sources, including primary documents",
       "Draft 1500 words with a clear claim, the strongest counter, and a recommendation",
       "Send to one policy person for feedback before posting",
     ],
