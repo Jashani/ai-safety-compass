@@ -18,12 +18,12 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <div className="mx-auto max-w-2xl px-6 py-16 relative">
-        <div className="absolute top-10 right-6 text-foreground">
+        <div className="absolute top-28 right-6 text-foreground">
           <Compass />
         </div>
 
         <div className="flex justify-between items-center font-mono text-[10.5px] tracking-[0.18em] uppercase text-muted-foreground mb-9">
-          <span>AI Safety · Compass</span>
+          <span>AI Safety Compass</span>
           <span>v2 / 2026</span>
         </div>
 
@@ -31,8 +31,7 @@ const Index = () => {
           Your move into AI safety.
         </h1>
         <p className="text-[15px] text-muted-foreground leading-[1.55] mb-8 max-w-[400px]">
-          Three quick questions about your background and how you create. We'll
-          point the way for you.
+          Three quick questions and we'll point you in the right direction.
         </p>
 
         <Link
@@ -43,7 +42,7 @@ const Index = () => {
           <div>
             <p className="text-[15.5px] font-medium m-0">Build my action plan</p>
             <p className="text-[12.5px] opacity-70 mt-0.5 leading-snug">
-              Three quick questions · 90 seconds
+              Based on your background and interests.
             </p>
           </div>
           <span className="text-lg">→</span>
