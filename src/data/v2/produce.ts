@@ -33,8 +33,22 @@ export const produceTemplates: ProduceTemplate[] = [
     ],
   },
   {
+    id: "any-words-collection",
+    title: "Collect a set of resources relevant to your field and interest, and publish it",
+    prompt:
+      "Content relevant to you may be scattered all over the internet. Identify good sources, create a collection, and share it with your thoughts.",
+    exampleAngles: [
+      "A list of texts relevant to the interaction between your field and AI safety",
+      "Introductory content for people unfamiliar with your field",
+      "A roadmap someone could follow to learn more through those resources",
+    ],
+    labels: [
+      { axis: "create_mode", value: "words" },
+    ],
+  },
+  {
     id: "geopolitics-wrods-concept-explainer",
-    title: "Write a post comparing AI safety approaches of two powers",
+    title: "Write a post comparing AI safety approaches of two different powers",
     prompt:
       "Consider the US, Europe, China, Russia, or others. How are they approaching AI and safety? What does competition look like, and where could it lead? Can we expect collaboration or conflict?",
     exampleAngles: [
