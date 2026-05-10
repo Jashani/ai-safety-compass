@@ -69,6 +69,7 @@ export interface ProduceTemplate {
   title: string;
   prompt: string;
   exampleAngles: string[];
+  timeMinutes: number;
   labels: Label[];
 }
 

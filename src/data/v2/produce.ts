@@ -14,6 +14,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "A concept usually explained in jargon that you can clarify",
       "A common misconception, with a 'what people think vs what's actually meant' layout",
     ],
+    timeMinutes: 120,
     labels: [
       { axis: "create_mode", value: "words" },
     ],
@@ -28,6 +29,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "Possible effects on society and individuals",
       "What is driving you to want to work on AI safety?",
     ],
+    timeMinutes: 90,
     labels: [
       { axis: "create_mode", value: "words" },
     ],
@@ -42,6 +44,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "Introductory content for people unfamiliar with your field",
       "A roadmap someone could follow to learn more through those resources",
     ],
+    timeMinutes: 180,
     labels: [
       { axis: "create_mode", value: "words" },
     ],
@@ -56,6 +59,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "What might come up as a result of an AI race between the US and China?",
       "What may Russia's role look like?",
     ],
+    timeMinutes: 180,
     labels: [
       { axis: "domain", value: "geopolitics" },
       { axis: "create_mode", value: "words" },
@@ -71,6 +75,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "A workflow you'd never trust to AI, and why",
       "A workflow where AI freed you to do better human work",
     ],
+    timeMinutes: 90,
     labels: [
       { axis: "domain", value: "medical" },
       { axis: "create_mode", value: "words" },
@@ -86,6 +91,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "Apply the article's claims to a real recent example you've seen",
       "Argue for one concrete intervention the article didn't propose",
     ],
+    timeMinutes: 120,
     labels: [
       { axis: "domain", value: "misinformation" },
       { axis: "create_mode", value: "words" },
@@ -101,6 +107,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "From the pessimistic future",
       "From the boring-most-likely future",
     ],
+    timeMinutes: 120,
     labels: [
       { axis: "domain", value: "future_of_work" },
       { axis: "create_mode", value: "words" },
@@ -116,6 +123,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "Frame it as 'what this changes about how I'd build/deploy AI'",
       "End with one open question you wish someone would tackle next",
     ],
+    timeMinutes: 150,
     labels: [
       { axis: "domain", value: "technical_safety" },
       { axis: "create_mode", value: "words" },
@@ -131,6 +139,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "A negative result that should change someone's priors",
       "A finding that's been over- or under-hyped in public discussion",
     ],
+    timeMinutes: 180,
     labels: [
       { axis: "domain", value: "interpretability" },
       { axis: "create_mode", value: "words" },
@@ -146,6 +155,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "A debate where your industry's experience is being ignored",
       "A regulation other jurisdictions could borrow from",
     ],
+    timeMinutes: 150,
     labels: [
       { axis: "domain", value: "governance" },
       { axis: "create_mode", value: "words" },
@@ -161,6 +171,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "An AI use in your sector your rep should know is happening",
       "A perspective they probably haven't heard yet",
     ],
+    timeMinutes: 120,
     labels: [
       { axis: "domain", value: "policy" },
       { axis: "create_mode", value: "words" },
@@ -176,6 +187,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "How do you imagine the experience of someone who may use it regularly",
       "What it would mean for a 14-year-old to use this instead of you",
     ],
+    timeMinutes: 180,
     labels: [
       { axis: "domain", value: "ai_companionship" },
       { axis: "create_mode", value: "words" },
@@ -191,6 +203,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "From a clinician's vantage point",
       "From a parent who's already navigating this",
     ],
+    timeMinutes: 90,
     labels: [
       { axis: "domain", value: "ai_and_children" },
       { axis: "create_mode", value: "words" },
@@ -206,6 +219,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "A model risk question that doesn't fit existing audit frameworks",
       "A failure mode that audit trails would miss",
     ],
+    timeMinutes: 120,
     labels: [
       { axis: "domain", value: "finance" },
       { axis: "create_mode", value: "words" },
@@ -221,6 +235,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "A class of attack that's about to become commonplace",
       "A defensive practice that already works but isn't widely adopted",
     ],
+    timeMinutes: 150,
     labels: [
       { axis: "domain", value: "cybersecurity" },
       { axis: "create_mode", value: "words" },
@@ -236,6 +251,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "A task where AI degraded your thinking",
       "Tasks you are glad to let go, and abilities you are concerned to lose",
     ],
+    timeMinutes: 120,
     labels: [
       { axis: "domain", value: "cognitive_resilience" },
       { axis: "create_mode", value: "words" },
@@ -251,6 +267,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "A criminal-justice case involving AI-generated evidence",
       "A liability case where the legal framework hasn't caught up",
     ],
+    timeMinutes: 150,
     labels: [
       { axis: "domain", value: "criminal_justice" },
       { axis: "create_mode", value: "words" },
@@ -266,6 +283,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "A question where careful thinking changes your view",
       "A question philosophers are getting wrong by missing the technical reality",
     ],
+    timeMinutes: 240,
     labels: [
       { axis: "domain", value: "philosophy_and_morality" },
       { axis: "create_mode", value: "words" },
@@ -281,6 +299,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "A professional perspective the model defaults around",
       "A minority political/religious view the model can't reason from",
     ],
+    timeMinutes: 120,
     labels: [
       { axis: "domain", value: "pluralism" },
       { axis: "create_mode", value: "words" },
@@ -296,6 +315,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "A capability that's gone from theoretical to practical recently",
       "A policy lever someone in your country could push on",
     ],
+    timeMinutes: 150,
     labels: [
       { axis: "domain", value: "biosecurity" },
       { axis: "create_mode", value: "words" },
@@ -313,6 +333,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "A concept usually explained in jargon that a picture would clarify",
       "A common misconception, with a 'what people think vs what's actually meant' layout",
     ],
+    timeMinutes: 180,
     labels: [
       { axis: "create_mode", value: "visuals" },
     ],
@@ -327,6 +348,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "A flowchart for 'should I trust this image?'",
       "A poster aimed at older relatives on social media",
     ],
+    timeMinutes: 180,
     labels: [
       { axis: "domain", value: "misinformation" },
       { axis: "create_mode", value: "visuals" },
@@ -342,6 +364,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "A workflow you think is more resistant than people assume",
       "A team's workflow, not just yours",
     ],
+    timeMinutes: 120,
     labels: [
       { axis: "domain", value: "future_of_work" },
       { axis: "create_mode", value: "visuals" },
@@ -357,6 +380,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "A 'who's covered, who isn't' venn diagram",
       "A side-by-side with one peer jurisdiction",
     ],
+    timeMinutes: 240,
     labels: [
       { axis: "domain", value: "governance" },
       { axis: "create_mode", value: "visuals" },
@@ -372,6 +396,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "Framed around situations ('homework', 'social', 'when upset')",
       "A 'questions to ask your kid' version instead of rules",
     ],
+    timeMinutes: 180,
     labels: [
       { axis: "domain", value: "ai_and_children" },
       { axis: "create_mode", value: "visuals" },
@@ -387,6 +412,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "A scene from work where someone has to choose what to delegate",
       "A future-set scene that makes today's choice feel concrete",
     ],
+    timeMinutes: 120,
     labels: [
       { axis: "domain", value: "philosophy_and_morality" },
       { axis: "create_mode", value: "visuals" },
@@ -404,6 +430,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "A paper you think is pivotal",
       "A paper that's hard to read but important",
     ],
+    timeMinutes: 90,
     labels: [
       { axis: "create_mode", value: "voice" },
     ],
@@ -418,6 +445,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "Use one prop or sketch on paper",
       "End with 'one thing to watch for in your own use'",
     ],
+    timeMinutes: 120,
     labels: [
       { axis: "create_mode", value: "voice" },
       { axis: "create_mode", value: "visuals" },
@@ -433,6 +461,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "A demo using a free tool — show the seams",
       "A 'three things that should make you suspicious' format",
     ],
+    timeMinutes: 120,
     labels: [
       { axis: "domain", value: "misinformation" },
       { axis: "create_mode", value: "voice" },
@@ -449,6 +478,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "A skill you're worried about losing",
       "Something you do now that didn't exist a year ago",
     ],
+    timeMinutes: 60,
     labels: [
       { axis: "domain", value: "future_of_work" },
       { axis: "create_mode", value: "voice" },
@@ -464,6 +494,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "A workflow AI can make safer",
       "A handoff with the AI that nobody's protocolised yet",
     ],
+    timeMinutes: 75,
     labels: [
       { axis: "domain", value: "medical" },
       { axis: "create_mode", value: "voice" },
@@ -479,6 +510,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "Writing: what does your first draft look like now?",
       "Disagreement: are you more or less able to sit with it?",
     ],
+    timeMinutes: 60,
     labels: [
       { axis: "domain", value: "cognitive_resilience" },
       { axis: "create_mode", value: "voice" },
@@ -494,6 +526,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "A debate where you've changed your mind",
       "A debate that's about to break out and hasn't yet",
     ],
+    timeMinutes: 240,
     labels: [
       { axis: "domain", value: "policy" },
       { axis: "create_mode", value: "voice" },
@@ -511,6 +544,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "Pick someone who sees patients you don't",
       "Pick someone who's openly sceptical of AI",
     ],
+    timeMinutes: 75,
     labels: [
       { axis: "domain", value: "medical" },
       { axis: "create_mode", value: "with_people" },
@@ -526,6 +560,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "Pick someone who's a heavy AI user",
       "Pick someone in a totally different field",
     ],
+    timeMinutes: 60,
     labels: [{ axis: "create_mode", value: "with_people" }],
   },
   {
@@ -538,6 +573,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "A parent of a teenager",
       "A parent who's openly worried about it",
     ],
+    timeMinutes: 60,
     labels: [
       { axis: "domain", value: "ai_and_children" },
       { axis: "create_mode", value: "with_people" },
@@ -553,6 +589,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "A secondary-school teacher of a 'writing-heavy' subject",
       "A SEN / additional-needs teacher",
     ],
+    timeMinutes: 60,
     labels: [
       { axis: "domain", value: "ai_and_children" },
       { axis: "create_mode", value: "with_people" },
@@ -568,6 +605,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "Someone with much more or much less seniority",
       "Someone openly sceptical of AI",
     ],
+    timeMinutes: 60,
     labels: [
       { axis: "domain", value: "future_of_work" },
       { axis: "create_mode", value: "with_people" },
@@ -585,6 +623,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "Reproduce a failure mode from a paper on your own data",
       "Build the smallest version of an eval you wish existed",
     ],
+    timeMinutes: 360,
     labels: [
       { axis: "domain", value: "technical_safety" },
       { axis: "create_mode", value: "code" },
@@ -600,6 +639,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "A feature-direction probe on an open instruct model",
       "A negative result you suspect doesn't replicate",
     ],
+    timeMinutes: 480,
     labels: [
       { axis: "domain", value: "interpretability" },
       { axis: "create_mode", value: "code" },
@@ -615,6 +655,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "Watermark-detection wrapper on a public detector API",
       "Heuristics tuned for one specific pattern",
     ],
+    timeMinutes: 300,
     labels: [
       { axis: "domain", value: "misinformation" },
       { axis: "create_mode", value: "code" },
@@ -629,6 +670,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "Indirect injection via documents the model retrieves",
       "System-prompt extraction via known patterns",
     ],
+    timeMinutes: 240,
     labels: [
       { axis: "domain", value: "cybersecurity" },
       { axis: "create_mode", value: "code" },
@@ -644,6 +686,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "An analysis of the interaction content",
       "A team version your colleagues could try",
     ],
+    timeMinutes: 240,
     labels: [
       { axis: "domain", value: "future_of_work" },
       { axis: "create_mode", value: "code" },
@@ -659,6 +702,7 @@ export const produceTemplates: ProduceTemplate[] = [
       "A medication-interaction lookup with deliberate edge cases",
       "A mental-health 'when to escalate' helper",
     ],
+    timeMinutes: 240,
     labels: [
       { axis: "domain", value: "medical" },
       { axis: "create_mode", value: "code" },

@@ -17,10 +17,21 @@ type ProduceItem = {
   title: string;
   prompt: string;
   exampleAngles: string[];
+  timeMinutes: number;
+};
+
+const formatMinutes = (mins: number) => {
+  if (mins <= 120) return `${mins} MIN`;
+  if (mins <= 480) {
+    const hours = Math.round((mins / 60) * 2) / 2;
+    return `${hours % 1 === 0 ? hours.toFixed(0) : hours} H`;
+  }
+  const days = Math.round((mins / 480) * 2) / 2;
+  return `${days % 1 === 0 ? days.toFixed(0) : days} D`;
 };
 
 const taskTime = (c: Content) =>
-  c.timeMinutes ? `${c.timeMinutes} MIN` : "";
+  c.timeMinutes ? formatMinutes(c.timeMinutes) : "";
 
 const consumeLabel = (c: Content) => {
   if (c.consumeType === "listen") return "LISTEN";
@@ -126,7 +137,7 @@ export const TodayStack = ({
   if (todayProduce) {
     rows.push({
       label: "MAKE",
-      meta: "60 MIN",
+      meta: formatMinutes(todayProduce.timeMinutes),
       title: todayProduce.title,
       body: (
         <>
