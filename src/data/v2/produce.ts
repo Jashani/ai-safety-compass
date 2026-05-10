@@ -636,7 +636,7 @@ export const produceTemplates: ProduceTemplate[] = [
   },
   {
     id: "fow-code-usage-tracker",
-    title: "Build a personal tool tracking your AI usage and what it saves",
+    title: "Build a personal tool tracking your AI usage",
     prompt:
       "Put together a small tool that logs your AI usage and an estimate of time saved or spent. Run it for a week. Share the result and the tool.",
     exampleAngles: [

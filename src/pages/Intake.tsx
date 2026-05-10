@@ -73,7 +73,7 @@ const Intake = () => {
             Build your action plan
           </h1>
           <p className="text-muted-foreground text-base">
-            Three quick questions. None of this is stored anywhere — your answers live in the URL.
+            Three quick questions. None of this is stored anywhere.
           </p>
         </header>
 
@@ -97,16 +97,16 @@ const Intake = () => {
             ))}
           </div>
           <p className="text-xs text-muted-foreground mt-3">
-            Don't see yours? Pick "Something else" — the topics and create-modes do most of the work.
+            Don't see yours? Pick "Something else", or leave it empty.
           </p>
         </section>
 
         <section className="mb-12">
           <h2 className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-1">
-            What pulls you in?
+            What are you curious about?
           </h2>
           <p className="text-xs text-muted-foreground mb-4">
-            Pick as many as you'd like — or none.
+            Pick as many as you'd like.
           </p>
 
           {suggestedDomains.length > 0 && (

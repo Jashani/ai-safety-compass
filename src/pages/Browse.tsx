@@ -182,7 +182,7 @@ const Browse = () => {
         <header className="mb-12">
           <h1 className="text-3xl font-semibold tracking-tight mb-2">Browse content</h1>
           <p className="text-muted-foreground text-base">
-            Pick a background and interests — you'll see everything we have for them.
+            Pick a background and interests. You'll see everything we have for them.
           </p>
         </header>
 

@@ -126,7 +126,7 @@ export const TodayStack = ({
   if (todayProduce) {
     rows.push({
       label: "MAKE",
-      meta: "30 MIN",
+      meta: "60 MIN",
       title: todayProduce.title,
       body: todayProduce.prompt,
       key: "make",
