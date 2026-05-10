@@ -1,13 +1,14 @@
 import { useMemo, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { backgroundsById } from "@/data/v2/backgrounds";
-import { composePlan, isPerson } from "@/data/v2/composer";
+import { composePlan } from "@/data/v2/composer";
 import type { Profile } from "@/data/v2/composer";
 import { contentById } from "@/data/v2/content";
 import { generalResources } from "@/data/v2/general-resources";
 import { createModeDisplay, domainDisplay } from "@/data/v2/labels";
-import { BookOpen, Briefcase, ExternalLink, GraduationCap, Headphones, Play, Sparkles, Wrench } from "lucide-react";
+import { BookOpen, Briefcase, ExternalLink, GraduationCap, Headphones, Play, Wrench } from "lucide-react";
 import type { BackgroundResource, Content, Label } from "@/data/v2/types";
+import { TodayStack } from "@/components/TodayStack";
 
 const resolveResource = (ref: BackgroundResource | string): BackgroundResource | undefined => {
   if (typeof ref !== "string") return ref;
@@ -130,51 +131,11 @@ const Plan = () => {
 
         {/* TODAY */}
         {hasAnything && (
-          <section className="mb-12">
-            <h2 className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-4">
-              Today
-            </h2>
-
-            <div className="space-y-5">
-              {plan.todayConsume && (
-                <ConsumeCard label="One thing to read or watch" item={plan.todayConsume} />
-              )}
-
-              {plan.todayDoOrTry && (
-                isPerson(plan.todayDoOrTry) ? (
-                  <PersonCard
-                    label="One person to reach out to"
-                    person={plan.todayDoOrTry}
-                    cta="Find them, read their last 3 posts, comment thoughtfully on one. Bonus: send a short message."
-                  />
-                ) : (
-                  <ConsumeCard label="One thing to try" item={plan.todayDoOrTry as Content} />
-                )
-              )}
-
-              {plan.todayProduce && (
-                <div className="rounded-lg border border-border bg-card p-5">
-                  <div className="flex items-center gap-2 text-xs uppercase tracking-wide text-muted-foreground mb-2">
-                    <Sparkles className="h-3.5 w-3.5" />
-                    One thing to make
-                  </div>
-                  <h3 className="text-base font-medium mb-2">{plan.todayProduce.title}</h3>
-                  <p className="text-sm text-muted-foreground leading-relaxed mb-3">
-                    {plan.todayProduce.prompt}
-                  </p>
-                  <div className="text-xs uppercase tracking-wide text-muted-foreground mb-1.5">Angles</div>
-                  <ul className="space-y-1.5">
-                    {plan.todayProduce.exampleAngles.map((a, i) => (
-                      <li key={i} className="text-sm text-muted-foreground leading-relaxed pl-4 relative before:content-[''] before:absolute before:left-0 before:top-2 before:h-1 before:w-1 before:rounded-full before:bg-muted-foreground/50">
-                        {a}
-                      </li>
-                    ))}
-                  </ul>
-                  <LabelStrip labels={plan.todayProduce.labels} />
-                </div>
-              )}
-            </div>
-          </section>
+          <TodayStack
+            todayConsume={plan.todayConsume}
+            todayDoOrTry={plan.todayDoOrTry}
+            todayProduce={plan.todayProduce}
+          />
         )}
 
         {/* GAPS */}
@@ -394,31 +355,6 @@ const Plan = () => {
           </ul>
         </section>
       </div>
-    </div>
-  );
-};
-
-const ConsumeCard = ({ label, item }: { label: string; item: Content }) => {
-  const Icon = formatIcon(item);
-  return (
-    <div className="rounded-lg border border-border bg-card p-5">
-      <div className="flex items-center gap-2 text-xs uppercase tracking-wide text-muted-foreground mb-2">
-        <Icon className="h-3.5 w-3.5" />
-        {label}
-        {item.timeMinutes ? <span className="text-muted-foreground/70">· ~{item.timeMinutes} min</span> : null}
-      </div>
-      <a
-        href={item.url}
-        target="_blank"
-        rel="noreferrer"
-        className="text-base font-medium hover:underline inline-flex items-center gap-1.5"
-      >
-        {item.title}
-        <ExternalLink className="h-3.5 w-3.5 text-muted-foreground" />
-      </a>
-      {item.byline && <p className="text-xs text-muted-foreground mt-1">{item.byline}</p>}
-      <p className="text-sm text-muted-foreground leading-relaxed mt-2">{item.summary}</p>
-      <LabelStrip labels={item.labels} />
     </div>
   );
 };

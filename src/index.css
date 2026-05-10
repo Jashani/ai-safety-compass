@@ -2,55 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Compass v2 — warm light theme */
 @layer base {
   :root {
-    --background: 0 0% 10%;
-    --foreground: 0 0% 90%;
+    color-scheme: light;
 
-    --card: 0 0% 13%;
-    --card-foreground: 0 0% 90%;
+    /* paper */
+    --background: 38 24% 94%;        /* #f4f1ec */
+    --foreground: 215 20% 11%;       /* #161b22 ink */
 
-    --popover: 0 0% 13%;
-    --popover-foreground: 0 0% 90%;
+    --card: 0 0% 100%;
+    --card-foreground: 215 20% 11%;
 
-    --primary: 0 0% 90%;
-    --primary-foreground: 0 0% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 20% 11%;
 
-    --secondary: 0 0% 16%;
-    --secondary-foreground: 0 0% 85%;
+    --primary: 215 20% 11%;          /* ink for buttons */
+    --primary-foreground: 38 24% 94%;
 
-    --muted: 0 0% 16%;
-    --muted-foreground: 0 0% 55%;
+    --secondary: 36 18% 86%;
+    --secondary-foreground: 215 20% 11%;
 
-    --accent: 0 0% 18%;
-    --accent-foreground: 0 0% 90%;
+    --muted: 36 18% 90%;
+    --muted-foreground: 215 12% 40%; /* #5a6473 */
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 90%;
+    --accent: 36 51% 46%;            /* gold #b08538 — needle / task labels */
+    --accent-foreground: 0 0% 100%;
 
-    --border: 0 0% 18%;
-    --input: 0 0% 18%;
-    --ring: 0 0% 40%;
+    --destructive: 0 62% 45%;
+    --destructive-foreground: 0 0% 100%;
 
-    --radius: 0.5rem;
+    --border: 36 22% 83%;            /* #dcd6cb */
+    --input: 36 22% 83%;
+    --ring: 215 20% 11%;
 
-    --sidebar-background: 0 0% 10%;
-    --sidebar-foreground: 0 0% 85%;
-    --sidebar-primary: 0 0% 90%;
-    --sidebar-primary-foreground: 0 0% 10%;
-    --sidebar-accent: 0 0% 16%;
-    --sidebar-accent-foreground: 0 0% 85%;
-    --sidebar-border: 0 0% 18%;
-    --sidebar-ring: 0 0% 40%;
+    --radius: 0.25rem;
   }
 }
 
 @layer base {
-  * {
-    @apply border-border;
-  }
-
+  * { @apply border-border; }
   body {
     @apply bg-background text-foreground;
+    font-family: "Inter Tight", ui-sans-serif, system-ui, -apple-system, sans-serif;
+    font-feature-settings: "ss01", "cv11";
+  }
+  .font-mono {
+    font-family: "JetBrains Mono", ui-monospace, monospace;
   }
 }
