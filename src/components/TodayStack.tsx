@@ -68,9 +68,9 @@ const Row = ({
           {title}
         </p>
       )}
-      <p className="text-[13px] text-muted-foreground leading-[1.5] mt-1 mb-0">
+      <div className="text-[13px] text-muted-foreground leading-[1.5] mt-1">
         {body}
-      </p>
+      </div>
     </div>
     <p className="font-mono text-[10.5px] tracking-[0.08em] text-muted-foreground/80 pt-1 whitespace-nowrap">
       {meta || ""}
@@ -128,7 +128,28 @@ export const TodayStack = ({
       label: "MAKE",
       meta: "60 MIN",
       title: todayProduce.title,
-      body: todayProduce.prompt,
+      body: (
+        <>
+          {todayProduce.prompt}
+          {todayProduce.exampleAngles.length > 0 && (
+            <>
+              <span className="block font-mono text-[10px] tracking-[0.2em] uppercase text-muted-foreground/80 mt-3 mb-1.5">
+                Angles
+              </span>
+              <ul className="space-y-1">
+                {todayProduce.exampleAngles.map((a, i) => (
+                  <li
+                    key={i}
+                    className="pl-3.5 relative before:content-[''] before:absolute before:left-0 before:top-[0.6em] before:h-1 before:w-1 before:rounded-full before:bg-muted-foreground/50"
+                  >
+                    {a}
+                  </li>
+                ))}
+              </ul>
+            </>
+          )}
+        </>
+      ),
       key: "make",
     });
   }
