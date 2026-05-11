@@ -51,3 +51,43 @@
     font-family: "JetBrains Mono", ui-monospace, monospace;
   }
 }
+
+@media print {
+  .no-print { display: none !important; }
+
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 11pt;
+  }
+
+  /* Remove card backgrounds and soften borders for print */
+  [class*="bg-card"],
+  [class*="bg-muted"] {
+    background: white !important;
+  }
+
+  /* Keep borders subtle */
+  [class*="border-border"] {
+    border-color: #ccc !important;
+  }
+
+  /* Ensure links show their URL after the text */
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 8pt;
+    color: #666;
+  }
+
+  /* Don't print URLs on icon-only links or buttons */
+  a[href^="http"] > svg:only-child::after,
+  button::after { content: none; }
+
+  /* Avoid breaking cards mid-page */
+  .rounded-lg { page-break-inside: avoid; }
+
+  /* Collapse max-width for full print width */
+  .max-w-2xl { max-width: 100% !important; }
+  .px-6 { padding-left: 1.5rem !important; padding-right: 1.5rem !important; }
+  .py-16 { padding-top: 1.5rem !important; padding-bottom: 1.5rem !important; }
+}

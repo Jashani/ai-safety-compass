@@ -8,7 +8,7 @@ import { generalResources } from "@/data/v2/general-resources";
 import { communities, jobFiltersByBackground } from "@/data/v2/communities";
 import type { Community } from "@/data/v2/communities";
 import { createModeDisplay, domainDisplay } from "@/data/v2/labels";
-import { BookOpen, Briefcase, ExternalLink, GraduationCap, Headphones, MessageSquare, Play, Wrench } from "lucide-react";
+import { BookOpen, Briefcase, Download, ExternalLink, GraduationCap, Headphones, MessageSquare, Play, Wrench } from "lucide-react";
 import type { BackgroundResource, Content, Label } from "@/data/v2/types";
 import { TodayStack } from "@/components/TodayStack";
 
@@ -102,12 +102,21 @@ const Plan = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <div className="mx-auto max-w-2xl px-6 py-16">
-        <Link
-          to="/intake"
-          className="text-sm text-muted-foreground hover:text-foreground transition-colors mb-8 inline-block"
-        >
-          &larr; Edit answers
-        </Link>
+        <div className="flex items-center justify-between mb-8 no-print">
+          <Link
+            to="/intake"
+            className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+          >
+            &larr; Edit answers
+          </Link>
+          <button
+            onClick={() => window.print()}
+            className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors"
+          >
+            <Download className="h-3.5 w-3.5" />
+            Save as PDF
+          </button>
+        </div>
 
         <header className="mb-10">
           <h1 className="text-3xl font-semibold tracking-tight mb-3">Your plan</h1>
