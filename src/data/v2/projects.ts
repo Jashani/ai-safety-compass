@@ -484,4 +484,192 @@ export const projects: Project[] = [
       { axis: "skill", value: "process" },
     ],
   },
+  {
+    id: "fin-advisor-stress-test",
+    title: "Stress-test 5 AI financial tools on edge cases and publish findings",
+    blurb:
+      "Design 50 edge-case scenarios — tax corners, unusual volatility, fraud signals, data inconsistencies — and run them through 5 AI financial or accounting tools. Document where they fail and what a safe-deployment safeguard would look like.",
+    steps: [
+      "Pick 5 AI tools in financial or audit workflows you can access",
+      "Design 50 scenarios across at least 4 categories: tax edge cases, volatility, fraud patterns, data inconsistencies",
+      "Run each scenario; document pass/fail, failure mode, and severity",
+      "Publish a 1000-word breakdown of the most common failure modes and recommended safeguards",
+    ],
+    timeEstimate: "a week",
+    labels: [
+      { axis: "domain", value: "finance" },
+      { axis: "create_mode", value: "words" },
+      { axis: "skill", value: "research" },
+    ],
+  },
+  {
+    id: "hr-adoption-risk-matrix",
+    title: "Build an AI adoption risk matrix for job types in your organisation",
+    blurb:
+      "Map 5–10 job types against AI displacement risk, reskilling difficulty, and AI dependency. Publish as an interactive tool or spreadsheet with a methodology others can replicate.",
+    steps: [
+      "Pick 5–10 job types you have real familiarity with",
+      "For each, score: proportion of core tasks AI can currently do, reskilling difficulty, and dependency risk",
+      "Build the matrix in a spreadsheet or simple web page",
+      "Write a 500-word post explaining your methodology and the most surprising finding",
+    ],
+    timeEstimate: "a weekend",
+    labels: [
+      { axis: "domain", value: "hr_and_people" },
+      { axis: "domain", value: "future_of_work" },
+      { axis: "create_mode", value: "words" },
+      { axis: "skill", value: "research" },
+    ],
+  },
+  {
+    id: "edu-ai-literacy-curriculum",
+    title: "Design an 8-week AI literacy curriculum and publish it",
+    blurb:
+      "Write full lesson plans, activities, and assessments for an 8-week course on critical thinking about AI. Aimed at one specific age group or setting you know well. Publish on GitHub under a Creative Commons licence.",
+    steps: [
+      "Pick your audience (secondary school, undergrads, adult learners, etc.) and one subject to embed it in",
+      "Outline 8 sessions, each with a learning objective you could assess",
+      "Write one full lesson plan to the 'usable by a stranger who didn't write it' standard",
+      "Publish on GitHub; post about it and invite feedback from working teachers",
+    ],
+    timeEstimate: "two to three weekends",
+    labels: [
+      { axis: "domain", value: "education" },
+      { axis: "create_mode", value: "words" },
+      { axis: "skill", value: "facilitation" },
+    ],
+  },
+  {
+    id: "mental-companion-audit",
+    title: "Audit 3 AI companion apps for psychological manipulation",
+    blurb:
+      "Evaluate three AI companion products against a pre-defined rubric — sycophancy, dependency loops, false intimacy, crisis escalation. Publish your scoring, methodology, and at least three concrete redesign proposals.",
+    steps: [
+      "Define a rubric with at least 6 criteria before you start (set it before using the products so you can't retrofit)",
+      "Use each product for at least 3 sessions; document specific interactions",
+      "Score each against the rubric; note edge cases and anything the rubric missed",
+      "Publish a 1000-word writeup with your scores and at least 3 concrete redesign proposals",
+    ],
+    timeEstimate: "one to two weeks",
+    labels: [
+      { axis: "domain", value: "mental_health" },
+      { axis: "domain", value: "ai_companionship" },
+      { axis: "create_mode", value: "words" },
+      { axis: "skill", value: "research" },
+    ],
+  },
+  {
+    id: "journ-story-investigation",
+    title: "Investigate and pitch one AI safety story to a major outlet",
+    blurb:
+      "Find one AI safety story that hasn't been properly told. Report it with documents, interviews, or data. Write a 2000-word draft and pitch to The Verge, WSJ, or a relevant trade outlet. Publish wherever it lands.",
+    steps: [
+      "Identify the story: a pattern of incidents, a decision that hasn't been scrutinised, a company claim that doesn't hold up",
+      "Do the reporting: at least 2 on-record sources or primary documents",
+      "Write a 2000-word draft; get feedback from one editor or journalist before pitching",
+      "Pitch to 3 outlets; publish wherever it lands (or on your own channel if needed)",
+    ],
+    timeEstimate: "two to four weeks",
+    labels: [
+      { axis: "domain", value: "journalism" },
+      { axis: "create_mode", value: "words" },
+      { axis: "skill", value: "research" },
+      { axis: "skill", value: "interviewing" },
+    ],
+  },
+  {
+    id: "ops-deployment-checklist",
+    title: "Build a red-flag checklist for AI tool deployment",
+    blurb:
+      "Write a 30-point checklist for organisations rolling out an AI tool — covering data exposure, failure modes, human-in-the-loop assumptions, rollback plans, and audit trails. Publish as a GitHub repo others can fork and adapt.",
+    steps: [
+      "Identify 5 failure categories: data, process, people, audit, and recovery",
+      "Write 5–7 concrete, actionable checks per category, drawn from real deployment experience",
+      "Test the list against one real tool deployment you know well; cut anything that isn't actionable",
+      "Publish on GitHub; write a 400-word post explaining why each category matters",
+    ],
+    timeEstimate: "a weekend",
+    labels: [
+      { axis: "domain", value: "operations" },
+      { axis: "domain", value: "future_of_work" },
+      { axis: "create_mode", value: "words" },
+      { axis: "skill", value: "process" },
+    ],
+  },
+  {
+    id: "consult-governance-memos",
+    title: "Write 3 AI governance memos for different organisation types",
+    blurb:
+      "Produce three plug-and-play AI governance memos — one each for a hospital, a bank, and a school or public body. Each covers deployment criteria, oversight structure, and audit trail requirements. Publish all three.",
+    steps: [
+      "Pick 3 org types where you have domain knowledge, or can interview someone who does",
+      "Draft each memo: deployment criteria, oversight roles, escalation paths, audit requirements",
+      "Test each against one real org decision you know about; revise where the memo would have failed",
+      "Publish all three; write a 500-word post on what they share and where they diverge",
+    ],
+    timeEstimate: "two to three weekends",
+    labels: [
+      { axis: "domain", value: "consulting" },
+      { axis: "domain", value: "governance" },
+      { axis: "create_mode", value: "words" },
+      { axis: "skill", value: "research" },
+    ],
+  },
+  {
+    id: "soc-research-preregistered-study",
+    title: "Design and run a pre-registered study on AI's impact on one group",
+    blurb:
+      "Pick one specific population and one measurable effect — e.g., 'Does AI tutoring reduce student reasoning skills?' Pre-register your study design before collecting data. Publish both the pre-registration and the findings.",
+    steps: [
+      "Narrow to one population and one clearly measurable outcome variable",
+      "Write a pre-registration: hypothesis, methodology, sample size, analysis plan",
+      "Register on OSF or AsPredicted before collecting any data",
+      "Run the study; publish results whether or not they confirm the hypothesis",
+    ],
+    timeEstimate: "one to three months",
+    labels: [
+      { axis: "domain", value: "social_research" },
+      { axis: "create_mode", value: "words" },
+      { axis: "skill", value: "research" },
+    ],
+  },
+  {
+    id: "nursing-incident-doc",
+    title: "Document patient safety incidents involving AI from your unit",
+    blurb:
+      "Collect and anonymise 30+ near-misses or incidents from your unit where an AI tool played a role. Categorise by failure type, write a safety bulletin for your team, and submit to a nursing or patient safety journal.",
+    steps: [
+      "Identify incidents from the past 12 months where AI was part of the workflow",
+      "Anonymise thoroughly — no patient-identifiable information",
+      "Categorise each failure: wrong output trusted, workflow step skipped, handoff confusion, etc.",
+      "Write a 2-page safety bulletin; present at one team meeting; submit to a nursing or patient safety journal",
+    ],
+    timeEstimate: "a few weeks",
+    labels: [
+      { axis: "domain", value: "medical" },
+      { axis: "create_mode", value: "words" },
+      { axis: "skill", value: "clinical_practice" },
+      { axis: "skill", value: "research" },
+    ],
+  },
+  {
+    id: "sw-prompt-injection-suite",
+    title: "Build an open-source prompt injection test suite across 5+ models",
+    blurb:
+      "Create a systematic, open-source tool that tests prompt injection vectors across at least 5 models. Publish benchmark results comparing vulnerability rates. Aim for a reusable harness others can extend.",
+    steps: [
+      "Define 3–5 injection categories: direct, indirect via documents, system-prompt extraction, etc.",
+      "Write 30+ test prompts per category — use an LLM to help generate variations, then review each",
+      "Run across at least 5 models; score and compare vulnerability rates per category",
+      "Push to GitHub with a clear README; write a 600-word post on what the results show",
+    ],
+    timeEstimate: "two to three weekends",
+    labels: [
+      { axis: "domain", value: "cybersecurity" },
+      { axis: "domain", value: "technical_safety" },
+      { axis: "create_mode", value: "code" },
+      { axis: "create_mode", value: "words" },
+      { axis: "skill", value: "research" },
+    ],
+  },
 ];

@@ -708,4 +708,151 @@ export const produceTemplates: ProduceTemplate[] = [
       { axis: "create_mode", value: "code" },
     ],
   },
+
+  // ─── HR / PEOPLE MANAGEMENT ─────────────────────────────────────────────
+  {
+    id: "hr-words-unseen-costs",
+    title: "Write about the unseen costs of AI adoption in your organisation",
+    prompt:
+      "Pick one unintended consequence of AI adoption you've observed — skill atrophy, morale effects, coordination friction, something else that doesn't show up in productivity metrics. Write 500 words on what you've noticed, with a concrete example. Publish on Substack or LinkedIn.",
+    exampleAngles: [
+      "A skill your team used to have that has quietly eroded",
+      "A change to morale or trust that no one talks about publicly",
+      "A workflow that got faster but worse in some harder-to-measure way",
+    ],
+    timeMinutes: 120,
+    labels: [
+      { axis: "domain", value: "hr_and_people" },
+      { axis: "create_mode", value: "words" },
+    ],
+  },
+
+  // ─── OPERATIONS ─────────────────────────────────────────────────────────
+  {
+    id: "ops-words-deployment-guide",
+    title: "Write a practitioner's guide to one AI deployment that went wrong",
+    prompt:
+      "Document one AI tool rollout — in your org or a public case — that created unexpected friction or failure. What was the plan? What actually happened? What would you check before deploying again? 600 words. Publish.",
+    exampleAngles: [
+      "A tool meant to save time that created coordination chaos instead",
+      "A rollout where the human-in-the-loop assumption turned out to be wrong",
+      "A case where the vendor's framing didn't match the operational reality",
+    ],
+    timeMinutes: 150,
+    labels: [
+      { axis: "domain", value: "operations" },
+      { axis: "create_mode", value: "words" },
+    ],
+  },
+
+  // ─── EDUCATION ──────────────────────────────────────────────────────────
+  {
+    id: "edu-words-curriculum-guide",
+    title: "Write a guide for teaching critical thinking about AI in your classroom",
+    prompt:
+      "Write a practitioner guide for teachers on building AI critical thinking into an existing subject. Include at least one concrete lesson plan with learning objectives. Publish on GitHub (Creative Commons) or Teachers Pay Teachers.",
+    exampleAngles: [
+      "Structured as 'before you use AI / during / after' for a specific subject",
+      "A guide for a non-tech teacher with no existing AI knowledge",
+      "Focused on one age group you have direct experience with",
+    ],
+    timeMinutes: 360,
+    labels: [
+      { axis: "domain", value: "education" },
+      { axis: "create_mode", value: "words" },
+    ],
+  },
+
+  // ─── MENTAL HEALTH / THERAPY ────────────────────────────────────────────
+  {
+    id: "mental-words-red-flags",
+    title: "Write a red-flags checklist for AI therapy and companion tools",
+    prompt:
+      "Write a downloadable one-page checklist clinicians or concerned users can use to evaluate AI therapy and companion apps. Cover sycophancy, false intimacy, dependency loops, and crisis escalation failure. Publish and share with professional networks.",
+    exampleAngles: [
+      "Framed as 'what to look for before recommending this to a patient'",
+      "Covering red flags in onboarding and retention mechanics",
+      "A version aimed at parents of teenagers",
+    ],
+    timeMinutes: 120,
+    labels: [
+      { axis: "domain", value: "mental_health" },
+      { axis: "create_mode", value: "words" },
+    ],
+  },
+
+  // ─── JOURNALISM / COMMUNICATIONS ────────────────────────────────────────
+  {
+    id: "journ-words-investigation",
+    title: "Write an investigation on one AI safety story that's being missed",
+    prompt:
+      "Identify one AI safety story — in your beat or adjacent — that hasn't been properly covered. Write a 2000-word investigation: what's happening, what it means, and why it matters now. Pitch to a publication (The Verge, WSJ, your sector's trade press). Publish wherever it lands.",
+    exampleAngles: [
+      "A pattern of incidents that hasn't been connected publicly",
+      "A decision by a regulator or company that hasn't been scrutinised",
+      "A gap between what AI companies claim and what is actually deployed",
+    ],
+    timeMinutes: 480,
+    labels: [
+      { axis: "domain", value: "journalism" },
+      { axis: "create_mode", value: "words" },
+    ],
+  },
+
+  // ─── SOCIAL RESEARCH ────────────────────────────────────────────────────
+  {
+    id: "soc-research-words-evidence-review",
+    title: "Write an evidence review of what we actually know about one AI impact claim",
+    prompt:
+      "Pick one specific claim about AI's societal effects you've seen widely debated — on jobs, trust, cognition, or equity. Write a 1500-word evidence review: what the research actually shows, where the gaps are, and what you'd want studied next. Submit to a journal or publish on SSRN.",
+    exampleAngles: [
+      "A claim that's widely repeated but has weak empirical support",
+      "A gap between lab findings and real-world deployment evidence",
+      "A population whose experience the research consistently misses",
+    ],
+    timeMinutes: 300,
+    labels: [
+      { axis: "domain", value: "social_research" },
+      { axis: "create_mode", value: "words" },
+    ],
+  },
+
+  // ─── CONSULTING / STRATEGY ──────────────────────────────────────────────
+  {
+    id: "consult-words-governance-memo",
+    title: "Write an AI governance memo for one type of organisation",
+    prompt:
+      "Pick one org type — hospital, bank, school, startup, local government. Write a 600-word plug-and-play AI governance memo: what to decide before deploying AI, what oversight looks like, and what to track. Make it specific enough to use, not just to cite. Publish.",
+    exampleAngles: [
+      "A memo that could go to a board without AI expertise",
+      "Focused on one high-risk use case specific to that sector",
+      "Written so a cautious legal team would find it useful, not alarmist",
+    ],
+    timeMinutes: 180,
+    labels: [
+      { axis: "domain", value: "consulting" },
+      { axis: "domain", value: "governance" },
+      { axis: "create_mode", value: "words" },
+    ],
+  },
+
+  // ─── SOFTWARE ENGINEERING ───────────────────────────────────────────────
+  {
+    id: "sw-words-redteam-guide",
+    title: "Write a how-to guide for red-teaming language models",
+    prompt:
+      "Write a step-by-step guide — with code examples — for systematically red-teaming a language model. Cover prompt injection, jailbreaks, failure mode categories, and how to document and score results. Publish on GitHub or a personal blog.",
+    exampleAngles: [
+      "Structured around one failure category (e.g. instruction-following, harmful output elicitation)",
+      "Aimed at software engineers with no prior safety background",
+      "Includes a small reusable test harness others can fork",
+    ],
+    timeMinutes: 300,
+    labels: [
+      { axis: "domain", value: "technical_safety" },
+      { axis: "domain", value: "cybersecurity" },
+      { axis: "create_mode", value: "words" },
+      { axis: "create_mode", value: "code" },
+    ],
+  },
 ];

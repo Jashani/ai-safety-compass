@@ -35,9 +35,16 @@ export const domains: LabelDef[] = [
 
   // Domain-specific
   { value: "medical", display: "Medicine & mental health", category: "Domain-specific" },
+  { value: "mental_health", display: "Mental health", category: "Domain-specific" },
   { value: "criminal_justice", display: "Criminal justice", category: "Domain-specific" },
   { value: "finance", display: "Finance", category: "Domain-specific" },
   { value: "philosophy_and_morality", display: "Philosophy & morality", category: "Domain-specific" },
+  { value: "hr_and_people", display: "HR & people management", category: "Domain-specific" },
+  { value: "operations", display: "Operations", category: "Domain-specific" },
+  { value: "education", display: "Education", category: "Domain-specific" },
+  { value: "journalism", display: "Journalism & communications", category: "Domain-specific" },
+  { value: "social_research", display: "Social research", category: "Domain-specific" },
+  { value: "consulting", display: "Consulting & strategy", category: "Domain-specific" },
 ];
 
 // Stable category order for the intake UI.

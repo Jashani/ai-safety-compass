@@ -5,8 +5,10 @@ import { composePlan } from "@/data/v2/composer";
 import type { Profile } from "@/data/v2/composer";
 import { contentById } from "@/data/v2/content";
 import { generalResources } from "@/data/v2/general-resources";
+import { communities, jobFiltersByBackground } from "@/data/v2/communities";
+import type { Community } from "@/data/v2/communities";
 import { createModeDisplay, domainDisplay } from "@/data/v2/labels";
-import { BookOpen, Briefcase, ExternalLink, GraduationCap, Headphones, Play, Wrench } from "lucide-react";
+import { BookOpen, Briefcase, ExternalLink, GraduationCap, Headphones, MessageSquare, Play, Wrench } from "lucide-react";
 import type { BackgroundResource, Content, Label } from "@/data/v2/types";
 import { TodayStack } from "@/components/TodayStack";
 
@@ -326,6 +328,12 @@ const Plan = () => {
           </div>
         </section>
 
+        {/* JOBS */}
+        <JobsSection backgroundId={profile.backgroundId} />
+
+        {/* COMMUNITIES */}
+        <CommunitiesSection topics={profile.topics} backgroundId={profile.backgroundId} />
+
         {/* GENERAL RESOURCES — backstop, always visible */}
         <section className="mb-12">
           <h2 className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-4">
@@ -356,6 +364,102 @@ const Plan = () => {
         </section>
       </div>
     </div>
+  );
+};
+
+const platformColors: Record<Community["platform"], string> = {
+  Discord: "text-indigo-400",
+  Slack: "text-emerald-500",
+  Forum: "text-amber-500",
+  Reddit: "text-orange-500",
+  Telegram: "text-sky-400",
+  Other: "text-muted-foreground",
+};
+
+const JobsSection = ({ backgroundId }: { backgroundId?: string }) => {
+  const filters = backgroundId ? (jobFiltersByBackground[backgroundId] ?? []) : [];
+  return (
+    <section className="mb-12">
+      <h2 className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-4">
+        Jobs in AI safety
+      </h2>
+      <div className="rounded-lg border border-border bg-card p-5">
+        <p className="text-sm text-muted-foreground leading-relaxed mb-3">
+          Browse 400+ live roles at AI safety organisations.
+          {filters.length > 0 && (
+            <> For your background, try filtering by: <span className="text-foreground font-medium">{filters.join(", ")}</span>.</>
+          )}
+        </p>
+        <a
+          href="https://aisafety.com/jobs"
+          target="_blank"
+          rel="noreferrer"
+          className="inline-flex items-center gap-1.5 rounded-md border border-border px-3 py-1.5 text-sm hover:border-muted-foreground/60 transition-colors"
+        >
+          Browse jobs on aisafety.com
+          <ExternalLink className="h-3.5 w-3.5 text-muted-foreground" />
+        </a>
+      </div>
+    </section>
+  );
+};
+
+const CommunitiesSection = ({ topics, backgroundId }: { topics: string[]; backgroundId?: string }) => {
+  const relevant = useMemo(() => {
+    const profileTags = new Set([...topics, ...(backgroundId ? [backgroundId] : [])]);
+    const featured = communities.filter((c) => c.featured);
+    const matched = communities.filter(
+      (c) => !c.featured && c.tags.length > 0 && c.tags.some((t) => profileTags.has(t))
+    );
+    // deduplicate, cap at 6 total
+    const seen = new Set(featured.map((c) => c.id));
+    const extra = matched.filter((c) => !seen.has(c.id)).slice(0, Math.max(0, 6 - featured.length));
+    return [...featured, ...extra];
+  }, [topics, backgroundId]);
+
+  return (
+    <section className="mb-12">
+      <h2 className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-4">
+        Find your community
+      </h2>
+      <div className="space-y-3">
+        {relevant.map((c) => (
+          <div key={c.id} className="rounded-lg border border-border bg-card p-4">
+            <div className="flex items-start justify-between gap-3">
+              <div className="min-w-0">
+                <div className="flex items-center gap-2 mb-1">
+                  <MessageSquare className="h-3.5 w-3.5 text-muted-foreground shrink-0" />
+                  <span className={`text-[11px] uppercase tracking-wide font-medium ${platformColors[c.platform]}`}>
+                    {c.platform}
+                  </span>
+                </div>
+                <a
+                  href={c.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-sm font-medium hover:underline inline-flex items-center gap-1.5"
+                >
+                  {c.name}
+                  <ExternalLink className="h-3 w-3 text-muted-foreground" />
+                </a>
+                <p className="text-sm text-muted-foreground leading-relaxed mt-1">{c.description}</p>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+      <div className="mt-4">
+        <a
+          href="https://aisafety.com/communities"
+          target="_blank"
+          rel="noreferrer"
+          className="inline-flex items-center gap-1.5 rounded-md border border-border px-3 py-1.5 text-sm hover:border-muted-foreground/60 transition-colors"
+        >
+          See all 200+ communities
+          <ExternalLink className="h-3.5 w-3.5 text-muted-foreground" />
+        </a>
+      </div>
+    </section>
   );
 };
 
